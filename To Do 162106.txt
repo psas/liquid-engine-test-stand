@@ -9,7 +9,7 @@ minimize "ANDS" --> Two separate tasks
 -We are adding component specific details on our PID
 -Erin is mathematically assessing pressurant volumes and pressure requirements based on a simplified system model
 -I am working with Bob Watzlavick on details with our LOX and ethanol vents
-
+-
 
 
 Kyle:
@@ -50,4 +50,5 @@ Low priority at the moment: Look into flow control valve to meter the flow
 
 Find and acquire LOX tank and piping insulation
 
+test commit
 
