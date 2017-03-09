@@ -1,0 +1,1 @@
+This repo contains research into small Augmented Spark Igniters (such as the one built by [Robert Watzlavick](http://watzlavick.com/robert/rocket/igniters/index.html) and David Gregory of [Rocket Moonlighting](http://www.rocketmoonlighting.com/projects/pr56-igniter)), which may serve as an inspiration for our design.
