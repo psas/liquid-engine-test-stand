@@ -56,9 +56,9 @@ The LFETS Electrical Ground Support Equipment (EGSE) will allow for the test sta
    2. Piping & Instrumentation Diagram (PID)
        1. System Level PID
           - [ ] [Issue # 25](https://github.com/psas/liquid-engine-test-stand/issues/25)   
-            - [ ] update main fuel valve with correct symbol
+            - [x] update main fuel valve with correct symbol
             - [ ] add heat exchanger to LOX igniter line
-            - [ ] Add pressure transducer and thermocouple  
+            - [x] Add pressure transducer and thermocouple  
                   location: pre-injection manafold of engine
         2. Fittings level PID
            1. [ ] Update to match System Level PID
