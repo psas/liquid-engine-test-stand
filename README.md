@@ -43,7 +43,8 @@ The LFETS Electrical Ground Support Equipment (EGSE) will allow for the test sta
 1. Design
    1. Specification of all needed Parts  
        Parts not yet fully specified
-      - [ ] Manual LOX Valves
+      - [x] Manual LOX Valves
+      - [ ] LOX compatible check Valves
       - [ ] Actuator for main Fuel Valve  
            Main Fuel Valve sub-project
       - [ ] LOX Flow meter
@@ -52,7 +53,8 @@ The LFETS Electrical Ground Support Equipment (EGSE) will allow for the test sta
       - [ ] Fuel & LOX High pressure relief valves  
            Need LOX compatable HPRV with adjustable spring
       - [ ] Pressure regulator for pnumatic LOX actuator
-      - [ ] Tubing for LOX and Fuel lines
+      - [ ] Pressure regulator for Fuel pressurant line
+      - [x] Tubing for LOX and Fuel lines
    2. Piping & Instrumentation Diagram (PID)
        1. System Level PID
           - [ ] [Issue # 25](https://github.com/psas/liquid-engine-test-stand/issues/25)   
