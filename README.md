@@ -58,8 +58,9 @@ The LFETS Electrical Ground Support Equipment (EGSE) will allow for the test sta
    2. Piping & Instrumentation Diagram (PID)
        1. System Level PID
           - [ ] [Issue # 25](https://github.com/psas/liquid-engine-test-stand/issues/25)   
+            - [ ] update PID numbering and PID Legend
             - [x] update main fuel valve with correct symbol
-            - [ ] add heat exchanger to LOX igniter line
+            - [x] add heat exchanger to LOX igniter line
             - [x] Add pressure transducer and thermocouple  
                   location: pre-injection manafold of engine
         2. Fittings level PID
@@ -77,9 +78,9 @@ The LFETS Electrical Ground Support Equipment (EGSE) will allow for the test sta
             - [ ] [FEA Analysis and sizing of load cells](https://github.com/psas/liquid-engine-test-stand/issues/24)  
 2. Purchasing / logistics
    1. Tools
-      - [ ] Inventory existing tools
-      - [ ] Specify needed tools
-      - [ ] purchase
+      - [x] Inventory existing tools
+      - [x] Specify needed tools
+      - [x] purchase
    2. Parts
       - [ ] Purchase all needed parts for building the test stand
    3. Supplies & consumables
@@ -98,7 +99,7 @@ The LFETS Electrical Ground Support Equipment (EGSE) will allow for the test sta
 3. Design and build - sub-projects
    - [ ] Main Fuel Valve (assigned & in progress)
    - [ ] igniter (assigned & in progress)
-   - [ ] [Pressurant Diffusers](https://github.com/psas/liquid-engine-test-stand/issues/37)
+   - [ ] [Pressurant Diffusers](https://github.com/psas/liquid-engine-test-stand/issues/37) (assigned and in progress)
    - [ ] [Thrust Ring Adapter](https://github.com/psas/liquid-engine-test-stand/issues/36) (assigned and in progress)
    - [ ] [Cut load cell supports](https://github.com/psas/liquid-engine-test-stand/issues/32) (assigned and in progress)
    - [ ] [Weld tank upper support bars](https://github.com/psas/liquid-engine-test-stand/issues/35)
