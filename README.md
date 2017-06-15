@@ -57,14 +57,14 @@ The LFETS Electrical Ground Support Equipment (EGSE) will allow for the test sta
       - [x] Tubing for LOX and Fuel lines
    2. Piping & Instrumentation Diagram (PID)
        1. System Level PID
-          - [ ] [Issue # 25](https://github.com/psas/liquid-engine-test-stand/issues/25)   
-            - [ ] update PID numbering and PID Legend
+          - [ ] [Issue # 40](https://github.com/psas/liquid-engine-test-stand/issues/40)   
+            - [ ] update System PID numbering and PID Legend
             - [x] update main fuel valve with correct symbol
             - [x] add heat exchanger to LOX igniter line
             - [x] Add pressure transducer and thermocouple  
                   location: pre-injection manafold of engine
         2. Fittings level PID
-           1. [ ] Update to match System Level PID
+           1. [ ] Update to match CAD with pipe & fittings layout
            2. [ ] Specify all needed fittings  
                  This will be it's own project / issue
                  Create full list of all needed fittings
@@ -72,7 +72,7 @@ The LFETS Electrical Ground Support Equipment (EGSE) will allow for the test sta
                  Compile list of fittings yet to be purchased
         3. Drawings
             -  3D Cad model
-                 - [ ] Update 3D model from Fittings Level PID (when complete) 
+                 - [ ] Update 3D model from System Level PID (when complete) 
         4.  Design documentation            
         5.  Finite Element Analysis (FEA)
             - [ ] [FEA Analysis and sizing of load cells](https://github.com/psas/liquid-engine-test-stand/issues/24)  
