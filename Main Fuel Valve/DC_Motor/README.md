@@ -1,6 +1,6 @@
 # 12VDC Motor controlled Main Fuel Valve
 
-# DC Motor Valve control overview
+ DC Motor Valve control overview
 
    The 12VDC Motor Control project uses a very high torque planetary geared DC motor to crack, open, and close the main fuel valve. To control the position of the valve, a rotary encoding disk allows photo-sensors to receive light through concentric holes in the disk. The holes are designed to position the valve at shutoff, cracked from 0 to +50 degrees in 5 degree increments, and full open. The device is currently being conttrolled by an arduino.
 
@@ -30,3 +30,5 @@
       13 - 1011 - cracked +50 degrees
       14 - 1001 - Cracked <-> Open
       15 - 1000 - Open (closed plus 180 degrees)
+	  
+	  This will be changed to a 0-90 degree rotation to fix hydraulic circuit.
