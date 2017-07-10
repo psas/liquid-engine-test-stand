@@ -35,5 +35,9 @@ State - Code - Position
   15 - 1000 - Open (closed plus 90 degrees)  
   
   Detent position idicates an extreme condition. When a detent condition occurs, the script will determine the corrective action base on desired state.
+  
+## Planned Changes
+  
+  -Mirror the rotary encoder pattern to reflect valve symmetry.
 
 
