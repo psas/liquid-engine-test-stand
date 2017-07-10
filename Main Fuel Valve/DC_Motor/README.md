@@ -33,5 +33,7 @@ State - Code - Position
   13 - 1011 - closed +60 degrees  
   14 - 1001 - Cracked <-> Open  
   15 - 1000 - Open (closed plus 90 degrees)  
+  
+  Detent position idicates an extreme condition. When a detent condition occurs, the script will determine the corrective action base on desired state.
 
 
