@@ -14,8 +14,8 @@
 
    The device uses Gray Code built into the encoding disk. The scheme is as follows: 
 
-  State:
-  00 - 0000 - detent (all)
+   State:
+   00 - 0000 - detent (all)
   01 - 0001 - closed
   02 - 0011 - closed +5 dgrees
   03 - 0010 - closed +10 degrees
