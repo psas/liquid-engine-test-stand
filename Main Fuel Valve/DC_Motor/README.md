@@ -1,6 +1,6 @@
 # 12VDC Motor controlled Main Fuel Valve
 
-<img src="./image_01.png" width="400">
+<img src="./image_01.PNG" width="400">
 
  DC Motor Valve control overview
 
