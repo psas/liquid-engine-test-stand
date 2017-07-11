@@ -10,8 +10,16 @@
 ###
 
 ## CAD Models
-
-   The main assembly file is 12VDC_valve_assembly.SLDASM
+  
+   The main assembly file is 12VDC_valve_assembly.SLDASM  
+     
+   PSAS authored files are:  
+  
+   12VDC_valve_assembly.SLDASM  
+   Motor_12VDC_638263.SLDPRT - From drawing  
+   Motor_12VDC_638263_shaft.SLDPRT - from drawing  
+   Sensor_Head.SLDPRT  
+   encoding_wheel.SLDPRT  
 
 ## Control
 
