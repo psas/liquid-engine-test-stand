@@ -47,7 +47,10 @@ State - Code - Position
   
   Detent position idicates an extreme condition. When a detent condition occurs, the script will determine the corrective action base on desired state.
   
-## Planned Changes
+## To do:
   
-  -Design Motor to mount housing using jacob's design for the servo-motor as a base.
+  - Design Motor to mount housing using jacob's design for the servo-motor as a base.  
+    - Must maintain motor and valve-housing position against torque during action.
+    - Must have a mount for the "Sender" LED's (5mm) to provide bright light to the sensors.
+    - Bonus: Shield the "sender" and sensor heads from outside sources of light.
 
