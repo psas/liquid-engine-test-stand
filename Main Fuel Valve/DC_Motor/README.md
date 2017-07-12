@@ -49,6 +49,5 @@ State - Code - Position
   
 ## Planned Changes
   
-  -Mirror the rotary encoder pattern to reflect valve symmetry.
-
+  -Design Motor to mount housing using jacob's design for the servo-motor as a base.
 
