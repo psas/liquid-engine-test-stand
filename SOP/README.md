@@ -1,10 +1,16 @@
 # PSAS Liquid Fueled Engine Test Stand Procedure Book
 
+## Objectives
+
+- [ ] Determine Subject headings and fill through the "Rough Draft"
+- [ ] Identify individual procedures which belong in this book
+- [ ] Personalize the book to LFETS/LFE/EFS/CFT as appropriate
+
 ## Editing
 
 The raw book files are
 [markdown](http://daringfireball.net/projects/markdown/syntax). Please keep each
-major secion in it's own file for easier managment.  Files can be editied in
+major section in it's own file for easier managment.  Files can be editied in
 place using github's web interface, or simply clone the repo and open the files
 in your favorite text editor.
 
