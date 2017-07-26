@@ -1,4 +1,4 @@
-![cover](http://psas.github.io/liquid-engine-test-stand/format/procedurebook_cover.png)
+![cover](http://psas.github.io/liquid-engine-test-stand/SOP/format/procedurebook_cover.png)
 
 # PSAS Liquid Fueled Engine Test Stand Procedure Book
  
