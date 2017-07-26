@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="177.16534"
+   height="177.16534"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="switches.svg"
+   inkscape:export-filename="/home/natronics/PSAS/Ground/procedure-book/diagrams/switches.png"
+   inkscape:export-xdpi="406.40002"
+   inkscape:export-ydpi="406.40002">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;">
+      <path
+         id="path3845"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path3839"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.1193406"
+     inkscape:cx="88.582672"
+     inkscape:cy="84.100146"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer2"
+     showgrid="true"
+     borderlayer="true"
+     inkscape:showpageshadow="false"
+     units="mm"
+     inkscape:window-width="1920"
+     inkscape:window-height="1148"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     showguides="false"
+     inkscape:guide-bbox="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="10"
+       visible="true"
+       enabled="false"
+       snapvisiblegridlinesonly="true"
+       units="mm"
+       spacingx="1mm"
+       spacingy="1mm"
+       color="#ff00ff"
+       opacity="0.0627451"
+       empcolor="#ff00ff"
+       empopacity="0.15686275" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="85.746692,174.16254"
+       id="guide3820" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-875.1968)"
+     sodipodi:insensitive="true"
+     style="display:none">
+    <image
+       y="853.54877"
+       x="-73.88205"
+       id="image2991"
+       xlink:href="file:///home/natronics/Dropbox/Camera%20Uploads/2012-10-07%2019.44.29.jpg"
+       height="209.97733"
+       width="279.96976"
+       transform="matrix(0.99982964,-0.0184577,0.0184577,0.99982964,0,0)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer">
+    <path
+       style="fill:#e0e0e0;fill-opacity:1;stroke:#000000;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 103.80472,-2.59375 -96.7187484,0.9375 0.21875,181.875 91.5312504,0 4.968748,-182.8125 z M 21.429722,94.375 c 0.896773,-0.01925 1.788632,0.06586 2.53125,0.21875 4.010681,0.825728 25.112073,1.663288 30.65625,1.78125 5.544177,0.117961 8.366565,1.530704 10.84375,5.1875 2.477186,3.6568 2,13.1875 2,13.1875 l -12.03125,4.15625 0.125,-9.09375 c 0,0 -10.7199,-0.23283 -16.5,-0.46875 -5.7801,-0.23592 -16.53125,-1.40625 -16.53125,-1.40625 l -0.125,14.84375 c 0,0 2.15206,0.96256 9.9375,1.90625 7.785441,0.94369 13.543965,1.12184 24.0625,1.40625 3.531347,0.0955 7.096802,0.51365 9.4375,4.46875 1.454353,2.45743 2.11291,5.77777 2.125,9.90625 0.01348,4.60199 0.05227,15.12855 -1.4375,21 -2.005342,7.9034 -5.313951,10.15625 -15.8125,10.15625 -8.405098,0 -18.037193,-1.29703 -25.46875,-3.65625 -8.189012,-2.59968 -8.726637,-4.25479 -9.90625,-5.90625 -1.454453,-2.03624 -1.875,-5.9088 -1.875,-9.09375 0,-3.18495 0.09375,-7.875 0.09375,-7.875 l 6.96875,-0.71875 0.125,8.71875 c 0,0 6.001999,1.41414 12.84375,2.59375 6.841751,1.17962 22.53125,1.3125 22.53125,1.3125 l 0.46875,-16.15625 c 0,0 -10.250132,-0.29912 -14.375,-0.59375 -1.651457,-0.11796 -11.555762,-1.29927 -16.15625,-2.125 -2.596204,-0.46599 -6.86262,-1.6588 -8.75,-4.84375 -1.88738,-3.18496 -2.350788,-9.66444 -2.46875,-15.5625 -0.117961,-5.89806 0.489866,-13.09096 0.84375,-18.28125 0.265413,-3.89272 3.153431,-5.004737 5.84375,-5.0625 z"
+       id="path3803"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0.93772894;stroke:none"
+       id="rect4667-1"
+       width="66.058281"
+       height="16.986416"
+       x="56.385464"
+       y="50.239071" />
+    <g
+       id="g3762"
+       style="fill:#3f3f3f;fill-opacity:1"
+       transform="translate(-25.007778,0)">
+      <path
+         transform="translate(-1.2975734,-1.061651)"
+         d="m 79.623823,39.917465 c 0,1.465834 -1.188293,2.654128 -2.654127,2.654128 -1.465834,0 -2.654127,-1.188294 -2.654127,-2.654128 0,-1.465834 1.188293,-2.654127 2.654127,-2.654127 1.465834,0 2.654127,1.188293 2.654127,2.654127 z"
+         sodipodi:ry="2.6541274"
+         sodipodi:rx="2.6541274"
+         sodipodi:cy="39.917465"
+         sodipodi:cx="76.969696"
+         id="path3765"
+         style="fill:#3f3f3f;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <path
+         transform="translate(-2.5361657,18.696853)"
+         d="m 79.623823,39.917465 c 0,1.465834 -1.188293,2.654128 -2.654127,2.654128 -1.465834,0 -2.654127,-1.188294 -2.654127,-2.654128 0,-1.465834 1.188293,-2.654127 2.654127,-2.654127 1.465834,0 2.654127,1.188293 2.654127,2.654127 z"
+         sodipodi:ry="2.6541274"
+         sodipodi:rx="2.6541274"
+         sodipodi:cy="39.917465"
+         sodipodi:cx="76.969696"
+         id="path3765-3"
+         style="fill:#3f3f3f;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <path
+         transform="translate(-1.3565536,37.334725)"
+         d="m 79.623823,39.917465 c 0,1.465834 -1.188293,2.654128 -2.654127,2.654128 -1.465834,0 -2.654127,-1.188294 -2.654127,-2.654128 0,-1.465834 1.188293,-2.654127 2.654127,-2.654127 1.465834,0 2.654127,1.188293 2.654127,2.654127 z"
+         sodipodi:ry="2.6541274"
+         sodipodi:rx="2.6541274"
+         sodipodi:cy="39.917465"
+         sodipodi:cx="76.969696"
+         id="path3765-38"
+         style="fill:#3f3f3f;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(1,0,0,1.3640028,-1.592476,40.993102)"
+         d="m 79.623823,39.917465 c 0,1.465834 -1.188293,2.654128 -2.654127,2.654128 -1.465834,0 -2.654127,-1.188294 -2.654127,-2.654128 0,-1.465834 1.188293,-2.654127 2.654127,-2.654127 1.465834,0 2.654127,1.188293 2.654127,2.654127 z"
+         sodipodi:ry="2.6541274"
+         sodipodi:rx="2.6541274"
+         sodipodi:cy="39.917465"
+         sodipodi:cx="76.969696"
+         id="path3765-2"
+         style="fill:#3f3f3f;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+    </g>
+    <rect
+       style="fill:#ffffff;fill-opacity:0.93772894;stroke:none"
+       id="rect4667"
+       width="63.699059"
+       height="16.986416"
+       x="56.621387"
+       y="29.477898" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Futura LT Book;-inkscape-font-specification:'Futura LT Book,'"
+       x="60.738911"
+       y="43.707462"
+       id="text3038-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3011">1 HD CAM</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Futura LT Book;-inkscape-font-specification:'Futura LT Book,'"
+       x="60.738911"
+       y="63.722408"
+       id="text3038-5-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3013">2 DVR</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:0.93772894;stroke:none"
+       id="rect4667-1-0"
+       width="66.058281"
+       height="16.986416"
+       x="56.149548"
+       y="69.112862" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Futura LT Book;-inkscape-font-specification:'Futura LT Book,'"
+       x="60.738911"
+       y="82.741989"
+       id="text3038-5-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3015">3 ARTS</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:0.93772894;stroke:none"
+       id="rect4667-1-2"
+       width="66.058281"
+       height="16.986416"
+       x="57.093227"
+       y="87.402206" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Futura LT Book;-inkscape-font-specification:'Futura LT Book,'"
+       x="60.738911"
+       y="100.42893"
+       id="text3038-5-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3017">4 TELEMETRUM</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99921262;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
+       d="M 166.31463,131.86824 165.84279,29.949741"
+       id="path3830"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Futura LT CondensedLight;-inkscape-font-specification:Futura LT CondensedLight Light"
+       x="160.93617"
+       y="147.05499"
+       id="text3038-5-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4665"
+         x="160.93617"
+         y="147.05499">UP</tspan></text>
+  </g>
+</svg>
