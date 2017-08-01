@@ -1,0 +1,3 @@
+exclude: [README.md,Makefile,make_index.py,readscript.sh]
+
+markdown: kramdown

@@ -1,0 +1,22 @@
+/* Sticky CSS Footer */
+html, body, .wrapper { height: 100%; margin: 0; padding: 0; }
+body > .wrapper { height: auto; min-height: 100%; }
+#content { padding-top: 50px; padding-bottom: 250px; }
+#footer { clear: both; position: relative; z-index: 10; height: 150px; margin-top: -150px; padding-top: 20px;}
+
+#footer { background: #eee; }
+#header { position: fixed; top: 0; left: 0; width: 100%; background: #f06; color: #fff; }
+#header h1 { font-weight: 700; text-transform: none; font-size: 25px; border: none; padding-right: 20px; }
+
+h1 { font-weight: bold; text-transform: uppercase; font-size: 45px; border-bottom: 2px solid #aaa;}
+h2 { font-weight: bold; font-size: 26px; border-bottom: 1px dashed #bbb; margin-top: 1.55em; }
+h3 { font-weight: bold; font-size: 19px; border: none; }
+p, li { font-size: 17px; }
+li { line-height: 1.5em; }
+
+
+#content .check {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
