@@ -20,8 +20,8 @@
    Motor_12VDC_638263_shaft.SLDPRT - from drawing  
    Sensor_Head.SLDPRT  
    encoding_wheel.SLDPRT  
-   Housing-Back.SLDPRT
-   Housing-Front.SLDPRT
+   Housing-Back.SLDPRT  
+   Housing-Front.SLDPRT  
 
 ## Control
 
