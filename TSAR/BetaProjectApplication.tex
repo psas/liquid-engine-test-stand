@@ -1,0 +1,41 @@
+%Preamble
+\documentclass{article}
+%packages
+\usepackage[utf8]{inputenc} %Unicode support
+%\usepackage{ngerman}{babel} %Change hyphenation rules
+\usepackage{hyperref} %add links to your document
+\usepackage{graphicx} %add pictures to document
+\usepackage{listings} %source code formatting and highlighting
+%\usepackage{tikz}
+%\usetikzlibrary{shapes,arrows}
+\begin{document}
+\author{Mark Musil Junior Elec. Eng. (Point of contact) - mmusil@pdx.edu}
+\title{TSAR Beta Application}
+\date{October 13, 2017}
+\maketitle{}
+Additional team members:
+Chuck Faber Freshman Elec. Eng. (other team members being recruited presently)
+\section{Objective}
+The TSAR group will build an embedded controls and data acquisition system (CDAQ) for a liquid fuel rocket engine test stand for the Portland State Aerospace Society. Solving this issue is vital because developing a liquid fuel rocket engine will decrease PSAS’s cost per launch drastically while also opening the door for considerably higher peak apogees. Without the development of a safe CDAQ solution for the test stand, PSAS cannot reach its goals. The TSAR solution is a student led, in house solution which will create a custom taylored, safety oriented soluton for test stand CDAQ. Our solution is unique because it will be entirely open-sourced with a focus on repeatability and simplicity to allow other amateur rocket groups to benefit from the liquid rocket engine technology. We will use an off-the-shelf Beagle Bone Black embedded computer and a Marionette DAQ board (a former PSU capstone) to implement this system and all software will be developed by the TSAR team of PSU undergraduates.
+\section{State-of-the-art}
+Data acquisition systems exist for rocket engine testing such as NASA’s NDAS system but are prohibitively expensive and are geared toward orbital launch vehicles, hardly meeting PSAS’s needs. TSAR provides a framework for any amateur aerospace enthusiast to design a liquid fuel engine test stand, with the cost of materials being realistic for even an individual. Furthermore, our group is building in house force sensors to solve the problem of cryogenic flow monitoring. We will be pioneering these sensors and documenting them publicly on GitHub, thereby providing one more tool for the amateur aerospace community. Finally, we will be creating a custom SCADA (Supervisory Control And Data Acquisition) style interface which will allow real time data monitoring from any laptop computer. 
+\section{Future Output of the Project}
+By the end of this project, we will have created a working prototype of hardware and software that will automatically conduct the entire firing sequences with little to no user-input required during the sequence. The system will concurrently record data, respond to changes in the system, and enact constant hazard checks and procedures to ensure safe use of the test stand.
+
+Our final product will not only be the working CDAQ, but a GitHub repository of well documented, thorough guides to designing each and every aspect of the completed system. Our solution is innovative because of this open-source aspect. Athough DAQ systems exist, they do not exist as community based resources for other amateur rocket groups.
+\section{Work Plan and Milestones}
+
+\textbf{October 2017}: First team meeting Friday October 20. Complete thorough system block diagram. Consult with Doug Hall about best programming language/approach to the controls problem. 
+\textbf{November}: Begin testing Beagle Bone Black and Marionette Board. Attempt a board to board interface. Confirm actuators and sensors are to spec. 
+\textbf{December}: Develop source code and begin interfacing with actuators and sensors. 
+\textbf{January 2018}: Test system-on-board and begin integration with test stand. 
+\textbf{February}: Functional testing
+\textbf{March}: Submit completed system by end of spring break.
+\section{Budget/Resources Needs} 
+The current budget can be found on our
+\href{https://docs.google.com/spreadsheets/d/1loLofdCxh_BdQxyFeZhvYgwQ_FHBo9597Mpg26gE-Iw/edit?usp=sharing}{Spreadsheet}.
+
+https://docs.google.com/spreadsheets/d/1loLofdCxh_BdQxyFeZhvYgwQ_FHBo9597Mpg26gE-Iw/edit?usp=sharing
+
+Budget not final and no purchases should be made yet if this project is selected for funding.
+\end{document}
