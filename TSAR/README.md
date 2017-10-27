@@ -27,7 +27,7 @@ The following aspects of the system are mandatory. More details are present in t
 
 
 ####What are the major deliverables?
-A graphical front end with safet features. A nervous system of sensors and actuators with realtime data output from the RPi3 to the front-end.
+A graphical front end with safety features. A nervous system of sensors and actuators with realtime data output from the RPi3 to the front-end.
 
 ####How will we get to those deliverables and the deadline?
 
@@ -42,7 +42,7 @@ Low-Level sensor specification and sensing - Specification of each sensor's rang
 ####What are the milestones we need to hit?
 October: assessment of each High,mid,low system requirements and the tools which will be used for each system.
 November: Completed state-machine design, Front end specifications completed, sensor specifications completed.
-December: Interface with the fuel sensor or other LFETS need and provide data output for their project.
+December: Interface with the fuel sensor or other LFETS needs and provide data output for their project.
 January: All sensors specified, all valves under control.
 February: Interface with all sensors and have real-time, time alligned data output.
 March: 
