@@ -25,8 +25,9 @@
 
 ## Control
 
-The device uses Gray Code built into the encoding disk. The scheme is as follows: 
+#### Basic Theory
 
+The device uses Gray Code built into the encoding disk. The scheme is as follows: 
 
 State - Code - Position
 
@@ -49,13 +50,26 @@ State - Code - Position
   
   Detent position idicates an extreme condition. When a detent condition occurs, the script will determine the corrective action base on desired state.
   
+  #### Control profiling
+  
+  Two control features requiring implementation are **Encoding Disk Interpolation** and **DC Motor Inertia Lag Profile**.
+  
+  **Encoding DIsk Interpolation**
+      The source LED light is sensed by the photo-tranistors as the encoding wheel turns. At times the source LEDs will be partially occluded by the encoding wheel. The voltage throughput of the phototransistors will have a period of ramping up and ramping down due to this partial occlusion as the encoding wheel turns. If these ramping periods are profiled, a state can be identified more accurately than the 5 degree increments of the gray code. If these intermediate states can be proven accurate and reliable the encoding wheel should provide significantly improved resolution.
+      
+  **DC Motor Intertia Lag Profile**
+      Due to the gearing and the inertia of the rotating mass in the motor, the motor continues to turn for a short time after it is switched off. This lag needs to be profiled so a switching point may be automatically determined based on desired state.
+  
 ## To do:
   
-  - [x] Design Motor to mount housing using jacob's design for the servo-motor as a base.  
-    - [x] Must maintain motor and valve-housing position against torque during action.
-    - [x] Must have a mount for the "Sender" LED's (5mm) to provide bright light to the sensors.
-    - [ ] Bonus: Shield the "sender" and sensor heads from outside sources of light.
+  - [x] Design Motor to mount housing using jacob's design for the servo-motor as a base
+    - [x] Must maintain motor and valve-housing position against torque during action
+    - [x] Must have a mount for the "Sender" LED's (5mm) to provide bright light to the sensors
+        - [ ] Bonus: Shield the "sender" and sensor heads from outside sources of light
     - [ ] Print the Housing front, back, LED Sender head, and photosensor head
+        - [x] Initial printing of front, back, LED Sender head, and photosensor head
+        - [ ] Print updated encoding wheel
+        - [ ] Post-process housing front & back
     - [ ] Acquire hardware & bits
     - [ ] Assemble
 
