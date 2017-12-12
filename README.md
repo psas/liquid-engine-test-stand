@@ -49,11 +49,10 @@ The LFETS Electrical Ground Support Equipment (EGSE) will allow for the test sta
            Main Fuel Valve sub-project
       - [ ] LOX Flow meter
       - [ ] Fuel Flow Meter  
-           we have one, need to find spec sheet before use
       - [ ] Fuel & LOX High pressure relief valves  
-           Need LOX compatable HPRV with adjustable spring
-      - [ ] Pressure regulator for pnumatic LOX actuator
+           Waiting on Pintle Testing
       - [ ] Pressure regulator for Fuel pressurant line
+             Spec'd, need to order
       - [x] Tubing for LOX and Fuel lines
    2. Piping & Instrumentation Diagram (PID)
        1. System Level PID
@@ -98,6 +97,7 @@ The LFETS Electrical Ground Support Equipment (EGSE) will allow for the test sta
         - [ ] acquire
 3. Design and build - sub-projects
    - [ ] Main Fuel Valve (assigned & in progress)
+   - [ ] Main LOX Valve
    - [ ] igniter (assigned & in progress)
    - [ ] [Pressurant Diffusers](https://github.com/psas/liquid-engine-test-stand/issues/37) (assigned and in progress)
    - [ ] [Thrust Ring Adapter](https://github.com/psas/liquid-engine-test-stand/issues/36) (assigned and in progress)
@@ -123,13 +123,16 @@ The LFETS Electrical Ground Support Equipment (EGSE) will allow for the test sta
       - [x] Acquire fabricated test engine(s)
    2. Pintle
       - [ ] Finalize design
+      - [ ] Order parts for testing
+      - [ ] Assemble test apparatus
+      - [ ] Test
    2. Purchasing / logistics
    3. Sub-projects
    4. Assembly
    5. Testing
    
 ## Electrical systems
-1. Need additional input from ECE team before fleshing out this section
+1. Assigned to TSAR
 
 ## Test Site
 1. [x] Locate possible site
