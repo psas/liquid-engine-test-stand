@@ -21,6 +21,7 @@ Serial.print(voltage);
 Serial.print(", degrees C: ");
 float temperature = (voltage - 0.5) * 100; // Convert the voltage to temperature 
 Serial.println(temperature);
+delay(1000);
 
 }
 
