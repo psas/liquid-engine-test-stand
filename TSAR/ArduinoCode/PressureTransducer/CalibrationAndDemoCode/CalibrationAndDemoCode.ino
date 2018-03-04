@@ -2,7 +2,7 @@
 //control system for the LFETS system
 //Mark Musil January 26th 2018
 
-const int sensorPin = A0;
+const int sensorPin = A1;
 
 void setup() {
   Serial.begin(9600);
