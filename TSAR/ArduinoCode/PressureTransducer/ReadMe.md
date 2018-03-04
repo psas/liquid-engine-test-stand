@@ -7,6 +7,9 @@ Foward questions to mmusil@pdx.edu
 
 ![Basic Setup](images/setup.jpg)
 
+
+![The Circuit](images/circuit.png)
+
 #### Configuring the Arduino 
 
 The Arduino '.ino' file to upload is 'ArduinoPC2.ino' the one marked original was the reference code and will not function. The following list details the most important pieces of the Arduino code that you may want to change. The code has many other features such as servo control that I chose not to use. 

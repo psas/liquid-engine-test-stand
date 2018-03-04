@@ -57,10 +57,13 @@ void setup() {
     // initialize the servo
   //myServo.attach(servoPin);
   //moveServo();
-  
+ Serial.println("<Arduino is ready>");
     // tell the PC we are ready
-  Serial.println("<Arduino is ready>");
-  delay(1000);
+  if (strcmp(messageFromPC, "1") == 0) {
+      Serial.println("<Arduino is ready>");
+      delay(1000);
+      ;
+  }
 }
 
 //=============
@@ -68,21 +71,20 @@ void setup() {
 void loop() {
   curMillis = millis();
   getDataFromPC();
-  flashLEDs();
   //moveServo();
   
   // make a string for assembling the data to log:
   String dataString = "";
-
+    dataString += String(millis()/1000);
   // read eight sensors and append to the string:
-  for (int analogPin = 1; analogPin < 8; analogPin++) {
+  for (int analogPin = 1; analogPin < 16; analogPin++) {
     int sensor = analogRead(analogPin);
     dataString += String(sensor);
     //if (analogPin < 8) {
     dataString += ","; 
     //}
   }
-  dataString += String(millis()/1000);
+
   //updateFlashInterval(); //
   //updateServoPos();
   replyToPC(dataString);
@@ -146,7 +148,7 @@ void parseData() {
 //=============
 
 void replyToPC( String update) {
-
+  
 //  if (True) {
     //newDataFromPC = false;
     Serial.print("<");
@@ -160,7 +162,7 @@ void replyToPC( String update) {
  //   Serial.print("Time");
  //   Serial.print(curMillis >> 9); // divide by 512 is approx = half-seconds
     Serial.println(">");
-    
+    delay(1500);
   //}
 }
 
