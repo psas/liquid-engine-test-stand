@@ -77,7 +77,7 @@ void loop() {
   String dataString = "";
     dataString += String(millis()/1000);
   // read eight sensors and append to the string:
-  for (int analogPin = 1; analogPin < 16; analogPin++) {
+  for (int analogPin = 3; analogPin < 16; analogPin++) {
     int sensor = analogRead(analogPin);
     dataString += String(sensor);
     //if (analogPin < 8) {

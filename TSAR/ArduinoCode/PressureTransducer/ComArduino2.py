@@ -205,7 +205,7 @@ import csv
 # Create an output file
 outputFileName = 'Pintletest'
 outputFileName = outputFileName + '.csv'
-columnTitleRow = "Time(ms), A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11, A12, A13, A14, A15"
+columnTitleRow = "Time(ms), Omega600, A4, A5, A6, A7, A8, A9, A10, A11, A12, A13, A14, A15"
 with open(outputFileName, 'w') as csvfile:
     outputWriter = csv.writer(csvfile, delimiter=' ',
                               quotechar=' ', quoting=csv.QUOTE_MINIMAL)
@@ -223,7 +223,7 @@ endMarker = 62
 
 # Configuration the calibration factors
 
-psiYIntercept, psiCalibration = 168, 0.85555555556
+psiYIntercept, psiCalibration = 166, 0.85555555556
 
 waitForArduino()
 
