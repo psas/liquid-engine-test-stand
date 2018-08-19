@@ -5216,7 +5216,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.0000001"
-     inkscape:cx="530.76107"
+     inkscape:cx="402.26108"
      inkscape:cy="458.54921"
      inkscape:document-units="in"
      inkscape:current-layer="layer2"
@@ -12434,13 +12434,12 @@
      style="display:inline;opacity:1"
      transform="translate(-9.9656087,-24.605829)">
     <rect
-       style="display:none;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.27170953;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.27170953;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect7537"
        width="283.81348"
        height="220.01627"
        x="8.0947218"
-       y="22.921707"
-       sodipodi:insensitive="true" />
+       y="22.921707" />
     <path
        style="fill:#000000;fill-opacity:1;stroke-width:0.01767767;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        d=""
@@ -13896,7 +13895,9 @@
        y="74.501495"
        id="text6987-7"><tspan
          sodipodi:role="line"
-         id="tspan7009">To LOX System</tspan></text>
+         id="tspan7009"
+         x="46.571648"
+         y="74.501495">To LOX System</tspan></text>
     <path
        style="fill:none;stroke:#0000ff;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 72.798408,73.673503 H 64.29148"

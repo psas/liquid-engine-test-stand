@@ -15,8 +15,8 @@
    viewBox="0 0 279.4 215.9"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
-   sodipodi:docname="LFETS System Level PID 2017.11.04.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="PID-system-overview.svg"
    inkscape:export-filename="C:\Users\jntil\Documents\Git_Repos\liquid-engine-test-stand\doc\LFETS System Level PID 2017.11.04.png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300">
@@ -5232,13 +5232,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="601.5689"
+     inkscape:cx="419.84246"
      inkscape:cy="373.69578"
      inkscape:document-units="in"
      inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="2736"
-     inkscape:window-height="1699"
+     inkscape:window-height="1779"
      inkscape:window-x="-13"
      inkscape:window-y="-13"
      inkscape:window-maximized="1"
@@ -12733,7 +12733,7 @@
          sodipodi:role="line"
          id="tspan7008"
          x="44.616146"
-         y="74.99366"
+         y="74.915863"
          style="font-size:2.82222223px;stroke-width:0.26458332" /></text>
     <text
        xml:space="preserve"
@@ -12748,7 +12748,7 @@
          style="font-size:2.11666656px;line-height:2.53999996px;stroke-width:0.26458332">LOX pressure</tspan><tspan
          sodipodi:role="line"
          x="51.302181"
-         y="82.455925"
+         y="82.407303"
          style="font-size:2.11666656px;line-height:2.53999996px;stroke-width:0.26458332"
          id="tspan15382"> relief line</tspan></text>
     <text
@@ -12816,7 +12816,7 @@
          style="font-size:2.11666656px;line-height:2.53999996px;text-align:center;text-anchor:middle;stroke-width:0.26458332">LOX vent</tspan><tspan
          sodipodi:role="line"
          x="28.89098"
-         y="86.428917"
+         y="86.380295"
          style="font-size:2.11666656px;line-height:2.53999996px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
          id="tspan7079">to Atm.</tspan></text>
     <g
@@ -13586,7 +13586,7 @@
          style="font-size:2.11666656px;line-height:2.5400002px;stroke-width:0.26458332">Fuel pressure</tspan><tspan
          sodipodi:role="line"
          x="250.75412"
-         y="73.554741"
+         y="73.506119"
          style="font-size:2.11666656px;line-height:2.5400002px;stroke-width:0.26458332"
          id="tspan10604">   relief line</tspan></text>
     <text
@@ -13602,7 +13602,7 @@
          style="font-size:2.11666656px;line-height:2.54000044px;text-align:center;text-anchor:middle;stroke-width:0.26458332">Fuel vent</tspan><tspan
          sodipodi:role="line"
          x="274.68793"
-         y="86.243561"
+         y="86.194939"
          style="font-size:2.11666656px;line-height:2.54000044px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
          id="tspan7079-9">to Atm.</tspan></text>
     <g
@@ -15424,7 +15424,7 @@
          style="font-size:2.11666656px;line-height:2.54000044px;text-align:center;text-anchor:middle;stroke-width:0.26458332">Fuel vent</tspan><tspan
          sodipodi:role="line"
          x="274.18088"
-         y="108.48401"
+         y="108.43539"
          style="font-size:2.11666656px;line-height:2.54000044px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
          id="tspan7079-9-5">to Atm.</tspan></text>
     <path
@@ -15654,7 +15654,7 @@
                  sodipodi:role="line"
                  id="tspan13528-9-91-2-2-8-0-1-9-8"
                  x="17.615927"
-                 y="25.369509"
+                 y="25.297533"
                  style="font-size:2.61118412px;stroke-width:0.19583879" /></text>
             <text
                xml:space="preserve"
