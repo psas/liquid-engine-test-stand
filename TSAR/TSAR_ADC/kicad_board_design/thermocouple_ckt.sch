@@ -1,0 +1,2638 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:LTC1144IS8
+LIBS:OPA1632
+LIBS:LT3042MPDDTRPBF
+LIBS:LT1115CN8PBF
+LIBS:opa1612
+LIBS:ak4454
+LIBS:PCAL6408AHKX
+LIBS:fdsp_connector
+LIBS:2-way-jumper
+LIBS:ak4490
+LIBS:ne5534
+LIBS:r_zigzag
+LIBS:LT3470ITS8TRMPBF
+LIBS:c-split
+LIBS:xilinx6s
+LIBS:FT901Q
+LIBS:LTC3260MPMSEPBF
+LIBS:MCP3424T-E_ST
+LIBS:AD8494ARMZ
+LIBS:ADA4062-2ARZ
+LIBS:dk_Addressable-Specialty
+LIBS:dk_Alarms-Buzzers-and-Sirens
+LIBS:dk_Automotive-Relays
+LIBS:dk_Balun
+LIBS:dk_Barrel-Audio-Connectors
+LIBS:dk_Battery-Holders-Clips-Contacts
+LIBS:dk_Clock-Timing-Clock-Generators-PLLs-Frequency-Synthesizers
+LIBS:dk_Clock-Timing-Programmable-Timers-and-Oscillators
+LIBS:dk_Clock-Timing-Real-Time-Clocks
+LIBS:dk_Coaxial-Connectors-RF
+LIBS:dk_Current-Transducers
+LIBS:dk_Data-Acquisition-ADCs-DACs-Special-Purpose
+LIBS:dk_Data-Acquisition-Analog-to-Digital-Converters-ADC
+LIBS:dk_Data-Acquisition-Digital-Potentiometers
+LIBS:dk_Data-Acquisition-Digital-to-Analog-Converters-DAC
+LIBS:dk_Data-Acquisition-Touch-Screen-Controllers
+LIBS:dk_DC-DC-Converters
+LIBS:dk_Digital-Isolators
+LIBS:dk_Diodes-Bridge-Rectifiers
+LIBS:dk_Diodes-Rectifiers-Arrays
+LIBS:dk_Diodes-Rectifiers-Single
+LIBS:dk_Diodes-Zener-Single
+LIBS:dk_Display-Modules-LCD-OLED-Graphic
+LIBS:dk_Display-Modules-LED-Character-and-Numeric
+LIBS:dk_D-Sub-Connectors
+LIBS:dk_Embedded-Microcontrollers
+LIBS:dk_Encoders
+LIBS:dk_Evaluation-Boards-Sensors
+LIBS:dk_Ferrite-Beads-and-Chips
+LIBS:dk_Fixed-Inductors
+LIBS:dk_Fuses
+LIBS:dk_Gas-Sensors
+LIBS:dk_Humidity-Moisture-Sensors
+LIBS:dk_Image-Sensors-Camera
+LIBS:dk_Infrared-UV-Visible-Emitters
+LIBS:dk_Inrush-Current-Limiters-ICL
+LIBS:dk_Interface-Analog-Switches-Multiplexers-Demultiplexers
+LIBS:dk_Interface-Analog-Switches-Special-Purpose
+LIBS:dk_Interface-Controllers
+LIBS:dk_Interface-Drivers-Receivers-Transceivers
+LIBS:dk_Interface-I-O-Expanders
+LIBS:dk_Interface-Modules
+LIBS:dk_Interface-Sensor-and-Detector-Interfaces
+LIBS:dk_Interface-Sensor-Capacitive-Touch
+LIBS:dk_Interface-Specialized
+LIBS:dk_LED-Indication-Discrete
+LIBS:dk_LEDs-Circuit-Board-Indicators-Arrays-Light-Bars-Bar-Graphs
+LIBS:dk_Linear-Amplifiers-Audio
+LIBS:dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps
+LIBS:dk_Linear-Comparators
+LIBS:dk_Logic-Buffers-Drivers-Receivers-Transceivers
+LIBS:dk_Logic-Flip-Flops
+LIBS:dk_Logic-Gates-and-Inverters
+LIBS:dk_Logic-Multivibrators
+LIBS:dk_Logic-Shift-Registers
+LIBS:dk_Logic-Signal-Switches-Multiplexers-Decoders
+LIBS:dk_Logic-Translators-Level-Shifters
+LIBS:dk_Magnetic-Sensors-Compass-Magnetic-Field-Modules
+LIBS:dk_Magnetic-Sensors-Linear-Compass-ICs
+LIBS:dk_Magnetic-Sensors-Switches-Solid-State
+LIBS:dk_Memory
+LIBS:dk_Memory-Connectors-PC-Card-Sockets
+LIBS:dk_Microphones
+LIBS:dk_Modular-Connectors-Jacks
+LIBS:dk_Modular-Connectors-Jacks-With-Magnetics
+LIBS:dk_Motion-Sensors-Accelerometers
+LIBS:dk_Motion-Sensors-IMUs-Inertial-Measurement-Units
+LIBS:dk_Motion-Sensors-Tilt-Switches
+LIBS:dk_Navigation-Switches-Joystick
+LIBS:dk_Optical-Sensors-Ambient-Light-IR-UV-Sensors
+LIBS:dk_Optical-Sensors-Photo-Detectors-Remote-Receiver
+LIBS:dk_Optical-Sensors-Photodiodes
+LIBS:dk_Optical-Sensors-Phototransistors
+LIBS:dk_Optical-Sensors-Reflective-Analog-Output
+LIBS:dk_Optoisolators-Logic-Output
+LIBS:dk_Optoisolators-Transistor-Photovoltaic-Output
+LIBS:dk_Optoisolators-Triac-SCR-Output
+LIBS:dk_Oscillators
+LIBS:dk_PMIC-AC-DC-Converters-Offline-Switchers
+LIBS:dk_PMIC-Battery-Chargers
+LIBS:dk_PMIC-Battery-Management
+LIBS:dk_PMIC-Current-Regulation-Management
+LIBS:dk_PMIC-Full-Half-Bridge-Drivers
+LIBS:dk_PMIC-Gate-Drivers
+LIBS:dk_PMIC-LED-Drivers
+LIBS:dk_PMIC-Motor-Drivers-Controllers
+LIBS:dk_PMIC-OR-Controllers-Ideal-Diodes
+LIBS:dk_PMIC-Power-Distribution-Switches-Load-Drivers
+LIBS:dk_PMIC-Power-Management-Specialized
+LIBS:dk_PMIC-RMS-to-DC-Converters
+LIBS:dk_PMIC-Supervisors
+LIBS:dk_PMIC-Thermal-Management
+LIBS:dk_PMIC-V-F-and-F-V-Converters
+LIBS:dk_PMIC-Voltage-Reference
+LIBS:dk_PMIC-Voltage-Regulators-DC-DC-Switching-Controllers
+LIBS:dk_PMIC-Voltage-Regulators-DC-DC-Switching-Regulators
+LIBS:dk_PMIC-Voltage-Regulators-Linear
+LIBS:dk_PMIC-Voltage-Regulators-Special-Purpose
+LIBS:dk_Power-Relays-Over-2-Amps
+LIBS:dk_Pressure-Sensors-Transducers
+LIBS:dk_Programmable-Oscillators
+LIBS:dk_Pushbutton-Switches
+LIBS:dk_Rectangular-Connectors-Headers-Male-Pins
+LIBS:dk_Reed-Relays
+LIBS:dk_Resistor-Networks-Arrays
+LIBS:dk_RF-Amplifiers
+LIBS:dk_RF-Antennas
+LIBS:dk_RF-Demodulators
+LIBS:dk_RF-Detectors
+LIBS:dk_RF-Evaluation-and-Development-Kits-Boards
+LIBS:dk_RFID-RF-Access-Monitoring-ICs
+LIBS:dk_RF-Receivers
+LIBS:dk_RF-Switches
+LIBS:dk_RF-Transceiver-ICs
+LIBS:dk_RF-Transceiver-Modules
+LIBS:dk_RF-Transmitters
+LIBS:dk_Rotary-Potentiometers-Rheostats
+LIBS:dk_Sensors-Transducers_Accessories
+LIBS:dk_Signal-Relays-Up-to-2-Amps
+LIBS:dk_Slide-Switches
+LIBS:dk_Solid-State-Relays
+LIBS:dk_Specialized-ICs
+LIBS:dk_Specialized-Sensors
+LIBS:dk_Surge-Suppression-ICs
+LIBS:dk_Tactile-Switches
+LIBS:dk_Temperature-Sensors-Analog-and-Digital-Output
+LIBS:dk_Thermal-Cutoffs-Thermal-Fuses
+LIBS:dk_Thyristors-DIACs-SIDACs
+LIBS:dk_Thyristors-SCRs
+LIBS:dk_Thyristors-TRIACs
+LIBS:dk_Toggle-Switches
+LIBS:dk_Transistors-Bipolar-BJT-Arrays
+LIBS:dk_Transistors-Bipolar-BJT-RF
+LIBS:dk_Transistors-Bipolar-BJT-Single
+LIBS:dk_Transistors-Bipolar-BJT-Single-Pre-Biased
+LIBS:dk_Transistors-FETs-MOSFETs-Arrays
+LIBS:dk_Transistors-FETs-MOSFETs-RF
+LIBS:dk_Transistors-FETs-MOSFETs-Single
+LIBS:dk_Transistors-JFETs
+LIBS:dk_Trimmer-Potentiometers
+LIBS:dk_TVS-Diodes
+LIBS:dk_TVS-Mixed-Technology
+LIBS:dk_USB-DVI-HDMI-Connectors
+LIBS:ADA4062-4ARUZ-RL
+LIBS:thermocouple-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L AD8494ARMZ U?
+U 1 1 5B552B24
+P 3900 1250
+AR Path="/5B552B24" Ref="U?"  Part="1" 
+AR Path="/5B55146C/5B552B24" Ref="U3"  Part="1" 
+F 0 "U3" H 3200 550 50  0000 L BNN
+F 1 "AD8495" H 4100 550 50  0000 L BNN
+F 2 "snapEda:SOP65P490X110-8N" H 3900 1250 50  0001 L BNN
+F 3 "Good" H 3900 1250 50  0001 L BNN
+F 4 "4.77 USD" H 3900 1250 50  0001 L BNN "Field4"
+F 5 "AD8494ARMZ" H 3900 1250 50  0001 L BNN "Field5"
+F 6 "Sensor and Detector Interface 36V 8-Pin MSOP Tube" H 3900 1250 50  0001 L BNN "Field6"
+F 7 "MSOP-8 Analog Devices" H 3900 1250 50  0001 L BNN "Field7"
+F 8 "Analog Devices" H 3900 1250 50  0001 L BNN "Field8"
+F 9 "Analog Devices" H 0   0   50  0001 C CNN "MFR"
+F 10 "AD8495ARMZ-R7" H 0   0   50  0001 C CNN "MPN"
+F 11 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 12 "584-AD8495ARMZ-R7" H 0   0   50  0001 C CNN "SPN"
+F 13 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    3900 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP3424T-E/ST U?
+U 1 1 5B552B30
+P 9850 1750
+AR Path="/5B552B30" Ref="U?"  Part="1" 
+AR Path="/5B55146C/5B552B30" Ref="U8"  Part="1" 
+F 0 "U8" H 9657 2764 50  0000 L BNN
+F 1 "MCP3424T-E/ST" H 9638 385 50  0000 L BNN
+F 2 "snapEda:SOP65P640X120-14N" H 9850 1750 50  0001 L BNN
+F 3 "MCP3424T-E/ST" H 9850 1750 50  0001 L BNN
+F 4 "ADC Single Delta-Sigma 3.75sps 18-bit Serial 14-Pin TSSOP T/R" H 9850 1750 50  0001 L BNN "Field4"
+F 5 "Good" H 9850 1750 50  0001 L BNN "Field5"
+F 6 "3.44 USD" H 9850 1750 50  0001 L BNN "Field6"
+F 7 "TSSOP-14 Microchip" H 9850 1750 50  0001 L BNN "Field7"
+F 8 "Microchip" H 9850 1750 50  0001 L BNN "Field8"
+F 9 "-" H 0   0   50  0001 C CNN "MFR"
+F 10 "-" H 0   0   50  0001 C CNN "MPN"
+F 11 "-" H 0   0   50  0001 C CNN "SPR"
+F 12 "-" H 0   0   50  0001 C CNN "SPN"
+F 13 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    9850 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 5B552B43
+P 2500 1600
+F 0 "#PWR017" H 2500 1350 50  0001 C CNN
+F 1 "GND" H 2500 1450 50  0000 C CNN
+F 2 "" H 2500 1600 50  0000 C CNN
+F 3 "" H 2500 1600 50  0000 C CNN
+	1    2500 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 5B552B49
+P 1800 1050
+F 0 "R10" V 1880 1050 50  0000 C CNN
+F 1 "100" V 1725 1050 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 1655 1050 50  0001 C CNN
+F 3 "" H 1725 1050 50  0001 C CNN
+F 4 "LTR18EZPF1000" V 1800 1050 60  0001 C CNN "MPN"
+F 5 "Rohm" V 1800 1050 60  0001 C CNN "MFR"
+F 6 "Digikey" V 1800 1050 60  0001 C CNN "SPR"
+F 7 "RHM100YCT-ND" V 1800 1050 60  0001 C CNN "SPN"
+F 8 "RES SMD 100 OHM 3/4W 1206 WIDE" V 1800 1050 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    1800 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR018
+U 1 1 5B552B6C
+P 2500 850
+F 0 "#PWR018" H 2500 600 50  0001 C CNN
+F 1 "GND" H 2500 700 50  0000 C CNN
+F 2 "" H 2500 850 50  0000 C CNN
+F 3 "" H 2500 850 50  0000 C CNN
+	1    2500 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 5B552B72
+P 1500 1450
+F 0 "R6" V 1580 1450 50  0000 C CNN
+F 1 "1M" V 1425 1450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1355 1450 50  0001 C CNN
+F 3 "" H 1425 1450 50  0001 C CNN
+F 4 "CRGH0805F1M0" V 1500 1450 60  0001 C CNN "MPN"
+F 5 "TE Connectivity" V 1500 1450 60  0001 C CNN "MFR"
+F 6 "DIgikey" V 1500 1450 60  0001 C CNN "SPR"
+F 7 "A126423CT-ND" V 1500 1450 60  0001 C CNN "SPN"
+F 8 "RES SMD 1M OHM 1% 1/3W 0805" V 1500 1450 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    1500 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR019
+U 1 1 5B552B80
+P 1500 1650
+F 0 "#PWR019" H 1500 1400 50  0001 C CNN
+F 1 "GND" H 1500 1500 50  0000 C CNN
+F 2 "" H 1500 1650 50  0000 C CNN
+F 3 "" H 1500 1650 50  0000 C CNN
+	1    1500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR020
+U 1 1 5B552BA6
+P 8925 2850
+F 0 "#PWR020" H 8925 2600 50  0001 C CNN
+F 1 "GND" H 8925 2700 50  0000 C CNN
+F 2 "" H 8925 2850 50  0000 C CNN
+F 3 "" H 8925 2850 50  0000 C CNN
+	1    8925 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R22
+U 1 1 5B552BDB
+P 5800 1850
+F 0 "R22" V 5880 1850 50  0000 C CNN
+F 1 "3.32K" V 5725 1850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5655 1850 50  0001 C CNN
+F 3 "" H 5725 1850 50  0001 C CNN
+F 4 "Digikey" V 5800 1850 60  0001 C CNN "SPR"
+F 5 "RR12P3.32KDCT-ND" V 5800 1850 60  0001 C CNN "SPN"
+F 6 "RR1220P-3321-D-M" V 5800 1850 60  0001 C CNN "MPN"
+F 7 "Susumu" V 5800 1850 60  0001 C CNN "MFR"
+F 8 "RES SMD 3.32KOHM 0.5% 1/10W 0805" V 5800 1850 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    5800 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R26
+U 1 1 5B552BEC
+P 6100 1000
+F 0 "R26" V 6180 1000 50  0000 C CNN
+F 1 "5K" V 6025 1000 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 5955 1000 50  0001 C CNN
+F 3 "" H 6025 1000 50  0001 C CNN
+F 4 "Digikey" V 6100 1000 60  0001 C CNN "SPR"
+F 5 "YAG5090CT-ND" V 6100 1000 60  0001 C CNN "SPN"
+F 6 "RT1206BRD075KL" V 6100 1000 60  0001 C CNN "MPN"
+F 7 "Yageo" V 6100 1000 60  0001 C CNN "MFR"
+F 8 "RES SMD 5K OHM 0.1% 1/4W 1206" V 6100 1000 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    6100 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R18
+U 1 1 5B552BF4
+P 5200 1400
+F 0 "R18" V 5250 1300 50  0000 C CNN
+F 1 "10K" V 5250 1550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5055 1400 50  0001 C CNN
+F 3 "" H 5125 1400 50  0001 C CNN
+F 4 "ERA-3ARB103V" V 5200 1400 60  0001 C CNN "MPN"
+F 5 "Panasonic" V 5200 1400 60  0001 C CNN "MFR"
+F 6 "Digikey" V 5200 1400 60  0001 C CNN "SPR"
+F 7 "P10KBDCT-ND" V 5200 1400 60  0001 C CNN "SPN"
+F 8 "RES SMD 10K OHM 0.1% 1/10W 0603" V 5200 1400 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    5200 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR021
+U 1 1 5B552C0A
+P 7350 1850
+F 0 "#PWR021" H 7350 1600 50  0001 C CNN
+F 1 "GND" H 7350 1700 50  0000 C CNN
+F 2 "" H 7350 1850 50  0000 C CNN
+F 3 "" H 7350 1850 50  0000 C CNN
+	1    7350 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM358DR U9
+U 1 1 5B5532DD
+P 9850 5500
+F 0 "U9" H 9700 5750 60  0000 C CNN
+F 1 "LM358DR" H 10350 4800 60  0000 C CNN
+F 2 "digikey-footprints:SOIC-8_W3.9mm" H 10050 5700 60  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm358.pdf" H 10050 5800 60  0001 L CNN
+F 4 "296-1014-1-ND" H 10050 5900 60  0001 L CNN "Digi-Key_PN"
+F 5 "LM358DR" H 10050 6000 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 10050 6100 60  0001 L CNN "Category"
+F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 10050 6200 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/lit/ds/symlink/lm358.pdf" H 10050 6300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/LM358DR/296-1014-1-ND/404838" H 10050 6400 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC OPAMP GP 700KHZ 8SOIC" H 10050 6500 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 10050 6600 60  0001 L CNN "MFR"
+F 12 "Active" H 10050 6700 60  0001 L CNN "Status"
+F 13 "296-1014-1-ND" H 9850 5500 60  0001 C CNN "SPN"
+F 14 "Digikey" H 9850 5500 60  0001 C CNN "SPR"
+F 15 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    9850 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR022
+U 1 1 5B553998
+P 9000 6300
+F 0 "#PWR022" H 9000 6050 50  0001 C CNN
+F 1 "GND" H 9000 6150 50  0000 C CNN
+F 2 "" H 9000 6300 50  0000 C CNN
+F 3 "" H 9000 6300 50  0000 C CNN
+	1    9000 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R36
+U 1 1 5B55399E
+P 9000 5600
+F 0 "R36" V 9080 5600 50  0000 C CNN
+F 1 "11.1K" V 8925 5600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8855 5600 50  0001 C CNN
+F 3 "" H 8925 5600 50  0001 C CNN
+F 4 "RNCF0603BTE11K1CT-ND" V 9000 5600 60  0001 C CNN "SPN"
+F 5 "Digikey" V 9000 5600 60  0001 C CNN "SPR"
+F 6 "Stackpole Electronics" V 9000 5600 60  0001 C CNN "MFR"
+F 7 "RNCF0603BTE11K1" V 9000 5600 60  0001 C CNN "MPN"
+F 8 "RES 11.1K OHM 0.1% 1/10W 0603" V 9000 5600 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    9000 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R37
+U 1 1 5B5539A4
+P 9000 6000
+F 0 "R37" V 9080 6000 50  0000 C CNN
+F 1 "2.55K" V 8925 6000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 8855 6000 50  0001 C CNN
+F 3 "" H 8925 6000 50  0001 C CNN
+F 4 "Digikey" V 9000 6000 60  0001 C CNN "SPR"
+F 5 "P18212CT-ND" V 9000 6000 60  0001 C CNN "SPN"
+F 6 "Panasonic" V 9000 6000 60  0001 C CNN "MFR"
+F 7 "ERA-2ARC2551X" V 9000 6000 60  0001 C CNN "MPN"
+F 8 "RES SMD 2.55K OHM 1/16W 0402" V 9000 6000 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    9000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR023
+U 1 1 5B558CDD
+P 5150 1100
+F 0 "#PWR023" H 5150 850 50  0001 C CNN
+F 1 "GND" H 5150 950 50  0000 C CNN
+F 2 "" H 5150 1100 50  0000 C CNN
+F 3 "" H 5150 1100 50  0000 C CNN
+	1    5150 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR024
+U 1 1 5B558D3C
+P 5350 1100
+F 0 "#PWR024" H 5350 850 50  0001 C CNN
+F 1 "GND" H 5350 950 50  0000 C CNN
+F 2 "" H 5350 1100 50  0000 C CNN
+F 3 "" H 5350 1100 50  0000 C CNN
+	1    5350 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR025
+U 1 1 5B569A58
+P 1400 7200
+F 0 "#PWR025" H 1400 6950 50  0001 C CNN
+F 1 "GND" H 1400 7050 50  0000 C CNN
+F 2 "" H 1400 7200 50  0000 C CNN
+F 3 "" H 1400 7200 50  0000 C CNN
+	1    1400 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR026
+U 1 1 5B5739D4
+P 5800 2000
+F 0 "#PWR026" H 5800 1750 50  0001 C CNN
+F 1 "GND" H 5800 1850 50  0000 C CNN
+F 2 "" H 5800 2000 50  0000 C CNN
+F 3 "" H 5800 2000 50  0000 C CNN
+	1    5800 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADA4062-4ARUZ-RL U7
+U 1 1 5B575639
+P 6250 1500
+F 0 "U7" H 5950 1800 60  0000 C CNN
+F 1 "ADA4062" H 6250 1300 60  0000 L CNN
+F 2 "snapEda:ADA4062-4ARUZ" H 6450 1700 60  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/609/ADA4062-2_4062-4-541067.pdf" H 6450 1800 60  0001 L CNN
+F 4 "Integrated Circuits (ICs)" H 6450 2100 60  0001 L CNN "Category"
+F 5 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 6450 2200 60  0001 L CNN "Family"
+F 6 "https://www.fairchildsemi.com/datasheets/LM/LM258A.pdf" H 6450 2300 60  0001 L CNN "DK_Datasheet_Link"
+F 7 "/product-detail/en/on-semiconductor/LM358AN/LM358ANFS-ND/458690" H 6450 2400 60  0001 L CNN "DK_Detail_Page"
+F 8 "IC OPAMP GP 14TSSOP" H 6450 2500 60  0001 L CNN "Description"
+F 9 "Analog Devices" H 6450 2600 60  0001 L CNN "Manufacturer"
+F 10 "Active" H 6450 2700 60  0001 L CNN "Status"
+F 11 "ADA4062-4ARUZ" H 6250 1500 60  0001 C CNN "MPN"
+F 12 "Analog Devices" H 6250 1500 60  0001 C CNN "MFR"
+F 13 "ADA4062-4ARUZ-ND" H 6250 1500 60  0001 C CNN "SPN"
+F 14 "Digikey" H 6250 1500 60  0001 C CNN "SPR"
+F 15 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    6250 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR027
+U 1 1 5B595A74
+P 2450 7200
+F 0 "#PWR027" H 2450 6950 50  0001 C CNN
+F 1 "GND" H 2450 7050 50  0000 C CNN
+F 2 "" H 2450 7200 50  0000 C CNN
+F 3 "" H 2450 7200 50  0000 C CNN
+	1    2450 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R35
+U 1 1 5B59B57C
+P 8550 6000
+F 0 "R35" V 8630 6000 50  0000 C CNN
+F 1 "10.2K" V 8475 6000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8405 6000 50  0001 C CNN
+F 3 "" H 8475 6000 50  0001 C CNN
+F 4 "A103283TR-ND" V 8550 6000 60  0001 C CNN "SPN"
+F 5 "Digikey" V 8550 6000 60  0001 C CNN "SPR"
+F 6 "TE Connectivity" V 8550 6000 60  0001 C CNN "MFR"
+F 7 "RN73C2A10K2BTDF" V 8550 6000 60  0001 C CNN "MPN"
+F 8 "RES SMD 10.2KOHM 0.1% 1/10W 0805" V 8550 6000 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    8550 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R34
+U 1 1 5B59B624
+P 8550 5600
+F 0 "R34" V 8630 5600 50  0000 C CNN
+F 1 "5.17K" V 8475 5600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8405 5600 50  0001 C CNN
+F 3 "" H 8475 5600 50  0001 C CNN
+F 4 "311-2631-1-ND" V 8550 5600 60  0001 C CNN "SPN"
+F 5 "Digikey" V 8550 5600 60  0001 C CNN "SPR"
+F 6 "Yageo" V 8550 5600 60  0001 C CNN "MFR"
+F 7 "RT0603DRE075K17L" V 8550 5600 60  0001 C CNN "MPN"
+F 8 "RES SMD 5.17KOHM 0.5% 1/10W 0603" V 8550 5600 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    8550 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR028
+U 1 1 5B59BFB7
+P 8250 5600
+F 0 "#PWR028" H 8250 5350 50  0001 C CNN
+F 1 "GND" H 8250 5450 50  0000 C CNN
+F 2 "" H 8250 5600 50  0000 C CNN
+F 3 "" H 8250 5600 50  0000 C CNN
+	1    8250 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR029
+U 1 1 5B59C026
+P 7650 5400
+F 0 "#PWR029" H 7650 5150 50  0001 C CNN
+F 1 "GND" H 7650 5250 50  0000 C CNN
+F 2 "" H 7650 5400 50  0000 C CNN
+F 3 "" H 7650 5400 50  0000 C CNN
+	1    7650 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L AD8494ARMZ U?
+U 1 1 5B5AC17A
+P 3900 2700
+AR Path="/5B5AC17A" Ref="U?"  Part="1" 
+AR Path="/5B55146C/5B5AC17A" Ref="U4"  Part="1" 
+F 0 "U4" H 3200 2000 50  0000 L BNN
+F 1 "AD8495" H 4100 2000 50  0000 L BNN
+F 2 "snapEda:SOP65P490X110-8N" H 3900 2700 50  0001 L BNN
+F 3 "Good" H 3900 2700 50  0001 L BNN
+F 4 "4.77 USD" H 3900 2700 50  0001 L BNN "Field4"
+F 5 "AD8494ARMZ" H 3900 2700 50  0001 L BNN "Field5"
+F 6 "Sensor and Detector Interface 36V 8-Pin MSOP Tube" H 3900 2700 50  0001 L BNN "Field6"
+F 7 "MSOP-8 Analog Devices" H 3900 2700 50  0001 L BNN "Field7"
+F 8 "Analog Devices" H 3900 2700 50  0001 L BNN "Field8"
+F 9 "-" H 0   0   50  0001 C CNN "MFR"
+F 10 "-" H 0   0   50  0001 C CNN "MPN"
+F 11 "-" H 0   0   50  0001 C CNN "SPR"
+F 12 "-" H 0   0   50  0001 C CNN "SPN"
+F 13 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    3900 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR030
+U 1 1 5B5AC180
+P 2500 3050
+F 0 "#PWR030" H 2500 2800 50  0001 C CNN
+F 1 "GND" H 2500 2900 50  0000 C CNN
+F 2 "" H 2500 3050 50  0000 C CNN
+F 3 "" H 2500 3050 50  0000 C CNN
+	1    2500 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR031
+U 1 1 5B5AC192
+P 2500 2300
+F 0 "#PWR031" H 2500 2050 50  0001 C CNN
+F 1 "GND" H 2500 2150 50  0000 C CNN
+F 2 "" H 2500 2300 50  0000 C CNN
+F 3 "" H 2500 2300 50  0000 C CNN
+	1    2500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR032
+U 1 1 5B5AC19E
+P 1500 3100
+F 0 "#PWR032" H 1500 2850 50  0001 C CNN
+F 1 "GND" H 1500 2950 50  0000 C CNN
+F 2 "" H 1500 3100 50  0000 C CNN
+F 3 "" H 1500 3100 50  0000 C CNN
+	1    1500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR033
+U 1 1 5B5AC1BC
+P 7350 3300
+F 0 "#PWR033" H 7350 3050 50  0001 C CNN
+F 1 "GND" H 7350 3150 50  0000 C CNN
+F 2 "" H 7350 3300 50  0000 C CNN
+F 3 "" H 7350 3300 50  0000 C CNN
+	1    7350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR034
+U 1 1 5B5AC1F6
+P 5150 2600
+F 0 "#PWR034" H 5150 2350 50  0001 C CNN
+F 1 "GND" H 5150 2450 50  0000 C CNN
+F 2 "" H 5150 2600 50  0000 C CNN
+F 3 "" H 5150 2600 50  0000 C CNN
+	1    5150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR035
+U 1 1 5B5AC1FC
+P 5350 2600
+F 0 "#PWR035" H 5350 2350 50  0001 C CNN
+F 1 "GND" H 5350 2450 50  0000 C CNN
+F 2 "" H 5350 2600 50  0000 C CNN
+F 3 "" H 5350 2600 50  0000 C CNN
+	1    5350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR036
+U 1 1 5B5AC225
+P 5800 3450
+F 0 "#PWR036" H 5800 3200 50  0001 C CNN
+F 1 "GND" H 5800 3300 50  0000 C CNN
+F 2 "" H 5800 3450 50  0000 C CNN
+F 3 "" H 5800 3450 50  0000 C CNN
+	1    5800 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L AD8494ARMZ U?
+U 1 1 5B5ACDB8
+P 3900 4150
+AR Path="/5B5ACDB8" Ref="U?"  Part="1" 
+AR Path="/5B55146C/5B5ACDB8" Ref="U5"  Part="1" 
+F 0 "U5" H 3200 3450 50  0000 L BNN
+F 1 "AD8495" H 4100 3450 50  0000 L BNN
+F 2 "snapEda:SOP65P490X110-8N" H 3900 4150 50  0001 L BNN
+F 3 "Good" H 3900 4150 50  0001 L BNN
+F 4 "4.77 USD" H 3900 4150 50  0001 L BNN "Field4"
+F 5 "AD8494ARMZ" H 3900 4150 50  0001 L BNN "Field5"
+F 6 "Sensor and Detector Interface 36V 8-Pin MSOP Tube" H 3900 4150 50  0001 L BNN "Field6"
+F 7 "MSOP-8 Analog Devices" H 3900 4150 50  0001 L BNN "Field7"
+F 8 "Analog Devices" H 3900 4150 50  0001 L BNN "Field8"
+F 9 "-" H 0   0   50  0001 C CNN "MFR"
+F 10 "-" H 0   0   50  0001 C CNN "MPN"
+F 11 "-" H 0   0   50  0001 C CNN "SPR"
+F 12 "-" H 0   0   50  0001 C CNN "SPN"
+F 13 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    3900 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR037
+U 1 1 5B5ACDBE
+P 2500 4500
+F 0 "#PWR037" H 2500 4250 50  0001 C CNN
+F 1 "GND" H 2500 4350 50  0000 C CNN
+F 2 "" H 2500 4500 50  0000 C CNN
+F 3 "" H 2500 4500 50  0000 C CNN
+	1    2500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR038
+U 1 1 5B5ACDD0
+P 2500 3750
+F 0 "#PWR038" H 2500 3500 50  0001 C CNN
+F 1 "GND" H 2500 3600 50  0000 C CNN
+F 2 "" H 2500 3750 50  0000 C CNN
+F 3 "" H 2500 3750 50  0000 C CNN
+	1    2500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR039
+U 1 1 5B5ACDDC
+P 1500 4550
+F 0 "#PWR039" H 1500 4300 50  0001 C CNN
+F 1 "GND" H 1500 4400 50  0000 C CNN
+F 2 "" H 1500 4550 50  0000 C CNN
+F 3 "" H 1500 4550 50  0000 C CNN
+	1    1500 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR040
+U 1 1 5B5ACDFA
+P 7350 4750
+F 0 "#PWR040" H 7350 4500 50  0001 C CNN
+F 1 "GND" H 7350 4600 50  0000 C CNN
+F 2 "" H 7350 4750 50  0000 C CNN
+F 3 "" H 7350 4750 50  0000 C CNN
+	1    7350 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR041
+U 1 1 5B5ACE34
+P 5150 4000
+F 0 "#PWR041" H 5150 3750 50  0001 C CNN
+F 1 "GND" H 5150 3850 50  0000 C CNN
+F 2 "" H 5150 4000 50  0000 C CNN
+F 3 "" H 5150 4000 50  0000 C CNN
+	1    5150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR042
+U 1 1 5B5ACE3A
+P 5350 4000
+F 0 "#PWR042" H 5350 3750 50  0001 C CNN
+F 1 "GND" H 5350 3850 50  0000 C CNN
+F 2 "" H 5350 4000 50  0000 C CNN
+F 3 "" H 5350 4000 50  0000 C CNN
+	1    5350 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR043
+U 1 1 5B5ACE63
+P 5800 4950
+F 0 "#PWR043" H 5800 4700 50  0001 C CNN
+F 1 "GND" H 5800 4800 50  0000 C CNN
+F 2 "" H 5800 4950 50  0000 C CNN
+F 3 "" H 5800 4950 50  0000 C CNN
+	1    5800 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L AD8494ARMZ U?
+U 1 1 5B5ACE8E
+P 3900 5600
+AR Path="/5B5ACE8E" Ref="U?"  Part="1" 
+AR Path="/5B55146C/5B5ACE8E" Ref="U6"  Part="1" 
+F 0 "U6" H 3200 4900 50  0000 L BNN
+F 1 "AD8495" H 4100 4900 50  0000 L BNN
+F 2 "snapEda:SOP65P490X110-8N" H 3900 5600 50  0001 L BNN
+F 3 "Good" H 3900 5600 50  0001 L BNN
+F 4 "4.77 USD" H 3900 5600 50  0001 L BNN "Field4"
+F 5 "AD8494ARMZ" H 3900 5600 50  0001 L BNN "Field5"
+F 6 "Sensor and Detector Interface 36V 8-Pin MSOP Tube" H 3900 5600 50  0001 L BNN "Field6"
+F 7 "MSOP-8 Analog Devices" H 3900 5600 50  0001 L BNN "Field7"
+F 8 "Analog Devices" H 3900 5600 50  0001 L BNN "Field8"
+F 9 "-" H 0   0   50  0001 C CNN "MFR"
+F 10 "-" H 0   0   50  0001 C CNN "MPN"
+F 11 "-" H 0   0   50  0001 C CNN "SPR"
+F 12 "-" H 0   0   50  0001 C CNN "SPN"
+F 13 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    3900 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR044
+U 1 1 5B5ACE94
+P 2500 5950
+F 0 "#PWR044" H 2500 5700 50  0001 C CNN
+F 1 "GND" H 2500 5800 50  0000 C CNN
+F 2 "" H 2500 5950 50  0000 C CNN
+F 3 "" H 2500 5950 50  0000 C CNN
+	1    2500 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR045
+U 1 1 5B5ACEA6
+P 2500 5200
+F 0 "#PWR045" H 2500 4950 50  0001 C CNN
+F 1 "GND" H 2500 5050 50  0000 C CNN
+F 2 "" H 2500 5200 50  0000 C CNN
+F 3 "" H 2500 5200 50  0000 C CNN
+	1    2500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR046
+U 1 1 5B5ACEB2
+P 1500 6000
+F 0 "#PWR046" H 1500 5750 50  0001 C CNN
+F 1 "GND" H 1500 5850 50  0000 C CNN
+F 2 "" H 1500 6000 50  0000 C CNN
+F 3 "" H 1500 6000 50  0000 C CNN
+	1    1500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR047
+U 1 1 5B5ACED0
+P 7350 6200
+F 0 "#PWR047" H 7350 5950 50  0001 C CNN
+F 1 "GND" H 7350 6050 50  0000 C CNN
+F 2 "" H 7350 6200 50  0000 C CNN
+F 3 "" H 7350 6200 50  0000 C CNN
+	1    7350 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR048
+U 1 1 5B5ACF0A
+P 5150 5450
+F 0 "#PWR048" H 5150 5200 50  0001 C CNN
+F 1 "GND" H 5150 5300 50  0000 C CNN
+F 2 "" H 5150 5450 50  0000 C CNN
+F 3 "" H 5150 5450 50  0000 C CNN
+	1    5150 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR049
+U 1 1 5B5ACF10
+P 5350 5450
+F 0 "#PWR049" H 5350 5200 50  0001 C CNN
+F 1 "GND" H 5350 5300 50  0000 C CNN
+F 2 "" H 5350 5450 50  0000 C CNN
+F 3 "" H 5350 5450 50  0000 C CNN
+	1    5350 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR050
+U 1 1 5B5ACF39
+P 5800 6350
+F 0 "#PWR050" H 5800 6100 50  0001 C CNN
+F 1 "GND" H 5800 6200 50  0000 C CNN
+F 2 "" H 5800 6350 50  0000 C CNN
+F 3 "" H 5800 6350 50  0000 C CNN
+	1    5800 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR051
+U 1 1 5B7B305C
+P 9050 4475
+F 0 "#PWR051" H 9050 4225 50  0001 C CNN
+F 1 "GND" H 9050 4325 50  0000 C CNN
+F 2 "" H 9050 4475 50  0000 C CNN
+F 3 "" H 9050 4475 50  0000 C CNN
+	1    9050 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R38
+U 1 1 5B7B390D
+P 9050 3625
+F 0 "R38" V 9130 3625 50  0000 C CNN
+F 1 "0" V 8975 3625 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8905 3625 50  0001 C CNN
+F 3 "" H 8975 3625 50  0001 C CNN
+F 4 "ERJ-6GEY0R00V" V 9050 3625 60  0001 C CNN "MPN"
+F 5 "Panasonic" V 9050 3625 60  0001 C CNN "MFN"
+F 6 "Digikey" V 9050 3625 60  0001 C CNN "SPR"
+F 7 "P0.0ACT-ND" V 9050 3625 60  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "MFR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    9050 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R30
+U 1 1 5B7FE2FB
+P 7100 1500
+F 0 "R30" V 7180 1500 50  0000 C CNN
+F 1 "100" V 7025 1500 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 6955 1500 50  0001 C CNN
+F 3 "" H 7025 1500 50  0001 C CNN
+F 4 "LTR18EZPF1000" V 7100 1500 60  0001 C CNN "MPN"
+F 5 "Rohm" V 7100 1500 60  0001 C CNN "MFR"
+F 6 "Digikey" V 7100 1500 60  0001 C CNN "SPR"
+F 7 "RHM100YCT-ND" V 7100 1500 60  0001 C CNN "SPN"
+F 8 "RES SMD 100 OHM 3/4W 1206 WIDE" V 7100 1500 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    7100 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR052
+U 1 1 5B81DB19
+P 7950 1375
+F 0 "#PWR052" H 7950 1125 50  0001 C CNN
+F 1 "GND" H 7950 1225 50  0000 C CNN
+F 2 "" H 7950 1375 50  0000 C CNN
+F 3 "" H 7950 1375 50  0000 C CNN
+	1    7950 1375
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR053
+U 1 1 5B822EEF
+P 8250 1375
+F 0 "#PWR053" H 8250 1125 50  0001 C CNN
+F 1 "GND" H 8250 1225 50  0000 C CNN
+F 2 "" H 8250 1375 50  0000 C CNN
+F 3 "" H 8250 1375 50  0000 C CNN
+	1    8250 1375
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADA4062-4ARUZ-RL U7
+U 2 1 5B831F73
+P 6250 2950
+F 0 "U7" H 5950 3250 60  0000 C CNN
+F 1 "ADA4062" H 6250 2750 60  0000 L CNN
+F 2 "snapEda:ADA4062-4ARUZ" H 6450 3150 60  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/609/ADA4062-2_4062-4-541067.pdf" H 6450 3250 60  0001 L CNN
+F 4 "Integrated Circuits (ICs)" H 6450 3550 60  0001 L CNN "Category"
+F 5 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 6450 3650 60  0001 L CNN "Family"
+F 6 "https://www.fairchildsemi.com/datasheets/LM/LM258A.pdf" H 6450 3750 60  0001 L CNN "DK_Datasheet_Link"
+F 7 "/product-detail/en/on-semiconductor/LM358AN/LM358ANFS-ND/458690" H 6450 3850 60  0001 L CNN "DK_Detail_Page"
+F 8 "IC OPAMP GP 14TSSOP" H 6450 3950 60  0001 L CNN "Description"
+F 9 "Analog Devices" H 6450 4050 60  0001 L CNN "Manufacturer"
+F 10 "Active" H 6450 4150 60  0001 L CNN "Status"
+F 11 "ADA4062-4ARUZ" H 6250 2950 60  0001 C CNN "MPN"
+F 12 "Analog Devices" H 6250 2950 60  0001 C CNN "MFR"
+F 13 "ADA4062-4ARUZ-ND" H 6250 2950 60  0001 C CNN "SPN"
+F 14 "Digikey" H 6250 2950 60  0001 C CNN "SPR"
+F 15 "-" H 0   0   50  0001 C CNN "SPURL"
+	2    6250 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADA4062-4ARUZ-RL U7
+U 3 1 5B8324EA
+P 6250 4400
+F 0 "U7" H 5950 4700 60  0000 C CNN
+F 1 "ADA4062" H 6250 4200 60  0000 L CNN
+F 2 "snapEda:ADA4062-4ARUZ" H 6450 4600 60  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/609/ADA4062-2_4062-4-541067.pdf" H 6450 4700 60  0001 L CNN
+F 4 "Integrated Circuits (ICs)" H 6450 5000 60  0001 L CNN "Category"
+F 5 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 6450 5100 60  0001 L CNN "Family"
+F 6 "https://www.fairchildsemi.com/datasheets/LM/LM258A.pdf" H 6450 5200 60  0001 L CNN "DK_Datasheet_Link"
+F 7 "/product-detail/en/on-semiconductor/LM358AN/LM358ANFS-ND/458690" H 6450 5300 60  0001 L CNN "DK_Detail_Page"
+F 8 "IC OPAMP GP 14TSSOP" H 6450 5400 60  0001 L CNN "Description"
+F 9 "Analog Devices" H 6450 5500 60  0001 L CNN "Manufacturer"
+F 10 "Active" H 6450 5600 60  0001 L CNN "Status"
+F 11 "ADA4062-4ARUZ" H 6250 4400 60  0001 C CNN "MPN"
+F 12 "Analog Devices" H 6250 4400 60  0001 C CNN "MFR"
+F 13 "ADA4062-4ARUZ-ND" H 6250 4400 60  0001 C CNN "SPN"
+F 14 "Digikey" H 6250 4400 60  0001 C CNN "SPR"
+F 15 "-" H 0   0   50  0001 C CNN "SPURL"
+	3    6250 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADA4062-4ARUZ-RL U7
+U 4 1 5B83279B
+P 6250 5850
+F 0 "U7" H 5950 6150 60  0000 C CNN
+F 1 "ADA4062" H 6250 5650 60  0000 L CNN
+F 2 "snapEda:ADA4062-4ARUZ" H 6450 6050 60  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/609/ADA4062-2_4062-4-541067.pdf" H 6450 6150 60  0001 L CNN
+F 4 "Integrated Circuits (ICs)" H 6450 6450 60  0001 L CNN "Category"
+F 5 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 6450 6550 60  0001 L CNN "Family"
+F 6 "https://www.fairchildsemi.com/datasheets/LM/LM258A.pdf" H 6450 6650 60  0001 L CNN "DK_Datasheet_Link"
+F 7 "/product-detail/en/on-semiconductor/LM358AN/LM358ANFS-ND/458690" H 6450 6750 60  0001 L CNN "DK_Detail_Page"
+F 8 "IC OPAMP GP 14TSSOP" H 6450 6850 60  0001 L CNN "Description"
+F 9 "Analog Devices" H 6450 6950 60  0001 L CNN "Manufacturer"
+F 10 "Active" H 6450 7050 60  0001 L CNN "Status"
+F 11 "ADA4062-4ARUZ" H 6250 5850 60  0001 C CNN "MPN"
+F 12 "Analog Devices" H 6250 5850 60  0001 C CNN "MFR"
+F 13 "ADA4062-4ARUZ-ND" H 6250 5850 60  0001 C CNN "SPN"
+F 14 "Digikey" H 6250 5850 60  0001 C CNN "SPR"
+F 15 "-" H 0   0   50  0001 C CNN "SPURL"
+	4    6250 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR054
+U 1 1 5B8335AE
+P 6850 6450
+F 0 "#PWR054" H 6850 6200 50  0001 C CNN
+F 1 "GND" H 6850 6300 50  0000 C CNN
+F 2 "" H 6850 6450 50  0000 C CNN
+F 3 "" H 6850 6450 50  0000 C CNN
+	1    6850 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR055
+U 1 1 5B833970
+P 6150 6450
+F 0 "#PWR055" H 6150 6200 50  0001 C CNN
+F 1 "GND" H 6150 6300 50  0000 C CNN
+F 2 "" H 6150 6450 50  0000 C CNN
+F 3 "" H 6150 6450 50  0000 C CNN
+	1    6150 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C27
+U 1 1 5B8A0469
+P 5150 5350
+F 0 "C27" H 5160 5420 50  0000 L CNN
+F 1 ".1uF" H 5175 5275 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 5150 5350 50  0001 C CNN
+F 3 "" H 5150 5350 50  0001 C CNN
+F 4 "CL05B104KO54PNC" H 5150 5350 60  0001 C CNN "MPN"
+F 5 "Samsung" H 5150 5350 60  0001 C CNN "MFR"
+F 6 "Digikey" H 5150 5350 60  0001 C CNN "SPR"
+F 7 "1276-6995-1-ND" H 5150 5350 60  0001 C CNN "SPN"
+F 8 "0.1µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)" H 5150 5350 60  0001 C CNN "DESCR"
+F 9 "-" H -4425 925 50  0001 C CNN "SPURL"
+	1    5150 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C10
+U 1 1 5B8A0476
+P 1400 7050
+F 0 "C10" H 1410 7120 50  0000 L CNN
+F 1 "10uF" H 1410 6970 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1400 7050 50  0001 C CNN
+F 3 "" H 1400 7050 50  0001 C CNN
+F 4 "CL10B106MQ8NRNC" H 1400 7050 60  0001 C CNN "MPN"
+F 5 "Samsung" H 1400 7050 60  0001 C CNN "MFR"
+F 6 "Digikey" H 1400 7050 60  0001 C CNN "SPR"
+F 7 "1276-1948-1-ND" H 1400 7050 60  0001 C CNN "SPN"
+F 8 "CAP CER 10UF 6.3V X7R 0603" H 1400 7050 60  0001 C CNN "DESCR"
+F 9 "-" H -975 3450 50  0001 C CNN "SPURL"
+	1    1400 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C22
+U 1 1 5B8A0483
+P 2200 5950
+F 0 "C22" V 2275 6025 50  0000 L CNN
+F 1 ".01uF" V 2125 6025 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 2200 5950 50  0001 C CNN
+F 3 "" H 2200 5950 50  0001 C CNN
+F 4 "CL05B103KB5NNNC" V 2200 5950 60  0001 C CNN "MPN"
+F 5 "Samsung" V 2200 5950 60  0001 C CNN "MFR"
+F 6 "Digikey" V 2200 5950 60  0001 C CNN "SPR"
+F 7 "1276-1028-1-ND" V 2200 5950 60  0001 C CNN "SPN"
+F 8 "CAP CER 10000PF 50V X7R 0402" H 2200 5950 60  0001 C CNN "DESCR"
+F 9 "-" H -1325 2000 50  0001 C CNN "SPURL"
+	1    2200 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C14
+U 1 1 5B8A0490
+P 2050 5600
+F 0 "C14" H 2060 5670 50  0000 L CNN
+F 1 "1uF" H 2060 5520 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2050 5600 50  0001 C CNN
+F 3 "" H 2050 5600 50  0001 C CNN
+F 4 "CL10B105KP8NNNC" H 2050 5600 60  0001 C CNN "MPN"
+F 5 "Samsung" H 2050 5600 60  0001 C CNN "MFR"
+F 6 "Digikey" H 2050 5600 60  0001 C CNN "SPR"
+F 7 "1276-1946-1-ND" H 2050 5600 60  0001 C CNN "SPN"
+F 8 "CAP CER 1UF 10V X7R 0603" H 2050 5600 60  0001 C CNN "DESCR"
+F 9 "-" H -4325 1650 50  0001 C CNN "SPURL"
+	1    2050 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C21
+U 1 1 5B8A5927
+P 2200 5200
+F 0 "C21" V 2275 5275 50  0000 L CNN
+F 1 ".01uF" V 2125 5275 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 2200 5200 50  0001 C CNN
+F 3 "" H 2200 5200 50  0001 C CNN
+F 4 "CL05B103KB5NNNC" V 2200 5200 60  0001 C CNN "MPN"
+F 5 "Samsung" V 2200 5200 60  0001 C CNN "MFR"
+F 6 "Digikey" V 2200 5200 60  0001 C CNN "SPR"
+F 7 "1276-1028-1-ND" V 2200 5200 60  0001 C CNN "SPN"
+F 8 "CAP CER 10000PF 50V X7R 0402" H 2200 5200 60  0001 C CNN "DESCR"
+F 9 "-" H -1325 1250 50  0001 C CNN "SPURL"
+	1    2200 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C20
+U 1 1 5B8A5A59
+P 2200 4500
+F 0 "C20" V 2275 4575 50  0000 L CNN
+F 1 ".01uF" V 2125 4575 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 2200 4500 50  0001 C CNN
+F 3 "" H 2200 4500 50  0001 C CNN
+F 4 "CL05B103KB5NNNC" V 2200 4500 60  0001 C CNN "MPN"
+F 5 "Samsung" V 2200 4500 60  0001 C CNN "MFR"
+F 6 "Digikey" V 2200 4500 60  0001 C CNN "SPR"
+F 7 "1276-1028-1-ND" V 2200 4500 60  0001 C CNN "SPN"
+F 8 "CAP CER 10000PF 50V X7R 0402" H 2200 4500 60  0001 C CNN "DESCR"
+F 9 "-" H -1325 550 50  0001 C CNN "SPURL"
+	1    2200 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C19
+U 1 1 5B8A5D05
+P 2200 3750
+F 0 "C19" V 2275 3825 50  0000 L CNN
+F 1 ".01uF" V 2125 3825 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 2200 3750 50  0001 C CNN
+F 3 "" H 2200 3750 50  0001 C CNN
+F 4 "CL05B103KB5NNNC" V 2200 3750 60  0001 C CNN "MPN"
+F 5 "Samsung" V 2200 3750 60  0001 C CNN "MFR"
+F 6 "Digikey" V 2200 3750 60  0001 C CNN "SPR"
+F 7 "1276-1028-1-ND" V 2200 3750 60  0001 C CNN "SPN"
+F 8 "CAP CER 10000PF 50V X7R 0402" H 2200 3750 60  0001 C CNN "DESCR"
+F 9 "-" H -1325 -200 50  0001 C CNN "SPURL"
+	1    2200 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C18
+U 1 1 5B8A5E8D
+P 2200 3050
+F 0 "C18" V 2275 3125 50  0000 L CNN
+F 1 ".01uF" V 2125 3125 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 2200 3050 50  0001 C CNN
+F 3 "" H 2200 3050 50  0001 C CNN
+F 4 "CL05B103KB5NNNC" V 2200 3050 60  0001 C CNN "MPN"
+F 5 "Samsung" V 2200 3050 60  0001 C CNN "MFR"
+F 6 "Digikey" V 2200 3050 60  0001 C CNN "SPR"
+F 7 "1276-1028-1-ND" V 2200 3050 60  0001 C CNN "SPN"
+F 8 "CAP CER 10000PF 50V X7R 0402" H 2200 3050 60  0001 C CNN "DESCR"
+F 9 "-" H -1325 -900 50  0001 C CNN "SPURL"
+	1    2200 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C17
+U 1 1 5B8A60B9
+P 2200 2300
+F 0 "C17" V 2275 2375 50  0000 L CNN
+F 1 ".01uF" V 2125 2375 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 2200 2300 50  0001 C CNN
+F 3 "" H 2200 2300 50  0001 C CNN
+F 4 "CL05B103KB5NNNC" V 2200 2300 60  0001 C CNN "MPN"
+F 5 "Samsung" V 2200 2300 60  0001 C CNN "MFR"
+F 6 "Digikey" V 2200 2300 60  0001 C CNN "SPR"
+F 7 "1276-1028-1-ND" V 2200 2300 60  0001 C CNN "SPN"
+F 8 "CAP CER 10000PF 50V X7R 0402" H 2200 2300 60  0001 C CNN "DESCR"
+F 9 "-" H -1325 -1650 50  0001 C CNN "SPURL"
+	1    2200 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C15
+U 1 1 5B8A61F7
+P 2200 850
+F 0 "C15" V 2275 925 50  0000 L CNN
+F 1 ".01uF" V 2125 925 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 2200 850 50  0001 C CNN
+F 3 "" H 2200 850 50  0001 C CNN
+F 4 "CL05B103KB5NNNC" V 2200 850 60  0001 C CNN "MPN"
+F 5 "Samsung" V 2200 850 60  0001 C CNN "MFR"
+F 6 "Digikey" V 2200 850 60  0001 C CNN "SPR"
+F 7 "1276-1028-1-ND" V 2200 850 60  0001 C CNN "SPN"
+F 8 "CAP CER 10000PF 50V X7R 0402" H 2200 850 60  0001 C CNN "DESCR"
+F 9 "-" H -1325 -3100 50  0001 C CNN "SPURL"
+	1    2200 850 
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C16
+U 1 1 5B8A63D5
+P 2200 1600
+F 0 "C16" V 2275 1675 50  0000 L CNN
+F 1 ".01uF" V 2125 1675 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 2200 1600 50  0001 C CNN
+F 3 "" H 2200 1600 50  0001 C CNN
+F 4 "CL05B103KB5NNNC" V 2200 1600 60  0001 C CNN "MPN"
+F 5 "Samsung" V 2200 1600 60  0001 C CNN "MFR"
+F 6 "Digikey" V 2200 1600 60  0001 C CNN "SPR"
+F 7 "1276-1028-1-ND" V 2200 1600 60  0001 C CNN "SPN"
+F 8 "CAP CER 10000PF 50V X7R 0402" H 2200 1600 60  0001 C CNN "DESCR"
+F 9 "-" H -1325 -2350 50  0001 C CNN "SPURL"
+	1    2200 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C23
+U 1 1 5B8A6966
+P 2450 7050
+F 0 "C23" H 2460 7120 50  0000 L CNN
+F 1 "10uF" H 2460 6970 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2450 7050 50  0001 C CNN
+F 3 "" H 2450 7050 50  0001 C CNN
+F 4 "CL10B106MQ8NRNC" H 2450 7050 60  0001 C CNN "MPN"
+F 5 "Samsung" H 2450 7050 60  0001 C CNN "MFR"
+F 6 "Digikey" H 2450 7050 60  0001 C CNN "SPR"
+F 7 "1276-1948-1-ND" H 2450 7050 60  0001 C CNN "SPN"
+F 8 "CAP CER 10UF 6.3V X7R 0603" H 2450 7050 60  0001 C CNN "DESCR"
+F 9 "-" H 75  3450 50  0001 C CNN "SPURL"
+	1    2450 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C13
+U 1 1 5B8A98EF
+P 2050 4150
+F 0 "C13" H 2060 4220 50  0000 L CNN
+F 1 "1uF" H 2060 4070 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2050 4150 50  0001 C CNN
+F 3 "" H 2050 4150 50  0001 C CNN
+F 4 "CL10B105KP8NNNC" H 2050 4150 60  0001 C CNN "MPN"
+F 5 "Samsung" H 2050 4150 60  0001 C CNN "MFR"
+F 6 "Digikey" H 2050 4150 60  0001 C CNN "SPR"
+F 7 "1276-1946-1-ND" H 2050 4150 60  0001 C CNN "SPN"
+F 8 "CAP CER 1UF 10V X7R 0603" H 2050 4150 60  0001 C CNN "DESCR"
+F 9 "-" H -4325 200 50  0001 C CNN "SPURL"
+	1    2050 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C12
+U 1 1 5B8A9AAF
+P 2050 2700
+F 0 "C12" H 2060 2770 50  0000 L CNN
+F 1 "1uF" H 2060 2620 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2050 2700 50  0001 C CNN
+F 3 "" H 2050 2700 50  0001 C CNN
+F 4 "CL10B105KP8NNNC" H 2050 2700 60  0001 C CNN "MPN"
+F 5 "Samsung" H 2050 2700 60  0001 C CNN "MFR"
+F 6 "Digikey" H 2050 2700 60  0001 C CNN "SPR"
+F 7 "1276-1946-1-ND" H 2050 2700 60  0001 C CNN "SPN"
+F 8 "CAP CER 1UF 10V X7R 0603" H 2050 2700 60  0001 C CNN "DESCR"
+F 9 "-" H -4325 -1250 50  0001 C CNN "SPURL"
+	1    2050 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C11
+U 1 1 5B8A9CE9
+P 2050 1250
+F 0 "C11" H 2060 1320 50  0000 L CNN
+F 1 "1uF" H 2060 1170 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2050 1250 50  0001 C CNN
+F 3 "" H 2050 1250 50  0001 C CNN
+F 4 "CL10B105KP8NNNC" H 2050 1250 60  0001 C CNN "MPN"
+F 5 "Samsung" H 2050 1250 60  0001 C CNN "MFR"
+F 6 "Digikey" H 2050 1250 60  0001 C CNN "SPR"
+F 7 "1276-1946-1-ND" H 2050 1250 60  0001 C CNN "SPN"
+F 8 "CAP CER 1UF 10V X7R 0603" H 2050 1250 60  0001 C CNN "DESCR"
+F 9 "-" H -4325 -2700 50  0001 C CNN "SPURL"
+	1    2050 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C26
+U 1 1 5B8AED05
+P 5150 3900
+F 0 "C26" H 5160 3970 50  0000 L CNN
+F 1 ".1uF" H 5175 3825 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 5150 3900 50  0001 C CNN
+F 3 "" H 5150 3900 50  0001 C CNN
+F 4 "CL05B104KO54PNC" H 5150 3900 60  0001 C CNN "MPN"
+F 5 "Samsung" H 5150 3900 60  0001 C CNN "MFR"
+F 6 "Digikey" H 5150 3900 60  0001 C CNN "SPR"
+F 7 "1276-6995-1-ND" H 5150 3900 60  0001 C CNN "SPN"
+F 8 "0.1µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)" H 5150 3900 60  0001 C CNN "DESCR"
+F 9 "-" H -4425 -525 50  0001 C CNN "SPURL"
+	1    5150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C30
+U 1 1 5B8AEECD
+P 5350 3900
+F 0 "C30" H 5360 3970 50  0000 L CNN
+F 1 ".1uF" H 5375 3825 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 5350 3900 50  0001 C CNN
+F 3 "" H 5350 3900 50  0001 C CNN
+F 4 "CL05B104KO54PNC" H 5350 3900 60  0001 C CNN "MPN"
+F 5 "Samsung" H 5350 3900 60  0001 C CNN "MFR"
+F 6 "Digikey" H 5350 3900 60  0001 C CNN "SPR"
+F 7 "1276-6995-1-ND" H 5350 3900 60  0001 C CNN "SPN"
+F 8 "0.1µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)" H 5350 3900 60  0001 C CNN "DESCR"
+F 9 "-" H -4225 -525 50  0001 C CNN "SPURL"
+	1    5350 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C25
+U 1 1 5B8AEFD0
+P 5150 2450
+F 0 "C25" H 5160 2520 50  0000 L CNN
+F 1 ".1uF" H 5175 2375 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 5150 2450 50  0001 C CNN
+F 3 "" H 5150 2450 50  0001 C CNN
+F 4 "CL05B104KO54PNC" H 5150 2450 60  0001 C CNN "MPN"
+F 5 "Samsung" H 5150 2450 60  0001 C CNN "MFR"
+F 6 "Digikey" H 5150 2450 60  0001 C CNN "SPR"
+F 7 "1276-6995-1-ND" H 5150 2450 60  0001 C CNN "SPN"
+F 8 "0.1µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)" H 5150 2450 60  0001 C CNN "DESCR"
+F 9 "-" H -4425 -1975 50  0001 C CNN "SPURL"
+	1    5150 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C29
+U 1 1 5B8AF22C
+P 5350 2450
+F 0 "C29" H 5360 2520 50  0000 L CNN
+F 1 ".1uF" H 5375 2375 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 5350 2450 50  0001 C CNN
+F 3 "" H 5350 2450 50  0001 C CNN
+F 4 "CL05B104KO54PNC" H 5350 2450 60  0001 C CNN "MPN"
+F 5 "Samsung" H 5350 2450 60  0001 C CNN "MFR"
+F 6 "Digikey" H 5350 2450 60  0001 C CNN "SPR"
+F 7 "1276-6995-1-ND" H 5350 2450 60  0001 C CNN "SPN"
+F 8 "0.1µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)" H 5350 2450 60  0001 C CNN "DESCR"
+F 9 "-" H -4225 -1975 50  0001 C CNN "SPURL"
+	1    5350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C24
+U 1 1 5B8AF33D
+P 5150 1000
+F 0 "C24" H 5160 1070 50  0000 L CNN
+F 1 ".1uF" H 5175 925 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 5150 1000 50  0001 C CNN
+F 3 "" H 5150 1000 50  0001 C CNN
+F 4 "CL05B104KO54PNC" H 5150 1000 60  0001 C CNN "MPN"
+F 5 "Samsung" H 5150 1000 60  0001 C CNN "MFR"
+F 6 "Digikey" H 5150 1000 60  0001 C CNN "SPR"
+F 7 "1276-6995-1-ND" H 5150 1000 60  0001 C CNN "SPN"
+F 8 "0.1µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)" H 5150 1000 60  0001 C CNN "DESCR"
+F 9 "-" H -4425 -3425 50  0001 C CNN "SPURL"
+	1    5150 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C28
+U 1 1 5B8AF695
+P 5350 1000
+F 0 "C28" H 5360 1070 50  0000 L CNN
+F 1 ".1uF" H 5375 925 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 5350 1000 50  0001 C CNN
+F 3 "" H 5350 1000 50  0001 C CNN
+F 4 "CL05B104KO54PNC" H 5350 1000 60  0001 C CNN "MPN"
+F 5 "Samsung" H 5350 1000 60  0001 C CNN "MFR"
+F 6 "Digikey" H 5350 1000 60  0001 C CNN "SPR"
+F 7 "1276-6995-1-ND" H 5350 1000 60  0001 C CNN "SPN"
+F 8 "0.1µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)" H 5350 1000 60  0001 C CNN "DESCR"
+F 9 "-" H -4225 -3425 50  0001 C CNN "SPURL"
+	1    5350 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C37
+U 1 1 5B8B290A
+P 7350 6050
+F 0 "C37" H 7360 6120 50  0000 L CNN
+F 1 "1uF" H 7360 5970 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7350 6050 50  0001 C CNN
+F 3 "" H 7350 6050 50  0001 C CNN
+F 4 "CL10B105KP8NNNC" H 7350 6050 60  0001 C CNN "MPN"
+F 5 "Samsung" H 7350 6050 60  0001 C CNN "MFR"
+F 6 "Digikey" H 7350 6050 60  0001 C CNN "SPR"
+F 7 "1276-1946-1-ND" H 7350 6050 60  0001 C CNN "SPN"
+F 8 "CAP CER 1UF 10V X7R 0603" H 7350 6050 60  0001 C CNN "DESCR"
+F 9 "-" H 975 2100 50  0001 C CNN "SPURL"
+	1    7350 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C36
+U 1 1 5B8B2BBA
+P 7350 4600
+F 0 "C36" H 7360 4670 50  0000 L CNN
+F 1 "1uF" H 7360 4520 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7350 4600 50  0001 C CNN
+F 3 "" H 7350 4600 50  0001 C CNN
+F 4 "CL10B105KP8NNNC" H 7350 4600 60  0001 C CNN "MPN"
+F 5 "Samsung" H 7350 4600 60  0001 C CNN "MFR"
+F 6 "Digikey" H 7350 4600 60  0001 C CNN "SPR"
+F 7 "1276-1946-1-ND" H 7350 4600 60  0001 C CNN "SPN"
+F 8 "CAP CER 1UF 10V X7R 0603" H 7350 4600 60  0001 C CNN "DESCR"
+F 9 "-" H 975 650 50  0001 C CNN "SPURL"
+	1    7350 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C35
+U 1 1 5B8B2F87
+P 7350 3150
+F 0 "C35" H 7360 3220 50  0000 L CNN
+F 1 "1uF" H 7360 3070 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7350 3150 50  0001 C CNN
+F 3 "" H 7350 3150 50  0001 C CNN
+F 4 "CL10B105KP8NNNC" H 7350 3150 60  0001 C CNN "MPN"
+F 5 "Samsung" H 7350 3150 60  0001 C CNN "MFR"
+F 6 "Digikey" H 7350 3150 60  0001 C CNN "SPR"
+F 7 "1276-1946-1-ND" H 7350 3150 60  0001 C CNN "SPN"
+F 8 "CAP CER 1UF 10V X7R 0603" H 7350 3150 60  0001 C CNN "DESCR"
+F 9 "-" H 975 -800 50  0001 C CNN "SPURL"
+	1    7350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C34
+U 1 1 5B8B31C1
+P 7350 1700
+F 0 "C34" H 7360 1770 50  0000 L CNN
+F 1 "1uF" H 7360 1620 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7350 1700 50  0001 C CNN
+F 3 "" H 7350 1700 50  0001 C CNN
+F 4 "CL10B105KP8NNNC" H 7350 1700 60  0001 C CNN "MPN"
+F 5 "Samsung" H 7350 1700 60  0001 C CNN "MFR"
+F 6 "Digikey" H 7350 1700 60  0001 C CNN "SPR"
+F 7 "1276-1946-1-ND" H 7350 1700 60  0001 C CNN "SPN"
+F 8 "CAP CER 1UF 10V X7R 0603" H 7350 1700 60  0001 C CNN "DESCR"
+F 9 "-" H 975 -2250 50  0001 C CNN "SPURL"
+	1    7350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C31
+U 1 1 5B8B371E
+P 5350 5350
+F 0 "C31" H 5360 5420 50  0000 L CNN
+F 1 ".1uF" H 5375 5275 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 5350 5350 50  0001 C CNN
+F 3 "" H 5350 5350 50  0001 C CNN
+F 4 "CL05B104KO54PNC" H 5350 5350 60  0001 C CNN "MPN"
+F 5 "Samsung" H 5350 5350 60  0001 C CNN "MFR"
+F 6 "Digikey" H 5350 5350 60  0001 C CNN "SPR"
+F 7 "1276-6995-1-ND" H 5350 5350 60  0001 C CNN "SPN"
+F 8 "0.1µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)" H 5350 5350 60  0001 C CNN "DESCR"
+F 9 "-" H -4225 925 50  0001 C CNN "SPURL"
+	1    5350 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C32
+U 1 1 5B8B382A
+P 6150 6350
+F 0 "C32" H 6160 6420 50  0000 L CNN
+F 1 ".1uF" H 6175 6275 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 6150 6350 50  0001 C CNN
+F 3 "" H 6150 6350 50  0001 C CNN
+F 4 "CL05B104KO54PNC" H 6150 6350 60  0001 C CNN "MPN"
+F 5 "Samsung" H 6150 6350 60  0001 C CNN "MFR"
+F 6 "Digikey" H 6150 6350 60  0001 C CNN "SPR"
+F 7 "1276-6995-1-ND" H 6150 6350 60  0001 C CNN "SPN"
+F 8 "0.1µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)" H 6150 6350 60  0001 C CNN "DESCR"
+F 9 "-" H -3425 1925 50  0001 C CNN "SPURL"
+	1    6150 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C33
+U 1 1 5B8B3989
+P 6850 6350
+F 0 "C33" H 6860 6420 50  0000 L CNN
+F 1 ".1uF" H 6875 6275 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 6850 6350 50  0001 C CNN
+F 3 "" H 6850 6350 50  0001 C CNN
+F 4 "CL05B104KO54PNC" H 6850 6350 60  0001 C CNN "MPN"
+F 5 "Samsung" H 6850 6350 60  0001 C CNN "MFR"
+F 6 "Digikey" H 6850 6350 60  0001 C CNN "SPR"
+F 7 "1276-6995-1-ND" H 6850 6350 60  0001 C CNN "SPN"
+F 8 "0.1µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)" H 6850 6350 60  0001 C CNN "DESCR"
+F 9 "-" H -2725 1925 50  0001 C CNN "SPURL"
+	1    6850 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C38
+U 1 1 5B8B3CDC
+P 7650 5300
+F 0 "C38" H 7660 5370 50  0000 L CNN
+F 1 ".1uF" H 7675 5225 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7650 5300 50  0001 C CNN
+F 3 "" H 7650 5300 50  0001 C CNN
+F 4 "CL05B104KO54PNC" H 7650 5300 60  0001 C CNN "MPN"
+F 5 "Samsung" H 7650 5300 60  0001 C CNN "MFR"
+F 6 "Digikey" H 7650 5300 60  0001 C CNN "SPR"
+F 7 "1276-6995-1-ND" H 7650 5300 60  0001 C CNN "SPN"
+F 8 "0.1µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)" H 7650 5300 60  0001 C CNN "DESCR"
+F 9 "-" H -1925 875 50  0001 C CNN "SPURL"
+	1    7650 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C41
+U 1 1 5B8B3E55
+P 8250 5500
+F 0 "C41" H 8260 5570 50  0000 L CNN
+F 1 ".1uF" H 8275 5425 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8250 5500 50  0001 C CNN
+F 3 "" H 8250 5500 50  0001 C CNN
+F 4 "CL05B104KO54PNC" H 8250 5500 60  0001 C CNN "MPN"
+F 5 "Samsung" H 8250 5500 60  0001 C CNN "MFR"
+F 6 "Digikey" H 8250 5500 60  0001 C CNN "SPR"
+F 7 "1276-6995-1-ND" H 8250 5500 60  0001 C CNN "SPN"
+F 8 "0.1µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)" H 8250 5500 60  0001 C CNN "DESCR"
+F 9 "-" H -1325 1075 50  0001 C CNN "SPURL"
+	1    8250 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C39
+U 1 1 5B8B7490
+P 7950 1225
+F 0 "C39" H 7960 1295 50  0000 L CNN
+F 1 ".1uF" H 7975 1150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7950 1225 50  0001 C CNN
+F 3 "" H 7950 1225 50  0001 C CNN
+F 4 "CL05B104KO54PNC" H 7950 1225 60  0001 C CNN "MPN"
+F 5 "Samsung" H 7950 1225 60  0001 C CNN "MFR"
+F 6 "Digikey" H 7950 1225 60  0001 C CNN "SPR"
+F 7 "1276-6995-1-ND" H 7950 1225 60  0001 C CNN "SPN"
+F 8 "0.1µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)" H 7950 1225 60  0001 C CNN "DESCR"
+F 9 "-" H -1625 -3200 50  0001 C CNN "SPURL"
+	1    7950 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C40
+U 1 1 5B8B790C
+P 8250 1225
+F 0 "C40" H 8260 1295 50  0000 L CNN
+F 1 "10uF" H 8260 1145 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8250 1225 50  0001 C CNN
+F 3 "" H 8250 1225 50  0001 C CNN
+F 4 "CL10B106MQ8NRNC" H 8250 1225 60  0001 C CNN "MPN"
+F 5 "Samsung" H 8250 1225 60  0001 C CNN "MFR"
+F 6 "Digikey" H 8250 1225 60  0001 C CNN "SPR"
+F 7 "1276-1948-1-ND" H 8250 1225 60  0001 C CNN "SPN"
+F 8 "CAP CER 10UF 6.3V X7R 0603" H 8250 1225 60  0001 C CNN "DESCR"
+F 9 "-" H 5875 -2375 50  0001 C CNN "SPURL"
+	1    8250 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R40
+U 1 1 5B8BAB5C
+P 9325 3625
+F 0 "R40" V 9405 3625 50  0000 C CNN
+F 1 "0" V 9250 3625 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9180 3625 50  0001 C CNN
+F 3 "" H 9250 3625 50  0001 C CNN
+F 4 "ERJ-6GEY0R00V" V 9325 3625 60  0001 C CNN "MPN"
+F 5 "Panasonic" V 9325 3625 60  0001 C CNN "MFN"
+F 6 "Digikey" V 9325 3625 60  0001 C CNN "SPR"
+F 7 "P0.0ACT-ND" V 9325 3625 60  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "MFR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    9325 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R41
+U 1 1 5B8BAC6A
+P 9325 4250
+F 0 "R41" V 9405 4250 50  0000 C CNN
+F 1 "0" V 9250 4250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9180 4250 50  0001 C CNN
+F 3 "" H 9250 4250 50  0001 C CNN
+F 4 "ERJ-6GEY0R00V" V 9325 4250 60  0001 C CNN "MPN"
+F 5 "Panasonic" V 9325 4250 60  0001 C CNN "MFN"
+F 6 "Digikey" V 9325 4250 60  0001 C CNN "SPR"
+F 7 "P0.0ACT-ND" V 9325 4250 60  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "MFR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    9325 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R39
+U 1 1 5B8BADA5
+P 9050 4250
+F 0 "R39" V 9130 4250 50  0000 C CNN
+F 1 "0" V 8975 4250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8905 4250 50  0001 C CNN
+F 3 "" H 8975 4250 50  0001 C CNN
+F 4 "ERJ-6GEY0R00V" V 9050 4250 60  0001 C CNN "MPN"
+F 5 "Panasonic" V 9050 4250 60  0001 C CNN "MFN"
+F 6 "Digikey" V 9050 4250 60  0001 C CNN "SPR"
+F 7 "P0.0ACT-ND" V 9050 4250 60  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "MFR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    9050 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 5B8BD326
+P 1500 2900
+F 0 "R7" V 1580 2900 50  0000 C CNN
+F 1 "1M" V 1425 2900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1355 2900 50  0001 C CNN
+F 3 "" H 1425 2900 50  0001 C CNN
+F 4 "CRGH0805F1M0" V 1500 2900 60  0001 C CNN "MPN"
+F 5 "TE Connectivity" V 1500 2900 60  0001 C CNN "MFR"
+F 6 "DIgikey" V 1500 2900 60  0001 C CNN "SPR"
+F 7 "A126423CT-ND" V 1500 2900 60  0001 C CNN "SPN"
+F 8 "RES SMD 1M OHM 1% 1/3W 0805" V 1500 2900 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    1500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 5B8BD52A
+P 1500 4350
+F 0 "R8" V 1580 4350 50  0000 C CNN
+F 1 "1M" V 1425 4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1355 4350 50  0001 C CNN
+F 3 "" H 1425 4350 50  0001 C CNN
+F 4 "CRGH0805F1M0" V 1500 4350 60  0001 C CNN "MPN"
+F 5 "TE Connectivity" V 1500 4350 60  0001 C CNN "MFR"
+F 6 "DIgikey" V 1500 4350 60  0001 C CNN "SPR"
+F 7 "A126423CT-ND" V 1500 4350 60  0001 C CNN "SPN"
+F 8 "RES SMD 1M OHM 1% 1/3W 0805" V 1500 4350 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    1500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 5B8BD727
+P 1500 5800
+F 0 "R9" V 1580 5800 50  0000 C CNN
+F 1 "1M" V 1425 5800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1355 5800 50  0001 C CNN
+F 3 "" H 1425 5800 50  0001 C CNN
+F 4 "CRGH0805F1M0" V 1500 5800 60  0001 C CNN "MPN"
+F 5 "TE Connectivity" V 1500 5800 60  0001 C CNN "MFR"
+F 6 "DIgikey" V 1500 5800 60  0001 C CNN "SPR"
+F 7 "A126423CT-ND" V 1500 5800 60  0001 C CNN "SPN"
+F 8 "RES SMD 1M OHM 1% 1/3W 0805" V 1500 5800 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    1500 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R11
+U 1 1 5B8BE055
+P 1800 1450
+F 0 "R11" V 1880 1450 50  0000 C CNN
+F 1 "100" V 1725 1450 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 1655 1450 50  0001 C CNN
+F 3 "" H 1725 1450 50  0001 C CNN
+F 4 "LTR18EZPF1000" V 1800 1450 60  0001 C CNN "MPN"
+F 5 "Rohm" V 1800 1450 60  0001 C CNN "MFR"
+F 6 "Digikey" V 1800 1450 60  0001 C CNN "SPR"
+F 7 "RHM100YCT-ND" V 1800 1450 60  0001 C CNN "SPN"
+F 8 "RES SMD 100 OHM 3/4W 1206 WIDE" V 1800 1450 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    1800 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L R R12
+U 1 1 5B8BE1B1
+P 1800 2500
+F 0 "R12" V 1880 2500 50  0000 C CNN
+F 1 "100" V 1725 2500 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 1655 2500 50  0001 C CNN
+F 3 "" H 1725 2500 50  0001 C CNN
+F 4 "LTR18EZPF1000" V 1800 2500 60  0001 C CNN "MPN"
+F 5 "Rohm" V 1800 2500 60  0001 C CNN "MFR"
+F 6 "Digikey" V 1800 2500 60  0001 C CNN "SPR"
+F 7 "RHM100YCT-ND" V 1800 2500 60  0001 C CNN "SPN"
+F 8 "RES SMD 100 OHM 3/4W 1206 WIDE" V 1800 2500 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    1800 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R13
+U 1 1 5B8BE3C5
+P 1800 2900
+F 0 "R13" V 1880 2900 50  0000 C CNN
+F 1 "100" V 1725 2900 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 1655 2900 50  0001 C CNN
+F 3 "" H 1725 2900 50  0001 C CNN
+F 4 "LTR18EZPF1000" V 1800 2900 60  0001 C CNN "MPN"
+F 5 "Rohm" V 1800 2900 60  0001 C CNN "MFR"
+F 6 "Digikey" V 1800 2900 60  0001 C CNN "SPR"
+F 7 "RHM100YCT-ND" V 1800 2900 60  0001 C CNN "SPN"
+F 8 "RES SMD 100 OHM 3/4W 1206 WIDE" V 1800 2900 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    1800 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R14
+U 1 1 5B8BE4DD
+P 1800 3950
+F 0 "R14" V 1880 3950 50  0000 C CNN
+F 1 "100" V 1725 3950 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 1655 3950 50  0001 C CNN
+F 3 "" H 1725 3950 50  0001 C CNN
+F 4 "LTR18EZPF1000" V 1800 3950 60  0001 C CNN "MPN"
+F 5 "Rohm" V 1800 3950 60  0001 C CNN "MFR"
+F 6 "Digikey" V 1800 3950 60  0001 C CNN "SPR"
+F 7 "RHM100YCT-ND" V 1800 3950 60  0001 C CNN "SPN"
+F 8 "RES SMD 100 OHM 3/4W 1206 WIDE" V 1800 3950 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    1800 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R15
+U 1 1 5B8BE778
+P 1800 4350
+F 0 "R15" V 1880 4350 50  0000 C CNN
+F 1 "100" V 1725 4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 1655 4350 50  0001 C CNN
+F 3 "" H 1725 4350 50  0001 C CNN
+F 4 "LTR18EZPF1000" V 1800 4350 60  0001 C CNN "MPN"
+F 5 "Rohm" V 1800 4350 60  0001 C CNN "MFR"
+F 6 "Digikey" V 1800 4350 60  0001 C CNN "SPR"
+F 7 "RHM100YCT-ND" V 1800 4350 60  0001 C CNN "SPN"
+F 8 "RES SMD 100 OHM 3/4W 1206 WIDE" V 1800 4350 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    1800 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L R R16
+U 1 1 5B8BE8A0
+P 1800 5400
+F 0 "R16" V 1880 5400 50  0000 C CNN
+F 1 "100" V 1725 5400 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 1655 5400 50  0001 C CNN
+F 3 "" H 1725 5400 50  0001 C CNN
+F 4 "LTR18EZPF1000" V 1800 5400 60  0001 C CNN "MPN"
+F 5 "Rohm" V 1800 5400 60  0001 C CNN "MFR"
+F 6 "Digikey" V 1800 5400 60  0001 C CNN "SPR"
+F 7 "RHM100YCT-ND" V 1800 5400 60  0001 C CNN "SPN"
+F 8 "RES SMD 100 OHM 3/4W 1206 WIDE" V 1800 5400 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    1800 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R17
+U 1 1 5B8BEB84
+P 1800 5800
+F 0 "R17" V 1880 5800 50  0000 C CNN
+F 1 "100" V 1725 5800 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 1655 5800 50  0001 C CNN
+F 3 "" H 1725 5800 50  0001 C CNN
+F 4 "LTR18EZPF1000" V 1800 5800 60  0001 C CNN "MPN"
+F 5 "Rohm" V 1800 5800 60  0001 C CNN "MFR"
+F 6 "Digikey" V 1800 5800 60  0001 C CNN "SPR"
+F 7 "RHM100YCT-ND" V 1800 5800 60  0001 C CNN "SPN"
+F 8 "RES SMD 100 OHM 3/4W 1206 WIDE" V 1800 5800 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    1800 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R19
+U 1 1 5B8BF62E
+P 5200 2850
+F 0 "R19" V 5250 2750 50  0000 C CNN
+F 1 "10K" V 5250 3000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5055 2850 50  0001 C CNN
+F 3 "" H 5125 2850 50  0001 C CNN
+F 4 "ERA-3ARB103V" V 5200 2850 60  0001 C CNN "MPN"
+F 5 "Panasonic" V 5200 2850 60  0001 C CNN "MFR"
+F 6 "Digikey" V 5200 2850 60  0001 C CNN "SPR"
+F 7 "P10KBDCT-ND" V 5200 2850 60  0001 C CNN "SPN"
+F 8 "RES SMD 10K OHM 0.1% 1/10W 0603" V 5200 2850 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    5200 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L R R20
+U 1 1 5B8BF82A
+P 5200 4300
+F 0 "R20" V 5250 4200 50  0000 C CNN
+F 1 "10K" V 5250 4450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5055 4300 50  0001 C CNN
+F 3 "" H 5125 4300 50  0001 C CNN
+F 4 "ERA-3ARB103V" V 5200 4300 60  0001 C CNN "MPN"
+F 5 "Panasonic" V 5200 4300 60  0001 C CNN "MFR"
+F 6 "Digikey" V 5200 4300 60  0001 C CNN "SPR"
+F 7 "P10KBDCT-ND" V 5200 4300 60  0001 C CNN "SPN"
+F 8 "RES SMD 10K OHM 0.1% 1/10W 0603" V 5200 4300 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    5200 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L R R21
+U 1 1 5B8BFA29
+P 5200 5750
+F 0 "R21" V 5250 5650 50  0000 C CNN
+F 1 "10K" V 5250 5900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5055 5750 50  0001 C CNN
+F 3 "" H 5125 5750 50  0001 C CNN
+F 4 "ERA-3ARB103V" V 5200 5750 60  0001 C CNN "MPN"
+F 5 "Panasonic" V 5200 5750 60  0001 C CNN "MFR"
+F 6 "Digikey" V 5200 5750 60  0001 C CNN "SPR"
+F 7 "P10KBDCT-ND" V 5200 5750 60  0001 C CNN "SPN"
+F 8 "RES SMD 10K OHM 0.1% 1/10W 0603" V 5200 5750 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    5200 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R23
+U 1 1 5B8C1803
+P 5800 3300
+F 0 "R23" V 5880 3300 50  0000 C CNN
+F 1 "3.32K" V 5725 3300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5655 3300 50  0001 C CNN
+F 3 "" H 5725 3300 50  0001 C CNN
+F 4 "Digikey" V 5800 3300 60  0001 C CNN "SPR"
+F 5 "RR12P3.32KDCT-ND" V 5800 3300 60  0001 C CNN "SPN"
+F 6 "RR1220P-3321-D-M" V 5800 3300 60  0001 C CNN "MPN"
+F 7 "Susumu" V 5800 3300 60  0001 C CNN "MFR"
+F 8 "RES SMD 3.32KOHM 0.5% 1/10W 0805" V 5800 3300 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    5800 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R24
+U 1 1 5B8C1993
+P 5800 4750
+F 0 "R24" V 5880 4750 50  0000 C CNN
+F 1 "3.32K" V 5725 4750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5655 4750 50  0001 C CNN
+F 3 "" H 5725 4750 50  0001 C CNN
+F 4 "Digikey" V 5800 4750 60  0001 C CNN "SPR"
+F 5 "RR12P3.32KDCT-ND" V 5800 4750 60  0001 C CNN "SPN"
+F 6 "RR1220P-3321-D-M" V 5800 4750 60  0001 C CNN "MPN"
+F 7 "Susumu" V 5800 4750 60  0001 C CNN "MFR"
+F 8 "RES SMD 3.32KOHM 0.5% 1/10W 0805" V 5800 4750 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    5800 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R25
+U 1 1 5B8C1B0A
+P 5800 6200
+F 0 "R25" V 5880 6200 50  0000 C CNN
+F 1 "3.32K" V 5725 6200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5655 6200 50  0001 C CNN
+F 3 "" H 5725 6200 50  0001 C CNN
+F 4 "Digikey" V 5800 6200 60  0001 C CNN "SPR"
+F 5 "RR12P3.32KDCT-ND" V 5800 6200 60  0001 C CNN "SPN"
+F 6 "RR1220P-3321-D-M" V 5800 6200 60  0001 C CNN "MPN"
+F 7 "Susumu" V 5800 6200 60  0001 C CNN "MFR"
+F 8 "RES SMD 3.32KOHM 0.5% 1/10W 0805" V 5800 6200 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    5800 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R27
+U 1 1 5B8C2170
+P 6100 2450
+F 0 "R27" V 6180 2450 50  0000 C CNN
+F 1 "5K" V 6025 2450 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 5955 2450 50  0001 C CNN
+F 3 "" H 6025 2450 50  0001 C CNN
+F 4 "Digikey" V 6100 2450 60  0001 C CNN "SPR"
+F 5 "YAG5090CT-ND" V 6100 2450 60  0001 C CNN "SPN"
+F 6 "RT1206BRD075KL" V 6100 2450 60  0001 C CNN "MPN"
+F 7 "Yageo" V 6100 2450 60  0001 C CNN "MFR"
+F 8 "RES SMD 5K OHM 0.1% 1/4W 1206" V 6100 2450 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    6100 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L R R28
+U 1 1 5B8C2318
+P 6100 3900
+F 0 "R28" V 6180 3900 50  0000 C CNN
+F 1 "5K" V 6025 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 5955 3900 50  0001 C CNN
+F 3 "" H 6025 3900 50  0001 C CNN
+F 4 "Digikey" V 6100 3900 60  0001 C CNN "SPR"
+F 5 "YAG5090CT-ND" V 6100 3900 60  0001 C CNN "SPN"
+F 6 "RT1206BRD075KL" V 6100 3900 60  0001 C CNN "MPN"
+F 7 "Yageo" V 6100 3900 60  0001 C CNN "MFR"
+F 8 "RES SMD 5K OHM 0.1% 1/4W 1206" V 6100 3900 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    6100 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R29
+U 1 1 5B8C2469
+P 6100 5350
+F 0 "R29" V 6180 5350 50  0000 C CNN
+F 1 "5K" V 6025 5350 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 5955 5350 50  0001 C CNN
+F 3 "" H 6025 5350 50  0001 C CNN
+F 4 "Digikey" V 6100 5350 60  0001 C CNN "SPR"
+F 5 "YAG5090CT-ND" V 6100 5350 60  0001 C CNN "SPN"
+F 6 "RT1206BRD075KL" V 6100 5350 60  0001 C CNN "MPN"
+F 7 "Yageo" V 6100 5350 60  0001 C CNN "MFR"
+F 8 "RES SMD 5K OHM 0.1% 1/4W 1206" V 6100 5350 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    6100 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L R R31
+U 1 1 5B8C2F41
+P 7100 2950
+F 0 "R31" V 7180 2950 50  0000 C CNN
+F 1 "100" V 7025 2950 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 6955 2950 50  0001 C CNN
+F 3 "" H 7025 2950 50  0001 C CNN
+F 4 "LTR18EZPF1000" V 7100 2950 60  0001 C CNN "MPN"
+F 5 "Rohm" V 7100 2950 60  0001 C CNN "MFR"
+F 6 "Digikey" V 7100 2950 60  0001 C CNN "SPR"
+F 7 "RHM100YCT-ND" V 7100 2950 60  0001 C CNN "SPN"
+F 8 "RES SMD 100 OHM 3/4W 1206 WIDE" V 7100 2950 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    7100 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R32
+U 1 1 5B8C31B7
+P 7100 4400
+F 0 "R32" V 7180 4400 50  0000 C CNN
+F 1 "100" V 7025 4400 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 6955 4400 50  0001 C CNN
+F 3 "" H 7025 4400 50  0001 C CNN
+F 4 "LTR18EZPF1000" V 7100 4400 60  0001 C CNN "MPN"
+F 5 "Rohm" V 7100 4400 60  0001 C CNN "MFR"
+F 6 "Digikey" V 7100 4400 60  0001 C CNN "SPR"
+F 7 "RHM100YCT-ND" V 7100 4400 60  0001 C CNN "SPN"
+F 8 "RES SMD 100 OHM 3/4W 1206 WIDE" V 7100 4400 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    7100 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R33
+U 1 1 5B8C33C2
+P 7100 5850
+F 0 "R33" V 7180 5850 50  0000 C CNN
+F 1 "100" V 7025 5850 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 6955 5850 50  0001 C CNN
+F 3 "" H 7025 5850 50  0001 C CNN
+F 4 "LTR18EZPF1000" V 7100 5850 60  0001 C CNN "MPN"
+F 5 "Rohm" V 7100 5850 60  0001 C CNN "MFR"
+F 6 "Digikey" V 7100 5850 60  0001 C CNN "SPR"
+F 7 "RHM100YCT-ND" V 7100 5850 60  0001 C CNN "SPN"
+F 8 "RES SMD 100 OHM 3/4W 1206 WIDE" V 7100 5850 60  0001 C CNN "DESCR"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    7100 5850
+	0    1    1    0   
+$EndComp
+Text HLabel 1050 6900 0    60   Input ~ 0
++10V
+Text HLabel 7600 5100 0    60   Input ~ 0
++10V
+Text Label 5000 1700 0    60   ~ 0
+TCA_1
+Text Label 2900 1250 2    60   ~ 0
+TCA_1
+Text HLabel 6200 1850 2    60   Input ~ 0
+-10V
+Text HLabel 6200 1150 2    60   Input ~ 0
++10V
+Text HLabel 5250 750  2    60   Input ~ 0
++10V
+Text HLabel 5450 850  2    60   Input ~ 0
+-10V
+Text HLabel 1250 1050 0    60   Input ~ 0
+TC_1-
+Text HLabel 1250 1250 0    60   Input ~ 0
+TC_1+
+Text HLabel 2100 6900 0    60   Input ~ 0
+-10V
+Text HLabel 7750 1050 0    60   Input ~ 0
++5V
+Text Label 2900 1150 2    60   ~ 0
+VOff
+Text HLabel 8200 5300 0    60   Input ~ 0
+-10V
+Text Label 5000 3150 0    60   ~ 0
+TCA_2
+Text Label 2900 2700 2    60   ~ 0
+TCA_2
+Text HLabel 6200 3300 2    60   Input ~ 0
+-10V
+Text HLabel 6200 2600 2    60   Input ~ 0
++10V
+Text HLabel 5250 2200 2    60   Input ~ 0
++10V
+Text HLabel 5450 2300 2    60   Input ~ 0
+-10V
+Text HLabel 1250 2500 0    60   Input ~ 0
+TC_2-
+Text HLabel 1250 2700 0    60   Input ~ 0
+TC_2+
+Text Label 2900 2600 2    60   ~ 0
+VOff
+Text Label 5000 4600 0    60   ~ 0
+TCA_3
+Text Label 2900 4150 2    60   ~ 0
+TCA_3
+Text HLabel 6200 4750 2    60   Input ~ 0
+-10V
+Text HLabel 6200 4050 2    60   Input ~ 0
++10V
+Text HLabel 5250 3650 2    60   Input ~ 0
++10V
+Text HLabel 5450 3750 2    60   Input ~ 0
+-10V
+Text HLabel 1250 3950 0    60   Input ~ 0
+TC_3-
+Text HLabel 1250 4150 0    60   Input ~ 0
+TC_3+
+Text Label 2900 4050 2    60   ~ 0
+VOff
+Text Label 5000 6050 0    60   ~ 0
+TCA_4
+Text Label 2900 5600 2    60   ~ 0
+TCA_4
+Text HLabel 6200 6200 2    60   Input ~ 0
+-10V
+Text HLabel 6975 5500 2    60   Input ~ 0
++10V
+Text HLabel 5250 5100 2    60   Input ~ 0
++10V
+Text HLabel 5450 5200 2    60   Input ~ 0
+-10V
+Text HLabel 1250 5400 0    60   Input ~ 0
+TC_4-
+Text HLabel 1250 5600 0    60   Input ~ 0
+TC_4+
+Text Label 2900 5500 2    60   ~ 0
+VOff
+Text Notes 11100 5350 2    60   ~ 0
+approx.\n    -6.637V
+Text Notes 11150 6150 2    60   ~ 0
+approx. \n1.867V
+Text Label 8750 2050 2    60   ~ 0
+CH4
+Text HLabel 8750 2550 0    60   Input ~ 0
+SCL
+Text HLabel 10700 1050 2    60   Output ~ 0
+SDA
+Text Label 7600 5850 0    60   ~ 0
+CH4
+Text Label 10700 5900 0    60   ~ 0
+TC_Ref
+Text Label 10700 5500 0    60   ~ 0
+VOff
+Text Label 8750 1250 2    60   ~ 0
+TC_Ref
+Text HLabel 8750 2750 0    60   Input ~ 0
+GND
+Text Label 8750 2250 2    60   ~ 0
+ADR0
+Text Label 8750 2350 2    60   ~ 0
+ADR1
+Text Label 8775 3875 2    60   ~ 0
+ADR0
+Text Label 8775 3975 2    60   ~ 0
+ADR1
+Text HLabel 8850 3400 0    60   Input ~ 0
++5V
+Wire Wire Line
+	1950 1050 3000 1050
+Wire Wire Line
+	1950 1450 3000 1450
+Wire Wire Line
+	2050 1350 2050 1600
+Wire Wire Line
+	2050 850  2050 1150
+Wire Wire Line
+	1250 1050 1650 1050
+Wire Wire Line
+	1650 1450 1650 1250
+Wire Wire Line
+	1650 1250 1250 1250
+Wire Wire Line
+	8750 2750 9150 2750
+Wire Wire Line
+	8925 2750 8925 2850
+Wire Wire Line
+	7350 1850 7350 1800
+Wire Wire Line
+	9000 5750 9000 5850
+Wire Wire Line
+	9000 5100 9000 5450
+Wire Wire Line
+	7600 5100 9850 5100
+Wire Wire Line
+	9450 5800 9000 5800
+Wire Wire Line
+	9450 6000 9300 6000
+Wire Wire Line
+	9300 6000 9300 4900
+Wire Wire Line
+	9300 4900 10450 4900
+Wire Wire Line
+	10450 4900 10450 5900
+Wire Wire Line
+	10250 5900 10700 5900
+Wire Wire Line
+	5350 1400 5950 1400
+Wire Wire Line
+	5700 1400 5700 1000
+Wire Wire Line
+	5700 1000 5950 1000
+Wire Wire Line
+	6550 1500 6950 1500
+Wire Wire Line
+	6750 1500 6750 1000
+Wire Wire Line
+	6750 1000 6250 1000
+Wire Wire Line
+	4800 1050 4900 1050
+Wire Wire Line
+	4900 1050 4900 1700
+Wire Wire Line
+	4800 750  5250 750 
+Wire Wire Line
+	5150 750  5150 900 
+Wire Wire Line
+	1050 6900 1400 6900
+Wire Wire Line
+	4800 850  5450 850 
+Wire Wire Line
+	5350 850  5350 900 
+Wire Wire Line
+	7250 1500 7800 1500
+Wire Wire Line
+	7350 1500 7350 1600
+Wire Wire Line
+	3000 1250 2900 1250
+Wire Wire Line
+	2050 1600 2100 1600
+Wire Wire Line
+	2300 1600 2500 1600
+Wire Wire Line
+	2300 850  2500 850 
+Wire Wire Line
+	2100 850  2050 850 
+Wire Wire Line
+	1500 1300 1500 1050
+Wire Wire Line
+	1500 1650 1500 1600
+Wire Wire Line
+	6150 1200 6150 1150
+Wire Wire Line
+	6150 1150 6200 1150
+Wire Wire Line
+	6150 1800 6150 1850
+Wire Wire Line
+	6150 1850 6200 1850
+Wire Wire Line
+	1400 6900 1400 6950
+Wire Wire Line
+	2100 6900 2450 6900
+Wire Wire Line
+	2450 6900 2450 6950
+Wire Wire Line
+	7750 1050 9150 1050
+Wire Wire Line
+	3000 1150 2900 1150
+Wire Wire Line
+	8200 5300 8550 5300
+Wire Wire Line
+	8550 5300 8550 5450
+Wire Wire Line
+	8550 5750 8550 5850
+Wire Wire Line
+	8550 6150 8550 6300
+Wire Wire Line
+	8550 5800 8750 5800
+Wire Wire Line
+	8750 5800 8750 5400
+Wire Wire Line
+	8750 5400 9450 5400
+Wire Wire Line
+	9450 5600 9350 5600
+Wire Wire Line
+	9350 5600 9350 4950
+Wire Wire Line
+	9350 4950 10400 4950
+Wire Wire Line
+	10400 4950 10400 5500
+Wire Wire Line
+	10250 5500 10700 5500
+Wire Wire Line
+	8250 5300 8250 5400
+Wire Wire Line
+	7650 5100 7650 5200
+Wire Wire Line
+	8750 1250 9150 1250
+Wire Wire Line
+	9050 1250 9050 1550
+Wire Wire Line
+	9050 1550 9150 1550
+Wire Wire Line
+	9050 1450 9150 1450
+Wire Wire Line
+	9050 1350 9150 1350
+Wire Wire Line
+	5950 1600 5800 1600
+Wire Wire Line
+	5800 1600 5800 1700
+Wire Wire Line
+	4900 1700 5000 1700
+Wire Wire Line
+	5050 1400 4900 1400
+Wire Wire Line
+	1950 2500 3000 2500
+Wire Wire Line
+	1950 2900 3000 2900
+Wire Wire Line
+	2050 2800 2050 3050
+Wire Wire Line
+	2050 2300 2050 2600
+Wire Wire Line
+	1250 2500 1650 2500
+Wire Wire Line
+	1650 2900 1650 2700
+Wire Wire Line
+	1650 2700 1250 2700
+Wire Wire Line
+	7350 3300 7350 3250
+Wire Wire Line
+	5350 2850 5950 2850
+Wire Wire Line
+	5700 2850 5700 2450
+Wire Wire Line
+	5700 2450 5950 2450
+Wire Wire Line
+	6550 2950 6950 2950
+Wire Wire Line
+	6750 2950 6750 2450
+Wire Wire Line
+	6750 2450 6250 2450
+Wire Wire Line
+	4800 2500 4900 2500
+Wire Wire Line
+	4900 2500 4900 3150
+Wire Wire Line
+	4800 2200 5250 2200
+Wire Wire Line
+	5150 2200 5150 2350
+Wire Wire Line
+	4800 2300 5450 2300
+Wire Wire Line
+	5350 2300 5350 2350
+Wire Wire Line
+	7250 2950 7800 2950
+Wire Wire Line
+	7350 2950 7350 3050
+Wire Wire Line
+	3000 2700 2900 2700
+Wire Wire Line
+	2050 3050 2100 3050
+Wire Wire Line
+	2300 3050 2500 3050
+Wire Wire Line
+	2300 2300 2500 2300
+Wire Wire Line
+	2100 2300 2050 2300
+Wire Wire Line
+	1500 2750 1500 2500
+Wire Wire Line
+	1500 3100 1500 3050
+Wire Wire Line
+	6150 2650 6150 2600
+Wire Wire Line
+	6150 2600 6200 2600
+Wire Wire Line
+	6150 3250 6150 3300
+Wire Wire Line
+	6150 3300 6200 3300
+Wire Wire Line
+	3000 2600 2900 2600
+Wire Wire Line
+	5950 3050 5800 3050
+Wire Wire Line
+	5800 3050 5800 3150
+Wire Wire Line
+	4900 3150 5000 3150
+Wire Wire Line
+	5050 2850 4900 2850
+Wire Wire Line
+	1950 3950 3000 3950
+Wire Wire Line
+	1950 4350 3000 4350
+Wire Wire Line
+	2050 4250 2050 4500
+Wire Wire Line
+	2050 3750 2050 4050
+Wire Wire Line
+	1250 3950 1650 3950
+Wire Wire Line
+	1650 4350 1650 4150
+Wire Wire Line
+	1650 4150 1250 4150
+Wire Wire Line
+	7350 4750 7350 4700
+Wire Wire Line
+	5350 4300 5950 4300
+Wire Wire Line
+	5700 4300 5700 3900
+Wire Wire Line
+	5700 3900 5950 3900
+Wire Wire Line
+	6550 4400 6950 4400
+Wire Wire Line
+	6750 4400 6750 3900
+Wire Wire Line
+	6750 3900 6250 3900
+Wire Wire Line
+	4800 3950 4900 3950
+Wire Wire Line
+	4900 3950 4900 4600
+Wire Wire Line
+	4800 3650 5250 3650
+Wire Wire Line
+	5150 3650 5150 3800
+Wire Wire Line
+	4800 3750 5450 3750
+Wire Wire Line
+	5350 3750 5350 3800
+Wire Wire Line
+	7250 4400 7925 4400
+Wire Wire Line
+	7350 4400 7350 4500
+Wire Wire Line
+	3000 4150 2900 4150
+Wire Wire Line
+	2050 4500 2100 4500
+Wire Wire Line
+	2300 4500 2500 4500
+Wire Wire Line
+	2300 3750 2500 3750
+Wire Wire Line
+	2100 3750 2050 3750
+Wire Wire Line
+	1500 4200 1500 3950
+Wire Wire Line
+	1500 4550 1500 4500
+Wire Wire Line
+	6150 4100 6150 4050
+Wire Wire Line
+	6150 4050 6200 4050
+Wire Wire Line
+	6150 4700 6150 4750
+Wire Wire Line
+	6150 4750 6200 4750
+Wire Wire Line
+	3000 4050 2900 4050
+Wire Wire Line
+	5950 4500 5800 4500
+Wire Wire Line
+	5800 4500 5800 4600
+Wire Wire Line
+	4900 4600 5000 4600
+Wire Wire Line
+	5050 4300 4900 4300
+Wire Wire Line
+	1950 5400 3000 5400
+Wire Wire Line
+	1950 5800 3000 5800
+Wire Wire Line
+	2050 5700 2050 5950
+Wire Wire Line
+	2050 5200 2050 5500
+Wire Wire Line
+	1250 5400 1650 5400
+Wire Wire Line
+	1650 5800 1650 5600
+Wire Wire Line
+	1650 5600 1250 5600
+Wire Wire Line
+	7350 6200 7350 6150
+Wire Wire Line
+	5350 5750 5950 5750
+Wire Wire Line
+	5700 5750 5700 5350
+Wire Wire Line
+	5700 5350 5950 5350
+Wire Wire Line
+	6550 5850 6950 5850
+Wire Wire Line
+	6750 5850 6750 5350
+Wire Wire Line
+	6750 5350 6250 5350
+Wire Wire Line
+	4800 5400 4900 5400
+Wire Wire Line
+	4900 5400 4900 6050
+Wire Wire Line
+	4800 5100 5250 5100
+Wire Wire Line
+	5150 5100 5150 5250
+Wire Wire Line
+	4800 5200 5450 5200
+Wire Wire Line
+	5350 5200 5350 5250
+Wire Wire Line
+	7250 5850 7600 5850
+Wire Wire Line
+	7350 5850 7350 5950
+Wire Wire Line
+	3000 5600 2900 5600
+Wire Wire Line
+	2050 5950 2100 5950
+Wire Wire Line
+	2300 5950 2500 5950
+Wire Wire Line
+	2300 5200 2500 5200
+Wire Wire Line
+	2100 5200 2050 5200
+Wire Wire Line
+	1500 5650 1500 5400
+Wire Wire Line
+	1500 6000 1500 5950
+Wire Wire Line
+	6150 5550 6150 5500
+Wire Wire Line
+	6150 5500 6975 5500
+Wire Wire Line
+	6150 6150 6150 6250
+Wire Wire Line
+	6150 6200 6200 6200
+Wire Wire Line
+	3000 5500 2900 5500
+Wire Wire Line
+	5950 5950 5800 5950
+Wire Wire Line
+	5800 5950 5800 6050
+Wire Wire Line
+	4900 6050 5000 6050
+Wire Wire Line
+	5050 5750 4900 5750
+Wire Wire Line
+	7800 1500 7800 1750
+Wire Wire Line
+	7800 1750 9150 1750
+Wire Wire Line
+	7800 2950 7800 1850
+Wire Wire Line
+	7800 1850 9150 1850
+Wire Wire Line
+	7925 4400 7925 1950
+Wire Wire Line
+	7925 1950 9150 1950
+Wire Wire Line
+	9150 2050 8750 2050
+Wire Wire Line
+	9150 2250 8750 2250
+Wire Wire Line
+	9150 2350 8750 2350
+Wire Wire Line
+	8750 2550 9150 2550
+Wire Wire Line
+	10550 1050 10700 1050
+Wire Wire Line
+	8850 3400 9325 3400
+Wire Wire Line
+	9050 3400 9050 3475
+Wire Wire Line
+	9325 3400 9325 3475
+Wire Wire Line
+	9050 4475 9050 4400
+Wire Wire Line
+	9050 4400 9325 4400
+Wire Wire Line
+	9050 3775 9050 4100
+Wire Wire Line
+	9050 3975 8775 3975
+Wire Wire Line
+	8775 3875 9325 3875
+Wire Wire Line
+	9325 3775 9325 4100
+Wire Wire Line
+	7950 1375 7950 1325
+Wire Wire Line
+	7950 1125 7950 1050
+Wire Wire Line
+	8250 1325 8250 1375
+Wire Wire Line
+	8250 1050 8250 1125
+Wire Wire Line
+	6850 6250 6850 5500
+Connection ~ 2050 1450
+Connection ~ 2050 1050
+Connection ~ 9000 5100
+Connection ~ 9000 5800
+Connection ~ 10450 5900
+Connection ~ 5700 1400
+Connection ~ 6750 1500
+Connection ~ 7350 1500
+Connection ~ 5150 750 
+Connection ~ 5350 850 
+Connection ~ 1500 1050
+Connection ~ 8550 5800
+Connection ~ 10400 5500
+Connection ~ 8250 5300
+Connection ~ 7650 5100
+Connection ~ 9050 1250
+Connection ~ 9050 1450
+Connection ~ 9050 1350
+Connection ~ 4900 1400
+Connection ~ 2050 2900
+Connection ~ 2050 2500
+Connection ~ 5700 2850
+Connection ~ 6750 2950
+Connection ~ 7350 2950
+Connection ~ 5150 2200
+Connection ~ 5350 2300
+Connection ~ 1500 2500
+Connection ~ 4900 2850
+Connection ~ 2050 4350
+Connection ~ 2050 3950
+Connection ~ 5700 4300
+Connection ~ 6750 4400
+Connection ~ 7350 4400
+Connection ~ 5150 3650
+Connection ~ 5350 3750
+Connection ~ 1500 3950
+Connection ~ 4900 4300
+Connection ~ 2050 5800
+Connection ~ 2050 5400
+Connection ~ 5700 5750
+Connection ~ 6750 5850
+Connection ~ 7350 5850
+Connection ~ 5150 5100
+Connection ~ 5350 5200
+Connection ~ 1500 5400
+Connection ~ 4900 5750
+Connection ~ 9050 3400
+Connection ~ 9050 3975
+Connection ~ 9325 3875
+Connection ~ 7950 1050
+Connection ~ 8250 1050
+Connection ~ 6150 6200
+Connection ~ 6850 5500
+NoConn ~ 3000 1550
+NoConn ~ 3000 3000
+NoConn ~ 3000 4450
+NoConn ~ 3000 5900
+Wire Wire Line
+	5800 4950 5800 4900
+Wire Wire Line
+	2450 7150 2450 7200
+Wire Wire Line
+	1400 7150 1400 7200
+Wire Wire Line
+	5350 2550 5350 2600
+Wire Wire Line
+	5150 2550 5150 2600
+Wire Wire Line
+	8550 6300 9000 6300
+Wire Wire Line
+	9000 6300 9000 6150
+Text HLabel 9675 6350 0    60   Input ~ 0
+-10V
+Wire Wire Line
+	9850 6300 9850 6350
+Wire Wire Line
+	9850 6350 9675 6350
+$EndSCHEMATC

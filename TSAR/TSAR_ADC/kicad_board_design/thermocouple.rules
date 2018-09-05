@@ -1,0 +1,140 @@
+
+(rules PCB thermocouple
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 2181)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 3.0)
+    )
+    (layer_rule In1.Cu
+      (active off)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.8)
+    )
+    (layer_rule In2.Cu
+      (active off)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.2)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 2.6)
+    )
+  )
+  (rule
+    (width 203.2)
+    (clear 152.6)
+    (clear 101.6 (type smd_to_turn_gap))
+    (clear 38.2 (type smd_smd))
+    (clear 127.2 (type Fat_Fat))
+    (clear 127.2 (type Power_Power))
+  )
+  (padstack "Via[0-3]_457.2:254_um"
+    (shape
+      (circle F.Cu 457.2 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 457.2 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 457.2 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 457.2 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_457.2:254_um" "Via[0-3]_457.2:254_um" default
+  )
+  (via 
+    "Via[0-3]_457.2:254_um-kicad_default" "Via[0-3]_457.2:254_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_457.2:254_um-Fat" "Via[0-3]_457.2:254_um" Fat
+  )
+  (via 
+    "Via[0-3]_457.2:254_um-Power" "Via[0-3]_457.2:254_um" Power
+  )
+  (via_rule
+    default "Via[0-3]_457.2:254_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_457.2:254_um-kicad_default"
+  )
+  (via_rule
+    Fat "Via[0-3]_457.2:254_um-Fat"
+  )
+  (via_rule
+    Power "Via[0-3]_457.2:254_um-Power"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 203.2)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "/power/-10V" /power/+10V GND "Net-(C2-Pad1)" "Net-(C3-Pad1)" "Net-(C4-Pad1)" "Net-(C4-Pad2)" "Net-(C5-Pad1)"
+    /power/+12V /power/+5V "Net-(C11-Pad1)" "Net-(C11-Pad2)" "Net-(C12-Pad1)" "Net-(C12-Pad2)" "Net-(C13-Pad1)" "Net-(C13-Pad2)"
+    "Net-(C14-Pad1)" "Net-(C14-Pad2)" "Net-(C34-Pad1)" "Net-(C35-Pad1)" "Net-(C36-Pad1)" "/thermocouple_ckt/CH4" "Net-(P1-Pad3)" "Net-(P1-Pad4)"
+    "Net-(P1-Pad5)" "/pressure_ckt/SDA" "Net-(P1-Pad7)" "/pressure_ckt/SCL" "Net-(P1-Pad9)" "Net-(P1-Pad10)" "Net-(P1-Pad11)" "Net-(P1-Pad12)"
+    "Net-(P1-Pad13)" "/thermocouple_ckt/TC_1+" "/thermocouple_ckt/TC_1-" "/thermocouple_ckt/TC_2+" "/thermocouple_ckt/TC_2-" "/thermocouple_ckt/TC_3+" "/thermocouple_ckt/TC_3-" "/thermocouple_ckt/TC_4+"
+    "/thermocouple_ckt/TC_4-" "/pressure_ckt/DiffChan_1+" "/pressure_ckt/DiffChan_1-" "/pressure_ckt/DiffChan_2+" "/pressure_ckt/DiffChan_2-" "/pressure_ckt/DiffChan_3+" "/pressure_ckt/DiffChan_3-" "/pressure_ckt/DiffChan_4+"
+    "/pressure_ckt/DiffChan_4-" "Net-(R1-Pad2)" "Net-(R3-Pad1)" "Net-(R4-Pad2)" "Net-(R18-Pad1)" "/thermocouple_ckt/TCA_1" "Net-(R19-Pad1)" "/thermocouple_ckt/TCA_2"
+    "Net-(R20-Pad1)" "/thermocouple_ckt/TCA_3" "Net-(R21-Pad1)" "/thermocouple_ckt/TCA_4" "Net-(R22-Pad1)" "Net-(R23-Pad1)" "Net-(R24-Pad1)" "Net-(R25-Pad1)"
+    "Net-(R26-Pad1)" "Net-(R27-Pad1)" "Net-(R28-Pad1)" "Net-(R29-Pad1)" "Net-(R34-Pad2)" "Net-(R36-Pad2)" "/thermocouple_ckt/ADR1" "/thermocouple_ckt/ADR0"
+    "Net-(R42-Pad2)" "Net-(R48-Pad2)" "Net-(R50-Pad2)" "Net-(R52-Pad2)" "/pressure_ckt/ADR1" "Net-(R55-Pad2)" "/pressure_ckt/ADR0" "Net-(R58-Pad2)"
+    "Net-(U1-Pad8)" "Net-(U1-Pad9)" "/thermocouple_ckt/VOff" "Net-(U3-Pad4)" "Net-(U4-Pad4)" "Net-(U5-Pad4)" "Net-(U6-Pad4)" "/thermocouple_ckt/TC_Ref"
+    "Net-(P1-Pad14)" "Net-(P1-Pad15)" "Net-(P1-Pad16)" "Net-(P1-Pad17)" "Net-(P1-Pad18)" "Net-(P1-Pad20)" "Net-(P1-Pad22)" "Net-(P1-Pad23)"
+    "Net-(P1-Pad24)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 203.2)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class Fat
+    (clearance_class Fat)
+    (via_rule Fat)
+    (rule
+      (width 762.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class Power
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 381.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+)
