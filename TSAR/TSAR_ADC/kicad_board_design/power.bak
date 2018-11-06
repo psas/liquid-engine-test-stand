@@ -448,7 +448,7 @@ F 9 "-" H 3200 0   50  0001 C CNN "SPURL"
 $EndComp
 Text Notes 7275 2350 0    60   ~ 0
 V_LDO = 1.2V*(221+30.1)/30.1 = 10.01V
-Text HLabel 1475 2150 0    60   Input ~ 0
+Text HLabel 1125 2150 0    60   Input ~ 0
 +12V
 Text HLabel 10350 3200 2    60   Output ~ 0
 +10V
@@ -456,20 +456,18 @@ Text HLabel 10350 5550 2    60   Output ~ 0
 -10V
 Text HLabel 10350 4225 2    60   Output ~ 0
 +5V
-Text HLabel 1475 2525 0    60   Input ~ 0
+Text HLabel 1125 2525 0    60   Input ~ 0
 GND
 Wire Wire Line
 	2825 2700 3875 2700
 Wire Wire Line
-	1475 2150 7125 2150
+	1125 2150 7125 2150
 Wire Wire Line
 	7125 3100 6275 3100
 Wire Wire Line
 	7125 2150 7125 3850
 Wire Wire Line
 	6275 3300 7125 3300
-Wire Wire Line
-	7125 3300 7125 3350
 Wire Wire Line
 	7125 4050 7125 4200
 Wire Wire Line
@@ -569,12 +567,12 @@ Wire Wire Line
 Wire Wire Line
 	9900 4325 9900 4225
 Wire Wire Line
-	1475 2525 1650 2525
+	1125 2525 1650 2525
 Wire Wire Line
 	1650 2500 1650 2575
 Connection ~ 2825 2150
 Connection ~ 7125 3100
-Connection ~ 7125 3350
+Connection ~ 7125 3300
 Connection ~ 7725 3000
 Connection ~ 2375 3400
 Connection ~ 2825 4200
@@ -609,4 +607,42 @@ $EndComp
 Wire Wire Line
 	1650 2075 1650 2150
 Connection ~ 1650 2150
+Connection ~ 2375 3000
+Text Notes 625  1850 0    60   ~ 0
+Input DC Power
+Text Notes 10125 3000 0    60   ~ 0
+Output DC Power
+Wire Notes Line
+	750  1950 750  2750
+Wire Notes Line
+	750  2750 1225 2750
+Wire Notes Line
+	1225 2750 1225 1950
+Wire Notes Line
+	1225 1950 750  1950
+$Comp
+L GND #PWR?
+U 1 1 5BDF5727
+P 9975 5850
+F 0 "#PWR?" H 9975 5600 50  0001 C CNN
+F 1 "GND" H 9975 5700 50  0000 C CNN
+F 2 "" H 9975 5850 50  0000 C CNN
+F 3 "" H 9975 5850 50  0000 C CNN
+	1    9975 5850
+	1    0    0    -1  
+$EndComp
+Text HLabel 10350 5800 2    60   Output ~ 0
+GND
+Wire Wire Line
+	9975 5850 9975 5800
+Wire Wire Line
+	9975 5800 10350 5800
+Wire Notes Line
+	10275 5950 10750 5950
+Wire Notes Line
+	10275 5950 10275 3075
+Wire Notes Line
+	10275 3075 10750 3075
+Wire Notes Line
+	10750 3075 10750 5950
 $EndSCHEMATC

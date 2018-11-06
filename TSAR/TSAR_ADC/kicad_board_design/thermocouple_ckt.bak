@@ -734,29 +734,29 @@ $EndComp
 $Comp
 L GND #PWR051
 U 1 1 5B7B305C
-P 9050 4475
-F 0 "#PWR051" H 9050 4225 50  0001 C CNN
-F 1 "GND" H 9050 4325 50  0000 C CNN
-F 2 "" H 9050 4475 50  0000 C CNN
-F 3 "" H 9050 4475 50  0000 C CNN
-	1    9050 4475
+P 8550 4475
+F 0 "#PWR051" H 8550 4225 50  0001 C CNN
+F 1 "GND" H 8550 4325 50  0000 C CNN
+F 2 "" H 8550 4475 50  0000 C CNN
+F 3 "" H 8550 4475 50  0000 C CNN
+	1    8550 4475
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R38
 U 1 1 5B7B390D
-P 9050 3625
-F 0 "R38" V 9130 3625 50  0000 C CNN
-F 1 "0" V 8975 3625 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8905 3625 50  0001 C CNN
-F 3 "" H 8975 3625 50  0001 C CNN
-F 4 "ERJ-6GEY0R00V" V 9050 3625 60  0001 C CNN "MPN"
-F 5 "Panasonic" V 9050 3625 60  0001 C CNN "MFN"
-F 6 "Digikey" V 9050 3625 60  0001 C CNN "SPR"
-F 7 "P0.0ACT-ND" V 9050 3625 60  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "MFR"
-F 9 "-" H 0   0   50  0001 C CNN "SPURL"
-	1    9050 3625
+P 8550 3625
+F 0 "R38" V 8630 3625 50  0000 C CNN
+F 1 "0" V 8475 3625 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8405 3625 50  0001 C CNN
+F 3 "" H 8475 3625 50  0001 C CNN
+F 4 "ERJ-6GEY0R00V" V 8550 3625 60  0001 C CNN "MPN"
+F 5 "Panasonic" V 8550 3625 60  0001 C CNN "MFN"
+F 6 "Digikey" V 8550 3625 60  0001 C CNN "SPR"
+F 7 "P0.0ACT-ND" V 8550 3625 60  0001 C CNN "SPN"
+F 8 "-" H -500 0   50  0001 C CNN "MFR"
+F 9 "-" H -500 0   50  0001 C CNN "SPURL"
+	1    8550 3625
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1436,52 +1436,52 @@ $EndComp
 $Comp
 L R R40
 U 1 1 5B8BAB5C
-P 9325 3625
-F 0 "R40" V 9405 3625 50  0000 C CNN
-F 1 "0" V 9250 3625 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9180 3625 50  0001 C CNN
-F 3 "" H 9250 3625 50  0001 C CNN
-F 4 "ERJ-6GEY0R00V" V 9325 3625 60  0001 C CNN "MPN"
-F 5 "Panasonic" V 9325 3625 60  0001 C CNN "MFN"
-F 6 "Digikey" V 9325 3625 60  0001 C CNN "SPR"
-F 7 "P0.0ACT-ND" V 9325 3625 60  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "MFR"
-F 9 "-" H 0   0   50  0001 C CNN "SPURL"
-	1    9325 3625
+P 8825 3625
+F 0 "R40" V 8905 3625 50  0000 C CNN
+F 1 "0" V 8750 3625 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8680 3625 50  0001 C CNN
+F 3 "" H 8750 3625 50  0001 C CNN
+F 4 "ERJ-6GEY0R00V" V 8825 3625 60  0001 C CNN "MPN"
+F 5 "Panasonic" V 8825 3625 60  0001 C CNN "MFN"
+F 6 "Digikey" V 8825 3625 60  0001 C CNN "SPR"
+F 7 "P0.0ACT-ND" V 8825 3625 60  0001 C CNN "SPN"
+F 8 "-" H -500 0   50  0001 C CNN "MFR"
+F 9 "-" H -500 0   50  0001 C CNN "SPURL"
+	1    8825 3625
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R41
 U 1 1 5B8BAC6A
-P 9325 4250
-F 0 "R41" V 9405 4250 50  0000 C CNN
-F 1 "0" V 9250 4250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9180 4250 50  0001 C CNN
-F 3 "" H 9250 4250 50  0001 C CNN
-F 4 "ERJ-6GEY0R00V" V 9325 4250 60  0001 C CNN "MPN"
-F 5 "Panasonic" V 9325 4250 60  0001 C CNN "MFN"
-F 6 "Digikey" V 9325 4250 60  0001 C CNN "SPR"
-F 7 "P0.0ACT-ND" V 9325 4250 60  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "MFR"
-F 9 "-" H 0   0   50  0001 C CNN "SPURL"
-	1    9325 4250
+P 8825 4250
+F 0 "R41" V 8905 4250 50  0000 C CNN
+F 1 "0" V 8750 4250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8680 4250 50  0001 C CNN
+F 3 "" H 8750 4250 50  0001 C CNN
+F 4 "ERJ-6GEY0R00V" V 8825 4250 60  0001 C CNN "MPN"
+F 5 "Panasonic" V 8825 4250 60  0001 C CNN "MFN"
+F 6 "Digikey" V 8825 4250 60  0001 C CNN "SPR"
+F 7 "P0.0ACT-ND" V 8825 4250 60  0001 C CNN "SPN"
+F 8 "-" H -500 0   50  0001 C CNN "MFR"
+F 9 "-" H -500 0   50  0001 C CNN "SPURL"
+	1    8825 4250
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R39
 U 1 1 5B8BADA5
-P 9050 4250
-F 0 "R39" V 9130 4250 50  0000 C CNN
-F 1 "0" V 8975 4250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8905 4250 50  0001 C CNN
-F 3 "" H 8975 4250 50  0001 C CNN
-F 4 "ERJ-6GEY0R00V" V 9050 4250 60  0001 C CNN "MPN"
-F 5 "Panasonic" V 9050 4250 60  0001 C CNN "MFN"
-F 6 "Digikey" V 9050 4250 60  0001 C CNN "SPR"
-F 7 "P0.0ACT-ND" V 9050 4250 60  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "MFR"
-F 9 "-" H 0   0   50  0001 C CNN "SPURL"
-	1    9050 4250
+P 8550 4250
+F 0 "R39" V 8630 4250 50  0000 C CNN
+F 1 "0" V 8475 4250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8405 4250 50  0001 C CNN
+F 3 "" H 8475 4250 50  0001 C CNN
+F 4 "ERJ-6GEY0R00V" V 8550 4250 60  0001 C CNN "MPN"
+F 5 "Panasonic" V 8550 4250 60  0001 C CNN "MFN"
+F 6 "Digikey" V 8550 4250 60  0001 C CNN "SPR"
+F 7 "P0.0ACT-ND" V 8550 4250 60  0001 C CNN "SPN"
+F 8 "-" H -500 0   50  0001 C CNN "MFR"
+F 9 "-" H -500 0   50  0001 C CNN "SPURL"
+	1    8550 4250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1864,7 +1864,7 @@ Text HLabel 7600 5100 0    60   Input ~ 0
 +10V
 Text Label 5000 1700 0    60   ~ 0
 TCA_1
-Text Label 2900 1250 2    60   ~ 0
+Text Label 2500 1350 2    60   ~ 0
 TCA_1
 Text HLabel 6200 1850 2    60   Input ~ 0
 -10V
@@ -1882,7 +1882,7 @@ Text HLabel 2100 6900 0    60   Input ~ 0
 -10V
 Text HLabel 7750 1050 0    60   Input ~ 0
 +5V
-Text Label 2900 1150 2    60   ~ 0
+Text Label 2500 1200 2    60   ~ 0
 VOff
 Text HLabel 8200 5300 0    60   Input ~ 0
 -10V
@@ -1940,10 +1940,10 @@ Text HLabel 1250 5600 0    60   Input ~ 0
 TC_4+
 Text Label 2900 5500 2    60   ~ 0
 VOff
-Text Notes 11100 5350 2    60   ~ 0
-approx.\n    -6.637V
-Text Notes 11150 6150 2    60   ~ 0
-approx. \n1.867V
+Text Notes 2975 1175 2    60   ~ 0
+-6.637 V
+Text Notes 8975 1375 2    60   ~ 0
+1.867V
 Text Label 8750 2050 2    60   ~ 0
 CH4
 Text HLabel 8750 2550 0    60   Input ~ 0
@@ -1964,11 +1964,11 @@ Text Label 8750 2250 2    60   ~ 0
 ADR0
 Text Label 8750 2350 2    60   ~ 0
 ADR1
-Text Label 8775 3875 2    60   ~ 0
+Text Label 9150 3875 0    60   ~ 0
 ADR0
-Text Label 8775 3975 2    60   ~ 0
+Text Label 9150 3975 0    60   ~ 0
 ADR1
-Text HLabel 8850 3400 0    60   Input ~ 0
+Text HLabel 8350 3400 0    60   Input ~ 0
 +5V
 Wire Wire Line
 	1950 1050 3000 1050
@@ -2039,8 +2039,6 @@ Wire Wire Line
 Wire Wire Line
 	7350 1500 7350 1600
 Wire Wire Line
-	3000 1250 2900 1250
-Wire Wire Line
 	2050 1600 2100 1600
 Wire Wire Line
 	2300 1600 2500 1600
@@ -2068,8 +2066,6 @@ Wire Wire Line
 	2450 6900 2450 6950
 Wire Wire Line
 	7750 1050 9150 1050
-Wire Wire Line
-	3000 1150 2900 1150
 Wire Wire Line
 	8200 5300 8550 5300
 Wire Wire Line
@@ -2367,23 +2363,19 @@ Wire Wire Line
 Wire Wire Line
 	10550 1050 10700 1050
 Wire Wire Line
-	8850 3400 9325 3400
+	8350 3400 8825 3400
 Wire Wire Line
-	9050 3400 9050 3475
+	8550 3400 8550 3475
 Wire Wire Line
-	9325 3400 9325 3475
+	8825 3400 8825 3475
 Wire Wire Line
-	9050 4475 9050 4400
+	8550 4475 8550 4400
 Wire Wire Line
-	9050 4400 9325 4400
+	8550 4400 8825 4400
 Wire Wire Line
-	9050 3775 9050 4100
+	8550 3775 8550 4100
 Wire Wire Line
-	9050 3975 8775 3975
-Wire Wire Line
-	8775 3875 9325 3875
-Wire Wire Line
-	9325 3775 9325 4100
+	8825 3775 8825 4100
 Wire Wire Line
 	7950 1375 7950 1325
 Wire Wire Line
@@ -2440,9 +2432,9 @@ Connection ~ 5150 5100
 Connection ~ 5350 5200
 Connection ~ 1500 5400
 Connection ~ 4900 5750
-Connection ~ 9050 3400
-Connection ~ 9050 3975
-Connection ~ 9325 3875
+Connection ~ 8550 3400
+Connection ~ 8550 3975
+Connection ~ 8825 3875
 Connection ~ 7950 1050
 Connection ~ 8250 1050
 Connection ~ 6150 6200
@@ -2471,4 +2463,34 @@ Wire Wire Line
 	9850 6300 9850 6350
 Wire Wire Line
 	9850 6350 9675 6350
+Text Notes 3550 1775 0    60   ~ 0
+response of\ninternal gain/offset:\n\ntemp deg C    volts\n    -260    -.786 V\n    1340     6.587 V
+Text Notes 2975 6700 0    99   ~ 0
+Type K Thermocouple Amps\n  (4 identical channels)
+Text Notes 5925 850  0    60   ~ 0
+Gain = -0.5
+Text Notes 4700 1925 0    60   ~ 0
+-260:  -7.423 V\n1340:  -.050 V
+Text Notes 6825 1325 0    60   ~ 0
+-260:  3.712\n1340:  0.025
+Wire Wire Line
+	3000 1250 2975 1250
+Wire Wire Line
+	2975 1250 2975 1350
+Wire Wire Line
+	2975 1350 2500 1350
+Wire Wire Line
+	3000 1150 2975 1150
+Wire Wire Line
+	2975 1150 2975 1200
+Wire Wire Line
+	2975 1200 2500 1200
+Text Notes 9625 4350 0    60   ~ 0
+ I2C\nADDR  R38  R39  R40  R41\n   0          x           x\n   1                      x\n   2    x                 x\n   3          x\n   4          x     x\n   5                x\n   6    x           x\n   7    x             
+Wire Notes Line
+	9600 3575 11000 3575
+Wire Wire Line
+	8825 3875 9150 3875
+Wire Wire Line
+	8550 3975 9150 3975
 $EndSCHEMATC
