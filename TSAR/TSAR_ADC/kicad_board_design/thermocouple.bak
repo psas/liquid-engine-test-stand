@@ -371,8 +371,8 @@ NoConn ~ 9450 3900
 NoConn ~ 9450 3300
 NoConn ~ 9450 3400
 NoConn ~ 9450 4000
-Text Notes 1775 5400 0    60   ~ 0
-input from battery
+Text Notes 1525 4650 0    60   ~ 0
+input from battery\n(via stacking connector):\n12V nominal\nmin: 11.6V  max: 27.6V
 Text Notes 10475 2925 0    60   ~ 0
 Type K\nThermocouple\nInputs
 Text Notes 10500 4550 0    60   ~ 0
