@@ -1,5 +1,6 @@
 .ipynb_checkpoints/*
-diffuser/*
+pressure-reservoir
+diffuser
 Thumbs.db
 Scratch/
 igniter/.ipynb_checkpoints/*
