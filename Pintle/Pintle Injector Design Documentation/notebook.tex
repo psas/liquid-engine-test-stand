@@ -1,0 +1,766 @@
+
+% Default to the notebook output style
+
+    
+
+
+% Inherit from the specified cell style.
+
+
+
+
+    
+\documentclass[11pt]{article}
+
+    
+    
+    \usepackage[T1]{fontenc}
+    % Nicer default font (+ math font) than Computer Modern for most use cases
+    \usepackage{mathpazo}
+
+    % Basic figure setup, for now with no caption control since it's done
+    % automatically by Pandoc (which extracts ![](path) syntax from Markdown).
+    \usepackage{graphicx}
+    % We will generate all images so they have a width \maxwidth. This means
+    % that they will get their normal width if they fit onto the page, but
+    % are scaled down if they would overflow the margins.
+    \makeatletter
+    \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+    \else\Gin@nat@width\fi}
+    \makeatother
+    \let\Oldincludegraphics\includegraphics
+    % Set max figure width to be 80% of text width, for now hardcoded.
+    \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=.8\maxwidth]{#1}}
+    % Ensure that by default, figures have no caption (until we provide a
+    % proper Figure object with a Caption API and a way to capture that
+    % in the conversion process - todo).
+    \usepackage{caption}
+    \DeclareCaptionLabelFormat{nolabel}{}
+    \captionsetup{labelformat=nolabel}
+
+    \usepackage{adjustbox} % Used to constrain images to a maximum size 
+    \usepackage{xcolor} % Allow colors to be defined
+    \usepackage{enumerate} % Needed for markdown enumerations to work
+    \usepackage{geometry} % Used to adjust the document margins
+    \usepackage{amsmath} % Equations
+    \usepackage{amssymb} % Equations
+    \usepackage{textcomp} % defines textquotesingle
+    % Hack from http://tex.stackexchange.com/a/47451/13684:
+    \AtBeginDocument{%
+        \def\PYZsq{\textquotesingle}% Upright quotes in Pygmentized code
+    }
+    \usepackage{upquote} % Upright quotes for verbatim code
+    \usepackage{eurosym} % defines \euro
+    \usepackage[mathletters]{ucs} % Extended unicode (utf-8) support
+    \usepackage[utf8x]{inputenc} % Allow utf-8 characters in the tex document
+    \usepackage{fancyvrb} % verbatim replacement that allows latex
+    \usepackage{grffile} % extends the file name processing of package graphics 
+                         % to support a larger range 
+    % The hyperref package gives us a pdf with properly built
+    % internal navigation ('pdf bookmarks' for the table of contents,
+    % internal cross-reference links, web links for URLs, etc.)
+    \usepackage{hyperref}
+    \usepackage{longtable} % longtable support required by pandoc >1.10
+    \usepackage{booktabs}  % table support for pandoc > 1.12.2
+    \usepackage[inline]{enumitem} % IRkernel/repr support (it uses the enumerate* environment)
+    \usepackage[normalem]{ulem} % ulem is needed to support strikethroughs (\sout)
+                                % normalem makes italics be italics, not underlines
+    
+
+    
+    
+    % Colors for the hyperref package
+    \definecolor{urlcolor}{rgb}{0,.145,.698}
+    \definecolor{linkcolor}{rgb}{.71,0.21,0.01}
+    \definecolor{citecolor}{rgb}{.12,.54,.11}
+
+    % ANSI colors
+    \definecolor{ansi-black}{HTML}{3E424D}
+    \definecolor{ansi-black-intense}{HTML}{282C36}
+    \definecolor{ansi-red}{HTML}{E75C58}
+    \definecolor{ansi-red-intense}{HTML}{B22B31}
+    \definecolor{ansi-green}{HTML}{00A250}
+    \definecolor{ansi-green-intense}{HTML}{007427}
+    \definecolor{ansi-yellow}{HTML}{DDB62B}
+    \definecolor{ansi-yellow-intense}{HTML}{B27D12}
+    \definecolor{ansi-blue}{HTML}{208FFB}
+    \definecolor{ansi-blue-intense}{HTML}{0065CA}
+    \definecolor{ansi-magenta}{HTML}{D160C4}
+    \definecolor{ansi-magenta-intense}{HTML}{A03196}
+    \definecolor{ansi-cyan}{HTML}{60C6C8}
+    \definecolor{ansi-cyan-intense}{HTML}{258F8F}
+    \definecolor{ansi-white}{HTML}{C5C1B4}
+    \definecolor{ansi-white-intense}{HTML}{A1A6B2}
+
+    % commands and environments needed by pandoc snippets
+    % extracted from the output of `pandoc -s`
+    \providecommand{\tightlist}{%
+      \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+    \DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+    % Add ',fontsize=\small' for more characters per line
+    \newenvironment{Shaded}{}{}
+    \newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#1}}}
+    \newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{{#1}}}}
+    \newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#1}}}
+    \newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#1}}}
+    \newcommand{\RegionMarkerTok}[1]{{#1}}
+    \newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\NormalTok}[1]{{#1}}
+    
+    % Additional commands for more recent versions of Pandoc
+    \newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{{#1}}}
+    \newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{{#1}}}
+    \newcommand{\ImportTok}[1]{{#1}}
+    \newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{{#1}}}}
+    \newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{{#1}}}
+    \newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{{#1}}}
+    \newcommand{\BuiltInTok}[1]{{#1}}
+    \newcommand{\ExtensionTok}[1]{{#1}}
+    \newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{{#1}}}
+    \newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{{#1}}}
+    \newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    
+    
+    % Define a nice break command that doesn't care if a line doesn't already
+    % exist.
+    \def\br{\hspace*{\fill} \\* }
+    % Math Jax compatability definitions
+    \def\gt{>}
+    \def\lt{<}
+    % Document parameters
+    \title{00 - Pintle Injector Theory, Design, and Testing}
+    
+    
+    
+
+    % Pygments definitions
+    
+\makeatletter
+\def\PY@reset{\let\PY@it=\relax \let\PY@bf=\relax%
+    \let\PY@ul=\relax \let\PY@tc=\relax%
+    \let\PY@bc=\relax \let\PY@ff=\relax}
+\def\PY@tok#1{\csname PY@tok@#1\endcsname}
+\def\PY@toks#1+{\ifx\relax#1\empty\else%
+    \PY@tok{#1}\expandafter\PY@toks\fi}
+\def\PY@do#1{\PY@bc{\PY@tc{\PY@ul{%
+    \PY@it{\PY@bf{\PY@ff{#1}}}}}}}
+\def\PY#1#2{\PY@reset\PY@toks#1+\relax+\PY@do{#2}}
+
+\expandafter\def\csname PY@tok@w\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.73,0.73}{##1}}}
+\expandafter\def\csname PY@tok@c\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.74,0.48,0.00}{##1}}}
+\expandafter\def\csname PY@tok@k\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.69,0.00,0.25}{##1}}}
+\expandafter\def\csname PY@tok@o\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ow\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@ne\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.82,0.25,0.23}{##1}}}
+\expandafter\def\csname PY@tok@nv\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@no\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ni\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.60,0.60,0.60}{##1}}}
+\expandafter\def\csname PY@tok@na\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.49,0.56,0.16}{##1}}}
+\expandafter\def\csname PY@tok@nt\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@s\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sd\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@si\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@se\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sr\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@ss\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sx\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@m\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@gh\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gu\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.50,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gr\endcsname{\def\PY@tc##1{\textcolor[rgb]{1.00,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ge\endcsname{\let\PY@it=\textit}
+\expandafter\def\csname PY@tok@gs\endcsname{\let\PY@bf=\textbf}
+\expandafter\def\csname PY@tok@gp\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@go\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.53,0.53}{##1}}}
+\expandafter\def\csname PY@tok@gt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.27,0.87}{##1}}}
+\expandafter\def\csname PY@tok@err\endcsname{\def\PY@bc##1{\setlength{\fboxsep}{0pt}\fcolorbox[rgb]{1.00,0.00,0.00}{1,1,1}{\strut ##1}}}
+\expandafter\def\csname PY@tok@kc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kd\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kr\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@bp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@fm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@vc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vg\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sa\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@dl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@s2\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@s1\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@mb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@il\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mo\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ch\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cm\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cpf\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@c1\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cs\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+
+\def\PYZbs{\char`\\}
+\def\PYZus{\char`\_}
+\def\PYZob{\char`\{}
+\def\PYZcb{\char`\}}
+\def\PYZca{\char`\^}
+\def\PYZam{\char`\&}
+\def\PYZlt{\char`\<}
+\def\PYZgt{\char`\>}
+\def\PYZsh{\char`\#}
+\def\PYZpc{\char`\%}
+\def\PYZdl{\char`\$}
+\def\PYZhy{\char`\-}
+\def\PYZsq{\char`\'}
+\def\PYZdq{\char`\"}
+\def\PYZti{\char`\~}
+% for compatibility with earlier versions
+\def\PYZat{@}
+\def\PYZlb{[}
+\def\PYZrb{]}
+\makeatother
+
+
+    % Exact colors from NB
+    \definecolor{incolor}{rgb}{0.0, 0.0, 0.5}
+    \definecolor{outcolor}{rgb}{0.545, 0.0, 0.0}
+
+
+
+    
+    % Prevent overflowing lines due to hard-to-break entities
+    \sloppy 
+    % Setup hyperref package
+    \hypersetup{
+      breaklinks=true,  % so long urls are correctly broken across lines
+      colorlinks=true,
+      urlcolor=urlcolor,
+      linkcolor=linkcolor,
+      citecolor=citecolor,
+      }
+    % Slightly bigger margins than the latex defaults
+    
+    \geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+    
+    
+
+    \begin{document}
+    
+    
+    \maketitle
+    
+    
+
+    
+    \section{Introduction}\label{introduction}
+
+\begin{itemize}
+\tightlist
+\item
+  When deciding to begin exploring liquid propellant rocket engines,
+  PSAS decided to opt for a pintle type injector.
+\item
+  several reasons for this:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    combustion stability
+  \item
+    throttling
+  \item
+    apparent ease of design
+  \end{itemize}
+\item
+  Pintle injectors can be a good fit for small rocket motors, they have
+  a number of challenges in both design and manufacture.
+\end{itemize}
+
+The Portland State Aerospace Society is in the process of testing its
+\(2.2kN\) (\(500 lb_f\)) regeneratively cooled bi-propellant rocket
+motor. One of the critical steps prior to hot firing the motor is the
+testing and validating of the propellant injector. For this motor, a
+pintle style injector was selected and an aluminum test article was
+machined according to the designs provided by the 2015 Capstone team.
+
+\subsection{PSAS's first bi-prop engine
+attempt}\label{psass-first-bi-prop-engine-attempt}
+
+The 2015 engine was designed to employ a liquid oxygen (LOX) centered
+pintle design. In this design, LOX flows through the center of the
+pintle and is sprayed outward in a radial pattern. The fuel enters a
+chamber surrounding the base of the pintle and enters the engine through
+the annular gap between the outer radius of the pintle and the engine.
+(See Figures 1 \& 2) Inside of the combustion chamber, the two
+propellants impinge upon each other at right angles. This, ideally,
+results in a cone shaped spray of well mixed fuel and oxidizer.
+
+\begin{quote}
+Figure 1: Cross section of 2.2 kN engine. Fuel flow path shown in red,
+LOX flow path shown in green.
+\end{quote}
+
+\begin{quote}
+Figure 2: cross section view of genaric pintle V1 \& V2 geometry.
+\end{quote}
+
+    \section{Background}\label{background}
+
+\subsection{Relevant history of the
+pintle}\label{relevant-history-of-the-pintle}
+
+\begin{itemize}
+\tightlist
+\item
+  used in
+
+  \begin{itemize}
+  \item
+    lunar decent module
+  \item
+    SpaceX Merlin Engine
+  \item
+  \end{itemize}
+\item
+  Not much published information with specifics on design, but some
+  clues about the important parameters involved.
+\end{itemize}
+
+    \section{Theory}\label{theory}
+
+\subsection{Operational Theory}\label{operational-theory}
+
+The pintle injector serves two primary purposes in the engine. First, it
+delivers the fuel and the oxidizer to the combustion chamber at the
+correct mass flow rate and pressure. Secondly it mixes the propellants
+and promotes proper combustion.
+
+In practice, the mass flow rate through the injector is controlled by
+the input pressure for the fuel and oxidizer upstream of the injector.
+Ideally, the injector will have a pressure drop of between 15 and 25 \%
+of the engine's chamber pressure.
+
+\begin{quote}
+This drop isolates chamber-pressure oscilations from the feed system,
+reducing pressure coupling between the combustion chamber and the feed
+system which could lead to instabilities or oscillations in the flow
+that are driven by various in combustion. {[}1{]}
+\end{quote}
+
+For pintle injectors, this pressure drop can potentially go as low as
+5\% {[}1{]}. Until PSAS has built some heritage with our pintle designs,
+it is recommended that the 15-25\% range be aimed for.
+
+According to some of the available research on pintle injectors, the
+optimum propellant spray angle is \(45^\circ\). {[}2{]}
+
+\begin{quote}
+Figure 3: Side view of spray angle test for V1 pintle.
+\end{quote}
+
+\subsection{Key design Equations}\label{key-design-equations}
+
+\subsubsection{Pressure loss
+coefficient}\label{pressure-loss-coefficient}
+
+The pressure loss coefficient is a key parameter in the design of
+injectors. With the pressure loss coefficient known, it is possible to
+determine the mass flow rate of each propellant through the injector by
+measuring the pressure directly upstream of the injector and in the
+chamber.
+
+The governing equations employed for the first approximations in this
+design were:
+
+Mass flow rate:
+
+\begin{equation}
+ \dot{m} = \rho VA
+\label{eq:massflow}
+\tag{1}
+\end{equation}
+
+Where;
+
+\(\dot{m} =\) Mass Flow Rate (from flow meter)
+
+\$\rho = \$ Density of working fluid
+
+\$V = \$ Mean fluid velocity
+
+\$A = \$ Flow area
+
+Given that high Reynolds numbers are expected, it is being assumed that
+the pressure losses will be dominated by the inertial effects, rather
+than viscous effects.
+
+With this assumption, the energy equation can have the elevation,
+velocity, and head loss due to friction neglected, which leaves:
+
+\begin{equation}
+P_1-P_2 = K_{L}\frac{\rho V_2^2}{2}
+\label{eq:energy}
+\tag{2}
+\end{equation}
+
+Where;
+
+\$K\_L = \$ Pressure Loss coefficient\\
+\(P_1-P_2 =\) Pressure drop
+
+Equation 1 and 2 can be combined by substituting
+\(V = \frac{\dot{m}}{\rho A}\) and rearranging to give;
+
+\begin{equation}
+\dot{m} = AC_d \sqrt{2\rho(\Delta P)}
+\label{eq:massflow+cd}
+\tag{3}
+\end{equation}
+
+which can be rewritten as;
+
+\begin{equation}
+C_d = \frac{\dot{m}}{A \sqrt{2\rho(\Delta P)}}
+\label{eq:Cd}
+\tag{4}
+\end{equation}
+
+Where;
+
+\$C\_D = \$ Coefficient of discharge for Pintle and Annulus
+
+\(A =\) Flow area(s) of Pintle or Annulus
+
+\(\dot{m} =\) Mass Flow Rate (from flow meter)
+
+\(\Delta P =\) Pressure upstream of Pintle or Annulus (gauge) -
+atmospheric pressure (0 psi)
+
+\$\rho = \$ Density of water (calculate based on temperature)
+
+For the purposes of this loss coefficient, the area being used will be
+the exit area of the injector.
+
+Many references, but not all, use \(C_D\) for the loss coefficient for
+injectors as shown in equation \ref{eq:Cd}. As a matter of preference,
+the loss coefficient equations used within the jupyter notebook codes
+developed on this project have used the following form of the loss
+coefficient equations:
+
+\begin{equation}
+K_L = \frac{2\Delta P}{\rho \big(\frac{\dot{m}}{\rho A}\big)^2}
+\label{eq:Kl}
+\tag{7}
+\end{equation}
+
+or
+
+\begin{equation}
+K_L = \frac{2\Delta P}{\rho V^2}
+\label{eq:Kl alt}
+\tag{8}
+\end{equation}
+
+where; \$ K\_L = \frac{1}{\sqrt{C_d}}\$
+
+Equation \ref{eq:Kl} shows that in order to empirically determine
+\(K_L\), one must know the exit area(s) of the injector, the mass flow
+rate and the corresponding pressure drop.
+
+The exit orifices can be precisely measured using gauge pins, and the
+mass flow rate and pressure drop can be measured in controlled
+experiments.
+
+\subsubsection{Momentum Ratio}\label{momentum-ratio}
+
+According to available research, the spray angle of the mixed
+propellants has an effect on engine performance{[}2{]}. Optimum
+combustion is supposed to occur when the spray angle is approximately
+\(45^\circ\). Theoretically this happens when the ratio of the momentum
+rates of the two propellants is equal to 1.
+
+This ratio can be expressed as;
+
+\begin{equation}
+\frac{\dot{m_f}V_f}{\dot{m_o}V_o} = 1
+\label{eq:momentum}
+\tag{9}
+\end{equation}
+
+By substituting the velocity in the momentum ratio for the mass flow
+rate as defined in equation \ref{eq:massflow}, the optimum momentum
+ratio equation can be rewritten as;
+
+\begin{equation}
+\frac{\dot{m_f}^2}{\rho_f A_f} = \frac{\dot{m_o}^2}{\rho_o A_o}
+\label{eq:momentum_alt}
+\tag{10}
+\end{equation}
+
+The calculations for the momentum ratio are slightly non-intuitive
+because the area used in the calculation is not always the entire exit
+area.
+
+For the V1, V2, and V3 pintle designs, the exit areas used to calculate
+for the momentum ratios were:
+
+Pintle: \(\pi \frac{d_p^2}{4}\)
+
+Annulus: \(d_p\times d_g\)
+
+Where; \(d_p\) is equal to the diameter of the exit orifices of the
+pintle, and \(d_g\) is equal to the annular gap defined as:
+
+\$d\_g = \frac{1}{2}(A\_\{OD\} - P\_\{OD\}) \$
+
+Where \(A_{OD}\) is the outer diameter of the Annulus, and \(P_{OD}\) is
+the outer diameter of the pintle.
+
+\begin{itemize}
+\tightlist
+\item
+  Should probably include a drawing or diagram showing the area's
+  involved
+\end{itemize}
+
+\subsubsection{Weber Number}\label{weber-number}
+
+The Weber number is the ratio between inertial forces and surface
+tension.
+
+\begin{equation}
+\frac{\rho V^2 D}{\sigma}
+\label{eq:Weber}
+\tag{12}
+\end{equation}
+
+Where; \(L\) is a characteristic length (exit diameter of holes, or
+annular gap) \(\sigma\) is the surface tension
+
+The weber number is an important parameter in the formation of droplets.
+When a fluid jet has a high weber number at its exit, the inertial
+forces cause the fluid to break up into small droplets. This is the
+basic principal behind spray bottle atomizers.
+
+It is suggested that the exit velocity of LOX remain above 10 m/s in
+order to obtain a sufficiently high Weber number for acceptable droplet
+formation. {[}3{]} The fuel should seek to have a weber number at least
+as high as that of the oxidizer.
+
+\subsubsection{Reynolds Number}\label{reynolds-number}
+
+\begin{itemize}
+\tightlist
+\item
+  justifies use of turbulent modeling for CFD
+\end{itemize}
+
+\begin{equation}
+\frac{\rho V D}{\mu}
+\label{eq:Reynolds}
+\tag{11}
+\end{equation}
+
+Where; \(D\) is a characteristic length (exit diameter of holes, or the
+hydraulic diameter of the annulus) \(\sigma\) is the surface tension.
+
+    \section{Design}\label{design}
+
+\subsection{Reality isn't always
+convenient}\label{reality-isnt-always-convenient}
+
+\subsubsection{Loss coefficients}\label{loss-coefficients}
+
+Determining the loss coefficients for the a pintle style injector was
+one of the first challenges to be overcome in designing an injector
+which met both the mass flow rate and pressure requirements of PSAS's
+first rocket engine.
+
+The initial strategy was to break the internal flow paths of the
+injector into sections and estimate loss coefficients for each section.
+
+\begin{quote}
+Figure 4: Cross section view of V1 pintle with locations of initial loss
+coefficients used for LOX flow path
+\end{quote}
+
+\begin{quote}
+Figure 5: Cross section view of V1 pintle with locations of initial loss
+coefficients used for fuel flow path.
+\end{quote}
+
+The idea was that each flow path within the injector has multiple
+changes to flow area between point of measurement and the atmosphere.
+The early hand calculations in this project attempted to approximated
+the overall loss coefficient by segregating the internal flow geometry
+into segments which could examined individually for pressure losses.
+
+The sum of those pressure losses could then be added together to
+determine a total pressure drop estimate, \(\Delta P\). This
+\(\Delta P\) could then be used along with the mass flow rate to
+estimate a total \(K_L\) for the injector. This showed early promise
+with the V2 injector and gave pressure drops which agreed with CFD
+models and physical testing. When attempts were made to scale up the
+injector design to meet the general requirements of an engine capable of
+reaching 100km, the errors in the estimate quickly diverged from CFD
+models.
+
+\begin{itemize}
+\item
+  A note of caution, hand calculations and CFD should be employed during
+  the design phase, but any injector which is to be used in an engine
+  needs be specifically tested to determine its loss coefficients and
+  spray angle performance. Small variations in hole sizes, even when
+  within tolerance, can effect the actual performance of an injector.
+  Theoretical models are valuable to steer the design into the right
+  neighborhood, but still require physical testing for validation.
+\item
+  Loss coefficients for this design don't scale linearly
+\end{itemize}
+
+\subsubsection{Exit Velocity}\label{exit-velocity}
+
+\begin{itemize}
+\tightlist
+\item
+  Not always \(v = \frac{\dot{m}}{\rho A}\)
+\item
+  flow separation in the tip of the injector can reduce the actual flow
+  area of the orifice by a significant amount. This increases the
+  velocity and messes with the momentum ratio calculations.
+\end{itemize}
+
+\begin{quote}
+Figure 6: CFD image showing flow velocity in a cross section of scaled
+up V3 pintle tip. Mass flow rate was set to 1.5 kg/s.
+\end{quote}
+
+\subsection{Current Designs}\label{current-designs}
+
+\subsubsection{Known issues}\label{known-issues}
+
+\subsection{Future Designs}\label{future-designs}
+
+\subsubsection{Ways to address known
+issues}\label{ways-to-address-known-issues}
+
+    \section{Manufacturing}\label{manufacturing}
+
+\subsection{Test articles}\label{test-articles}
+
+\subsubsection{Machined Aluminum}\label{machined-aluminum}
+
+\begin{itemize}
+\tightlist
+\item
+  Lots of work to do, requires careful machining and precision.
+\end{itemize}
+
+\subsubsection{3D printed}\label{d-printed}
+
+\paragraph{MJP from 3D systems}\label{mjp-from-3d-systems}
+
+This is by far the preferred option. Multiple prints were done and
+tested using this printing method. The prints have very high dimensional
+accuracy and can have NPT pipe threads printed into them directly
+without the need to separately tap them. The same goes for helicoil
+taps.
+
+\paragraph{Other options}\label{other-options}
+
+\begin{itemize}
+\item
+  FFF Don't bother
+\item
+  Formlabs - have not had success attempting to use a print from the
+  Formlabs in the EPL. The material was too brittle and broke when
+  attempting to tap threads into it. Could work if you oversize the
+  entrance holes and epoxy in threaded hardware. The prints have some
+  dimensional issues to pay attention to. Specifically the circularity
+  of the pintle and the concentricity of the annulus.
+\item
+\end{itemize}
+
+\subsection{Final injector}\label{final-injector}
+
+Machine out of 304 or 316 SS. Probably best to have professionally done
+
+    \section{Hydro Testing}\label{hydro-testing}
+
+\subsection{Purpose and Theory}\label{purpose-and-theory}
+
+\subsection{Testing equipment}\label{testing-equipment}
+
+\subsection{Testing Procedures}\label{testing-procedures}
+
+\subsection{Best Practices and
+Recommendations}\label{best-practices-and-recommendations}
+
+    \section{Cold Flow Testing}\label{cold-flow-testing}
+
+\subsection{LN2 and water (or IPA)}\label{ln2-and-water-or-ipa}
+
+\subsubsection{Some points to consider}\label{some-points-to-consider}
+
+\begin{itemize}
+\tightlist
+\item
+  Hasn't been done by PSAS at this time
+\item
+  LN2 is cold AF
+\item
+  Pressurized cryogenic gas can be dangerous even if the gas itself is
+  inert
+\item
+  Need location and proper PPE
+\end{itemize}
+
+    \section{Hot Fire Testing}\label{hot-fire-testing}
+
+    \section{References}\label{references}
+
+{[}1{]} Humble, R. W., Henry, G. N., Larson, W. J. Space Propulsion
+Analysis and Design, The McGraw-Hill Companies, Inc, New York, 1995
+
+{[}2{]} Blakely, J., Freeberg, J., Hogge, J., Spray Cone Formation from
+Pintle-Type Injector Systems in Liquid Rocket Engines, Student Paper,
+2017
+
+{[}3{]} Escher, Daric William. ``Design and Preliminary Hot Fire and
+Cold Flow Testing of Pintle Injectors.'' Pennsylvania State University,
+1996.
+
+
+    % Add a bibliography block to the postdoc
+    
+    
+    
+    \end{document}
