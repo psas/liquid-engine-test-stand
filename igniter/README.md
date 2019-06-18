@@ -8,10 +8,9 @@ Methods have been refined by interpretation of documents in the external_resourc
 
 Igniter design documentation and validation can be found in the root folder under [Igniter-Design-Documentation.pdf](https://github.com/psas/liquid-engine-test-stand/blob/master/igniter/Igniter-Design-Documentation.pdf)  I would recommend starting with this document.
 
-CAD for igniter arm can be found in the "Igniter Mockup CAD" folder.  The main assembly for the mockup is "Main Assembly.sldasm"
+CAD for igniter arm can be found in the [Igniter Mockup CAD](https://github.com/psas/liquid-engine-test-stand/tree/master/igniter/Igniter%20Mockup%20CAD) folder.  The main assembly for the mockup is "Main Assembly.sldasm"
 
-Momentum calculations for holding the arm in place can be found in the calculations folder.
+Momentum calculations for holding the arm in place can be found in the [calculations folder](https://github.com/psas/liquid-engine-test-stand/tree/master/igniter/Calcuations).
 
-New Igniter BOM can be found in the PSAS Shared Drive, in the main LFETS BOM document.
+New Igniter BOM can be found in the PSAS Shared Drive, in the main [LFETS BOM](https://docs.google.com/spreadsheets/d/1SeBntyje6zpfy1jSxysdBP59IyhFcIg6SvVT6w5Bf4Y/edit?usp=sharing) document.
 
-I can't figure out how to make working links... so this will have to do.
