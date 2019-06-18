@@ -1,6 +1,6 @@
 # liquid-engine-test-stand
 
-<img src="./teststand_orth.jpg" width="400" alt="Orthographic View of Test Stand">
+<img src="./teststand_orth.JPG" width="400" alt="Orthographic View of Test Stand">
 
 # Liquid Fuel Engine Test Stand (LFETS) Project Overview
 
