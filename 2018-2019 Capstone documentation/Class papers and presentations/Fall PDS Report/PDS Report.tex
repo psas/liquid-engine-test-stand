@@ -1,0 +1,369 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+\documentclass[11pt]{article} % use larger type; default would be 10pt
+%\documentclass[twocolumn, 11pt]{article}  % will give a two column article with larger type
+\usepackage{setspace} % lets you set the line spacing to single, 1.5 or double spaced. place after \maketitle
+%\singlespace 
+%\onehalfspace
+%\doublespace
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{letterpaper} % or letterpaper (US) or a5paper or....
+%\geometry{margin= 1in} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+\usepackage{float}
+%\floatstyle{boxed} 
+\restylefloat{figure}
+
+%\listoffigures  % will give a list of figures
+% \renewcommand{\figurename}{Example}  % changes it from figure to Example
+
+%\usepackage{wrapfig} % will allow use of text wrapping around a figure
+%\begin{wrapfigure}[lineheight]{position}[overhang]{width} would be used 
+% r, l, i, o (right, left, inside edge, outside edge) (lower case is exactly here, upper case is float. for width use 0.5\textwidth for 1/2 of text width on the page
+
+
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % Gives a line at the top
+\renewcommand{\footrulewidth}{0pt} % gives line at the bottom
+\lhead{}\chead{}\rhead{} % puts stuff in the header
+\lfoot{}\cfoot{\thepage}\rfoot{} % puts stuff in the footer
+
+% \usepackage{lastpage}      % use this to have a x page of xx
+%\cfoot{\thepage\ of \pageref{LastPage}} % this is the command for the center foot
+
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+\usepackage{amsmath} % allows use of \eqref{} to add () around referenced equations
+
+
+%Outline format 
+\renewcommand{\theenumi}{\Roman{enumi}. }
+\renewcommand{\labelenumi}{\theenumi}
+
+\renewcommand{\theenumii}{\Alph{enumii}. }
+\renewcommand{\labelenumii}{\theenumii}
+
+\renewcommand{\theenumiii}{\roman{enumiii}. }
+\renewcommand{\labelenumiii}{\theenumiii}
+
+\renewcommand{\theenumiv}{\alph{enumiv}) }
+\renewcommand{\labelenumiv}{\theenumiv}
+
+
+% Change the font size to something other than 10, 11, or 12 pt
+%\usepackage{mathptmx}
+%\usepackage{anyfontsize}
+%\usepackage{t1enc}
+
+
+%%% END Article customizations
+
+%%% The "real" document content comes below...
+
+%\title{Report Name} % alternate report title page
+%\author{Jacob Tiller}
+%\date{} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+         
+
+
+
+\begin{document}
+	% \fontsize{14}{16}\selectfont % Change font size, requires packages above
+	\begin{titlepage}
+		\centering
+		%\includegraphics[width=0.15\textwidth]{imagename}\par\vspace{1cm}
+		{\scshape\LARGE Product Design Specifications Report
+\par}
+		\vspace{.6in}
+		{\huge\bfseries Liquid Propellant Engine: \par}
+		\vspace{.2in}
+		{\scshape\Large Test Stand Integration and Testing \par}
+		\vspace{.75in}
+		{\Large\itshape Bert DeChant \\ Sam Hasting Hauss \\ Peter Mazhnikov \\ Matthew Ng \\ Erik Potenza \\ Eric Thomas \\ Jacob Tiller \par}
+		\vfill
+		Capstone Adviser:\par
+		Mark Weislogel
+
+		\vfill
+
+% Bottom of the page
+		{\large \today\par}
+\end{titlepage}
+
+
+%\maketitle  % alternative make title with just author and report name stuff.
+%\thispagestyle{fancy} 
+
+\section{Purpose}
+
+This document is intended to act as a guide for the development and testing of the Liquid Propellant Engine Test Stand. The Project Design Specification (PDS) will be used as the meter stick by which to ensure that all customer requirements are met and that the project is on track. 
+
+\section{Project Background}
+Portland State Aerospace Society (PSAS) is a collection of students, citizen-engineers and industry mentors with a long history of developing low-cost, open-source rocket hardware and avionics systems. In 2018 PSAS joined the Base 11 Space Challenge (Base 11),  a competition for student university groups to produce and launch a liquid-propelled single stage rocket to 100km. In line with PSAS’ vision statement, the challenge acts as an additional incentive to build and launch the next PSAS launch vehicle, Launch Vehicle 4 (LV4). Prior to the design and construction of LV4, the rocket’s liquid bi-propellant rocket engine must be tested.
+
+PSAS is preparing to test a 2.2 kN regeneratively cooled bipropellant (liquid oxygen and isopropanol) rocket engine. This engine design has a number of innovative features including fully parametric CAD design using Python and SolidWorks, direct metal laser sintering (DMLS) production by i3D manufacturing, augmented spark torch ignition and pintle injection.
+
+The Liquid Propellent Engine Test Stand was originally produced by a Portland State University capstone team in 2015. The team designed, analyzed, and constructed the frame of the test stand and set in path many of the construction elements. Since the frame was constructed, the stand has been awaiting final integration and installation of some subsystems including propellant and cryogenic plumbing as well as the engine mounting \& interfacing. 
+
+PSAS has asked our team to complete the construction of the test stand and test the 2.2kN engine. Upon completion, the test stand will continue to serve the organization by testing the liquid-oxygen electric feed system, cryogenic composite oxidizer and propellant tanks, and the next generation 8kN rocket engine. Our work will synergize with the efforts of previous capstone teams to prototype the technology for LV4 and to compete in the Base 11 Space Challenge.
+
+
+
+\section{Mission Statement}
+The proposed project is to integrate, test, and analyze our prototype engine.  An analysis of the first static test fire is scheduled to be accomplished in the spring of 2019.
+
+We will integrate and test the previously designed engine and validate its performance metrics including thrust, cooling capabilities, and chamber pressures. Engine testing will be conducted in a reproducible manner according to a written standard operating procedure which will emphasize safe operation. Other procedures for interacting with authorities, safety, and testing site hazard analysis will be written and used during this project. The captured data from the static fires and the analysis methods will be published under an open-source license.
+
+The test stand needs to stand up to the rigors of testing a rocket engine while also incorporating safety and data acquisition capabilities.  Furthermore, it needs to have the ability to be used with multiple sizes of engines, although only the 2.2kN engine will be tested in the Spring of 2019.
+
+An analysis will be conducted to determine engine performance. Data will be acquired through a Data Acquisition system (DAQ) working under the Test Stand Automation \& Regulation system (TSAR). TSAR will act primarily as a safety and management tool to provide safeguards for both human and system operations.  Upon completion of initial testing, the data acquired will be compared against the engine’s theoretical performance characteristics. Analysis tools include Solidworks, Python programs such as Jupyter Notebooks, and GitHub for collaboration. The data analysis will determine the viability of testing the future generation 8kN engine. The analysis will also prepare PSAS for integration of the liquid engine into the flight-ready control system of future rocket designs to be used in the Base 11 Challenge.
+
+Standard Operating Procedures will be formalized to meet or exceed industry standards as to mitigate risk towards personnel, equipment, and property. All documentation will be created in accordance with relevant industry standards and best practices determined useful by PSAS. All documentation will contain sufficient detail, background information, and operational description to enable a smooth transfer of knowledge to new project members.
+
+
+\section{Top Level Project Plan}
+
+Project completion will include integration, testing, and analysis of the 2.2kN engine. The project outcomes will be an analysis of the first static test fire, which is scheduled to be accomplished in the spring of 2019, along with the other project deliverables listed below:
+
+\begin{itemize}
+\item Post-processing 3D printed engine
+\item Jig creation, precision machining, and CT scanning analysis
+\item Integrated assembly (including structures, electronic ground support equipment, and plumbing)
+\item Control and data acquisition software and design documentation
+\item Operational, and transport procedures
+\item Failure Effects Mode Analysis (FMEA), House of quality, and system safety analysis
+\item Leak, hydro, and system proof testing buy-offs
+\item Integrated cold-flow test data, including the engine injector
+\item Hot fire test data for the 1.0 version 3D printed engine
+\end{itemize}
+
+
+\begin{figure}[H] % h - place here; t - top of page; b - bottom; p - put on floats only page; ! override parameters, H - place exactly here
+\centering
+\includegraphics[width=0.9\textwidth]{timeline.png}
+\caption{Project Timeline \label{fig:timeline}}
+\end{figure}
+
+\section{Customers and Stakeholders}
+
+
+Portland State Aerospace Society - Andrew Greenberg
+Capstone Advisor - Mark Weislogel
+Capstone Class - Sung Yi / Faryar  
+Base 11
+Oregon Space Grant Consortium - Catherine Lanier 
+
+
+\subsection{Customer Interviews and Feedback}
+
+Customer feedback per project customer. 
+The main bullet is the project customer and the sub-bullets are the requirements. 
+
+
+\textit{PSAS:}
+Interview Question: What kind of documentation do we need?
+\begin{itemize}
+\item Create a formal failure mode and effect analysis document
+\item Create a Standard Operating Procedure Manual
+\item Create a post-firing analysis of engine with suggestions
+\item Create a background, research, and theory of operation document
+\item Create training materials
+\item Create documents for system maintenance
+\item Create documents for test site management
+\item Create documents for the transportation of the test stand and propellants
+\item Create a SolidWorks CAD model of test stand assembly
+\item Regularly send all technical documents and files to Github
+\item All other tests stand administrative files to be stored on PSAS shared google drive
+\item Create a bill of materials
+\end{itemize}
+
+Interview Question: What safety standards must be met?
+\begin{itemize}
+\item Safety procedures are known and followed
+\item Participation in any mandatory safety training
+\item Human interaction withstand during test must be minimized
+\item No person(s) is to approach the test stand while the system is pressurized
+\item Redundant systems must be implemented to prevent accidental pressurization of the system
+\end{itemize}
+
+
+Interview Question: What will be needed for the system?
+\begin{itemize}
+\item Isopropyl alcohol will be the fuel
+\item Liquid oxygen will be the oxidizer
+\item Nitrogen gas will be the pressurant
+\item Data acquisition equipment from TSAR
+\item 2.2 kN engine from PSAS
+\item Fully constructed test stand
+\end{itemize}
+
+Interview Question: What data will we need to acquire?
+\begin{itemize}
+\item Engine chamber pressure
+\item Fuel mass flow rate
+\item Propellant mass flow rate
+\item Injector spray angle
+\end{itemize}
+
+\textit{Capstone Adviser:}
+Interview Question: What are your goals for meetings?
+\begin{itemize}
+\item Bi-weekly meetings to discuss project and progress
+\end{itemize}
+
+\textit{Capstone Class:}
+Interview Question: What documents must be submitted?
+\begin{itemize}
+\item Create a Project design specification report
+\end{itemize}
+
+\section{Product Design Specifications (PDS)}
+
+
+\begin{figure}[H] % h - place here; t - top of page; b - bottom; p - put on floats only page; ! override parameters, H - place exactly here
+\centering
+\includegraphics[width=0.9\textwidth]{pds.png}
+\caption{Project Design Specifications \label{fig:PDS}}
+\end{figure}
+
+
+\section{House of Quality}
+
+\begin{figure}[H] % h - place here; t - top of page; b - bottom; p - put on floats only page; ! override parameters, H - place exactly here
+\centering
+\includegraphics[width=0.9\textwidth]{House_of_quality.png}
+\caption{House of Quality \label{fig:PDS}}
+\end{figure}
+
+
+\section{Conclusion}
+
+A 2.2kN engine supplied by the Portland State Aerospace Society is to be tested using the Liquid Propellant Engine Test Stand. The capstone team is tasked with the integration of some subsystems and components including the engine into the test stand. The team is further tasked with executing a static fire of the stand to acquire engine performance data.
+
+The most important requirements of this project are those related to safety. The team expects to apply significant effort in the creation, practice, and delivery of safety documentation. PSAS requires the highest level of safety and care to be maintained through all phases of integration and operation.
+
+A particularly difficult requirement is the minimization of human interaction. Fuel and oxidizer loading will have minimum human interaction with the test stand. Implementing computerized systems will be an educational experience for the team. It may pose a hurdle as the team has little to no experience with robotic systems.
+
+The team is excited to learn from the integration and static firing of the engine. We anticipate several hurdles in this project but are excited to meet challenges with creative designs and to meet the requirements of PSAS and MCECS Capstone.
+
+
+
+\end{document}
+
+%[appendix]
+%\appendix
+%\clearpage
+%\pagenumbering{roman}
+%\section{Appendix}
+
+% [Helpful stuff]
+%\newpage
+%\section{}
+%\subsection{}
+%\subsubsection{}
+%\paragraph{}
+%\subparagraph{}
+
+% [Text sizes] 
+%{\tiny tiny words} tiny words
+%{\scriptsize scriptsize words} scriptsize words
+%{\footnotesize footnotesize words} footnotesize words
+%{\small small words} small words
+%{\normalsize normalsize words} normalsize words
+%{\large large words} large words
+%{\Large Large words} Large words
+%{\LARGE LARGE words} LARGE words
+%{\huge huge words} huge words
+
+%[Test styles]
+%\textit{words in italics} words in italics
+%\textsl{words slanted} words slanted
+%\textsc{words in smallcaps} words in smallcaps
+%\textbf{words in bold} words in bold
+%\texttt{words in teletype} words in teletype
+%\textsf{sans serif words} sans serif words
+%\textrm{roman words} roman words
+%\underline{underlined words} underlined words
+
+% [Lists]
+%\begin{enumerate}
+%\item First thing
+%\item Second thing
+%\begin{itemize}
+%\item A sub-thing
+%\item Another sub-thing
+%\end{itemize}
+%\item Third thing
+%\end{enumerate}
+
+% [Figures and Tables]
+% [website for floats and captions]
+% https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions 
+
+%\begin{figure}[placement specifier] % h - place here; t - top of page; b - bottom; p - put on floats only page; ! override parameters, H - place exactly here
+%\centering
+%\includegraphics[width=0.5\textwidth]{filename}
+%\caption{ text here \label{fig:marker}}
+%\end{figure}
+
+%figure~\ref{fig:marker}
+
+%\begin{table}
+%  \centering
+%    \begin{tabular}{| l c r |}
+%    \hline
+%    1 & 2 & 3 \\
+%    4 & 5 & 6 \\
+%    7 & 8 & 9 \\
+%    \hline
+%\cline{1-2} column#-column#
+%\cline{2-3} column#-column#
+%    \end{tabular}
+%  \caption{A simple table \label{tab:marker}}
+%\end{table}
+
+%table~\ref{tab:marker}
+
+%\begin{equation} \label{eq:marker}
+% equation
+%\end{equation}
+
+%\eqref{eq:marker}
