@@ -11,3 +11,14 @@
   The feed system uses a classic regulated pressure-fed thermodynamic cycle. Gaseous nitrogen is the pressurant. The LFETS system includes a welded thrust loading truss structure, propellant and pressurant supply tanks, and feed system flow componentry. The project also includes safety and Failure Mode Effects Analysis, and procedures for safe operation and transport.
 The LFETS Electrical Ground Support Equipment (EGSE) will allow for the test stand to be controlled remotely. The test stand computer controls all actuators in the LFETS system, auto-sequences engine ignition, start, shutdown, pad-safing, and contingency procedures for any test exception, as well as receiving telemetry from sensors and instrumentation. The LFETS EGSE system is derived from the 3rd generation [PSAS launch tower computer](https://github.com/psas/launch-tower), which uses a BeagleBone Black microcontroller, the [Marionette open-source DAQ](https://marionette-daq.github.io/), and a custom “SCADA-like” GUI.
 
+## Useful Links
+
+
+
+[CAD Files]()
+
+[Bill of Materials](https://drive.google.com/open?id=1SeBntyje6zpfy1jSxysdBP59IyhFcIg6SvVT6w5Bf4Y)
+
+[PID]()
+
+[Capstone Class Reports]()
