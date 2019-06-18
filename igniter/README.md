@@ -6,7 +6,7 @@ Methods have been refined by interpretation of documents in the external_resourc
 
 ## UPDATES FROM 2019 CAPSTONE:
 
-Igniter design documentation and validation can be found in the root folder under "Igniter-Design-Documentation.pdf"  I would recommend starting with this document.
+Igniter design documentation and validation can be found in the root folder under [Igniter-Design-Documentation.pdf](https://github.com/psas/liquid-engine-test-stand/blob/master/igniter/Igniter-Design-Documentation.pdf)  I would recommend starting with this document.
 
 CAD for igniter arm can be found in the "Igniter Mockup CAD" folder.  The main assembly for the mockup is "Main Assembly.sldasm"
 
