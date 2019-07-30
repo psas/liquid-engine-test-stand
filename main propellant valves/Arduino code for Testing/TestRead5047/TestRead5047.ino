@@ -62,6 +62,6 @@ void loop() {
   Serial.println(pos);
   
 
-  delay(1000);
+  delay(100);
   
 }
