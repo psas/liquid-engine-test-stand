@@ -141,7 +141,7 @@ void loop() {
   Serial.println(pos);
   */
 
-  
+}
   // ***************Auxiliary functions****************
 
   void SensorRead() {
@@ -150,7 +150,7 @@ void loop() {
   //Send the Command Frame
   digitalWrite(CSN, LOW);
   delayMicroseconds(1);
-  SPI.transfer16(0xFFFF);
+  SPI.transfer16(0x3FFF);
   digitalWrite(CSN,HIGH);
 
   //Read data frame
@@ -176,36 +176,35 @@ void loop() {
     }
   }
   
-  void DriveLogic() {
+    void DriveLogic() {
 	SensorRead();
 	
-    delta = abs(set_angle - pos); 		//intermediate variable to determine mininmum angle between current & set
-      if(delta > 180) {
-        error_angle = abs(delta - 360); 
-        }
-      else { error_angle = delta; 
-      }cvg
-	  2) {
-      SensorRead();
-      delta = abs(set_angle - pos); 		//360 degree rollover handling
+    delta = abs(set_angle - pos); //intermediate variable to determine min angle between
       if(delta > 180) {
         error_angle = abs(delta - 360); 
         }
       else { error_angle = delta; 
       }
-     // if(error_angle > 95){ //Dheck if something went wrong & stop motor
-     //   break;
+	
+    while(error_angle >= 3) {   //Adding several degrees to allow for stopping time
+      SensorRead();
+      delta = abs(set_angle - pos); //intermediate variable for 360 degree rollover handling - needs optimization
+      if(delta > 180) {
+        error_angle = abs(delta - 360); 
+        }
+      else { error_angle = delta; 
+      }
+    //  if(error_angle > 95){ //Dheck if error overrun exists & stop motor
+    //    break;
+    //    }
       MotorCommand(1);
-      Serial.println("Motor on, error_angle:");
+      Serial.println("Motor on, error_angle =");
       Serial.println(error_angle);
+      
       }
       
    MotorCommand(0);
-  } 
-  
-  
-  
-  
+	}
   
   
   
