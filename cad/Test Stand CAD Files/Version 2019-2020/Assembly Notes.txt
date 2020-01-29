@@ -1,5 +1,0 @@
-
-# Notes while updating frame cad:
-
-- Need to measure plastic tank spacers - current estimate 0.5"
-- 
